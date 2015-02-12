@@ -18,7 +18,7 @@ public class PhaseController : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKeyDown("space"))
         {
             if (_phase == GamePhases.PHASE_ALIVE)
             {

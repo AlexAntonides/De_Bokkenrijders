@@ -46,9 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Game\Test\CameraMovementScript.cs" />
      <Compile Include="Assets\Scripts\Game\Test\PhaseController.cs" />
+     <Compile Include="Assets\Scripts\Game\Test\PlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\Game\Test\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Game\Test\Slowmotion.cs" />
      <Compile Include="Assets\Scripts\Game\Test\Test.cs" />
+     <Compile Include="Assets\Scripts\Game\UID\ThumbStick.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
