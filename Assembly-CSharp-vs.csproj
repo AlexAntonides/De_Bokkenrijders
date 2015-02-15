@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9A38728A-9298-E18C-AB68-2BFD7A12C0DE}</ProjectGuid>
+	<ProjectGuid>{736620CA-798D-703A-2CF3-CD4303D1F576}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,22 +39,22 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Game\Test\CameraMovementScript.cs" />
+     <Compile Include="Assets\Scripts\Game\CameraMovementScript.cs" />
+     <Compile Include="Assets\Scripts\Game\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Game\Test\PhaseController.cs" />
      <Compile Include="Assets\Scripts\Game\Test\PlayerCollision.cs" />
-     <Compile Include="Assets\Scripts\Game\Test\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Game\Test\Slowmotion.cs" />
      <Compile Include="Assets\Scripts\Game\Test\Test.cs" />
      <Compile Include="Assets\Scripts\Game\UID\ThumbStick.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

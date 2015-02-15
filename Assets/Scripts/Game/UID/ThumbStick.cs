@@ -32,6 +32,9 @@ public class ThumbStick : MonoBehaviour
 
     void Update()
     {
+        // Move stick relative to camera size, for multiple resolutions
+        transform.localPosition = new Vector3(-Camera.main.orthographicSize, 0, transform.localPosition.z);
+        
         Vector3 stickPos = Stick.transform.localPosition;
 
         // Left button down
@@ -47,8 +50,6 @@ public class ThumbStick : MonoBehaviour
                 // Offset from stick start pos to mouse pos
                 Vector3 offset = (worldMousePos - transform.position);
                 offset.z = 0;
-
-                Debug.Log(offset);
 
                 // Bound if streched too far
                 if (offset.magnitude > Range)
