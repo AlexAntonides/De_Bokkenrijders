@@ -14,10 +14,16 @@ public class PlayerMovement : MonoBehaviour
     #region Vars
 
     private Vector3 _velo = Vector3.zero;
+    private Animator _animator;
 
     #endregion
 
     #region Methods
+
+    void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -31,6 +37,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (_velo != Vector3.zero)
         {
+            // Anim
+            _animator.SetBool("Running", true);
+
             // Apply velo
             transform.position += _velo * Time.deltaTime;
 
@@ -43,6 +52,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.localScale = new Vector3(xDir, 1, 1);
             }
+        }
+        else
+        {
+            // Anim
+            _animator.SetBool("Running", false);
         }
     }
 

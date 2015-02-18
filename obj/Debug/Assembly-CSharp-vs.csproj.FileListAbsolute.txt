@@ -1,0 +1,12 @@
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\UnityEditor.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\UnityEngine.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\nunit.framework.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\obj\Debug\Assembly-CSharp.dll
+C:\Users\FDH\Documents\School\2014-2015\Projects\Mythe\Project-Mythe\obj\Debug\Assembly-CSharp.pdb
