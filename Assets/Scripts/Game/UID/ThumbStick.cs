@@ -33,7 +33,7 @@ public class ThumbStick : MonoBehaviour
     void Update()
     {
         // Move stick relative to camera size, for multiple resolutions
-        transform.localPosition = new Vector3(-Camera.main.orthographicSize, 0, transform.localPosition.z);
+        transform.localPosition = new Vector3(-Camera.main.orthographicSize - 3, -5, transform.localPosition.z);
         
         Vector3 stickPos = Stick.transform.localPosition;
 

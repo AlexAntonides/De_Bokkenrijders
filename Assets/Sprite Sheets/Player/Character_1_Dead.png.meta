@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 73b36dd7b67e1e04b90b1d25a5e10ef8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Character_1_Dead_0
+    21300002: Character_1_Dead_1
+    21300004: Character_1_Dead_2
+    21300006: Character_1_Dead_3
+    21300008: Character_1_Dead_4
+    21300010: Character_1_Dead_5
+    21300012: Character_1_Dead_6
+    21300014: Character_1_Dead_7
+    21300016: Character_1_Dead_8
+    21300018: Character_1_Dead_9
+    21300020: Character_1_Dead_10
+    21300022: Character_1_Dead_11
+    21300024: Character_1_Dead_12
+    21300026: Character_1_Dead_13
+    21300028: Character_1_Dead_14
+    21300030: Character_1_Dead_15
+    21300032: Character_1_Dead_16
+    21300034: Character_1_Dead_17
+    21300036: Character_1_Dead_18
+    21300038: Character_1_Dead_19
+    21300040: Character_1_Dead_20
+    21300042: Character_1_Dead_21
+    21300044: Character_1_Dead_22
+    21300046: Character_1_Dead_23
+    21300048: Character_1_Dead_24
+    21300050: Character_1_Dead_25
+    21300052: Character_1_Dead_26
+    21300054: Character_1_Dead_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Character_1_Dead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3315
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3315
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_3
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3060
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2805
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2805
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2550
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_7
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2550
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2295
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2295
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2040
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1785
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1530
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1275
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1275
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_19
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1020
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_21
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 765
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_23
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 510
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_25
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 255
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Character_1_Dead_27
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 550
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

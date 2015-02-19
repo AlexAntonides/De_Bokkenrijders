@@ -18,7 +18,12 @@ public class PhaseController : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        transform.localPosition = new Vector3(Camera.main.orthographicSize + 3, -5, transform.localPosition.z);
+    }
+
+    void OnMouseDown()
+    {
+        if (Input.GetMouseButton(0))
         {
             if (_phase == GamePhases.PHASE_ALIVE)
             {
@@ -26,7 +31,7 @@ public class PhaseController : MonoBehaviour {
 
                 StartCoroutine(ChangePhase(false));
             }
-            else if(_phase == GamePhases.PHASE_DEAD)
+            else if (_phase == GamePhases.PHASE_DEAD)
             {
                 _phase = GamePhases.PHASE_ALIVE;
 
