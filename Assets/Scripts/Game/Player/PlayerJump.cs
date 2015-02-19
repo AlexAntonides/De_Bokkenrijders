@@ -19,8 +19,9 @@ public class PlayerJump : MonoBehaviour
     private Vector3 _velo = Vector3.zero;
     private bool _jumping = false;
     private bool _onGround = false;
-    [SerializeField]
     private bool _canJump = false;
+    private Animator _animator;
+
 
     #endregion
 
@@ -28,7 +29,7 @@ public class PlayerJump : MonoBehaviour
 
     void Start()
     {
-
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -36,9 +37,7 @@ public class PlayerJump : MonoBehaviour
         // Check jump
         if (_canJump && !_jumping && _onGround && Stick.StickUnitDirection.y > ThumbStickStart)
         {
-            _velo.y = Force;
-            _jumping = true;
-            _canJump = false;
+            Jump();
         }
 
         // Toggle jump stick
@@ -58,9 +57,7 @@ public class PlayerJump : MonoBehaviour
     {
         if (!_onGround && other.gameObject.tag == "Ground")
         {
-            _onGround = true;
-            _jumping = false;
-            _velo.y = 0;
+            Ground();
         }
     }
 
@@ -70,6 +67,22 @@ public class PlayerJump : MonoBehaviour
         {
             _onGround = false;
         }
+    }
+
+    void Jump()
+    {
+        _velo.y = Force;
+        _jumping = true;
+        _canJump = false;
+        _animator.SetBool("Jumping", true);
+    }
+
+    void Ground()
+    {
+        _onGround = true;
+        _jumping = false;
+        _velo.y = 0;
+        _animator.SetBool("Jumping", false);
     }
 
     #endregion
