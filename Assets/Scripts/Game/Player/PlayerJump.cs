@@ -20,17 +20,11 @@ public class PlayerJump : MonoBehaviour
     private bool _jumping = false;
     private bool _onGround = false;
     private bool _canJump = false;
-    private Animator _animator;
 
 
     #endregion
 
     #region Methods
-
-    void Start()
-    {
-        _animator = GetComponent<Animator>();
-    }
 
     void Update()
     {
@@ -74,7 +68,6 @@ public class PlayerJump : MonoBehaviour
         _velo.y = Force;
         _jumping = true;
         _canJump = false;
-        _animator.SetBool("Jumping", true);
     }
 
     void Ground()
@@ -82,7 +75,6 @@ public class PlayerJump : MonoBehaviour
         _onGround = true;
         _jumping = false;
         _velo.y = 0;
-        _animator.SetBool("Jumping", false);
     }
 
     #endregion
