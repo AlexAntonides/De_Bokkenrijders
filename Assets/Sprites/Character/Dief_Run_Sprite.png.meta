@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 1dd928cdebd22de4aa7572f411cbf38a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dief_Run_Sprite_0
+    21300002: Dief_Run_Sprite_1
+    21300004: Dief_Run_Sprite_2
+    21300006: Dief_Run_Sprite_3
+    21300008: Dief_Run_Sprite_4
+    21300010: Dief_Run_Sprite_5
+    21300012: Dief_Run_Sprite_6
+    21300014: Dief_Run_Sprite_7
+    21300016: Dief_Run_Sprite_8
+    21300018: Dief_Run_Sprite_9
+    21300020: Dief_Run_Sprite_10
+    21300022: Dief_Run_Sprite_11
+    21300024: Dief_Run_Sprite_12
+    21300026: Dief_Run_Sprite_13
+    21300028: Dief_Run_Sprite_14
+    21300030: Dief_Run_Sprite_15
+    21300032: Dief_Run_Sprite_16
+    21300034: Dief_Run_Sprite_17
+    21300036: Dief_Run_Sprite_18
+    21300038: Dief_Run_Sprite_19
+    21300040: Dief_Run_Sprite_20
+    21300042: Dief_Run_Sprite_21
+    21300044: Dief_Run_Sprite_22
+    21300046: Dief_Run_Sprite_23
+    21300048: Dief_Run_Sprite_24
+    21300050: Dief_Run_Sprite_25
+    21300052: Dief_Run_Sprite_26
+    21300054: Dief_Run_Sprite_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dief_Run_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 870
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 870
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 870
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 725
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 725
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 725
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 725
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 580
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 580
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 580
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 435
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 435
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 435
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 290
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 290
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 290
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 145
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 145
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 145
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Run_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 175
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -8,10 +8,12 @@ public class DragButton : MonoBehaviour {
     void Update()
     {
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+        RaycastHit2D hit = Physics2D.Raycast(mousePosition, -Vector2.up);
 
         if (hit.collider != null)
         {
+            print(hit.collider.name);
+
             if (Input.GetMouseButton(0) && hit.transform.name == transform.name)
             {
                 ButtonPressed();
