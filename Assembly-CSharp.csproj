@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9A38728A-9298-E18C-AB68-2BFD7A12C0DE}</ProjectGuid>
+	<ProjectGuid>{736620CA-798D-703A-2CF3-CD4303D1F576}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,25 +39,26 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Game\Camera\CameraMovementScript.cs" />
      <Compile Include="Assets\Scripts\Game\Deadwall.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Game\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerJump.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Game\UID\AttackButton.cs" />
-     <Compile Include="Assets\Scripts\Game\UID\ClickButton.cs" />
-     <Compile Include="Assets\Scripts\Game\UID\DragButton.cs" />
-     <Compile Include="Assets\Scripts\Game\UID\PhaseSwitchButton.cs" />
-     <Compile Include="Assets\Scripts\Game\UID\ThumbStick.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\AttackButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\ClickButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\DragButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\PhaseSwitchButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\ThumbStick.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

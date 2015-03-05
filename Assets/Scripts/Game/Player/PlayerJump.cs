@@ -14,13 +14,11 @@ public class PlayerJump : MonoBehaviour
 
     private bool _jumping = false;
     private bool _onGround = false;
-<<<<<<< HEAD
+
     private Animator _animator;
     private Vector3 _velocity;
-=======
-    private bool _canJump = false;
 
->>>>>>> origin/master
+    private bool _canJump = false;
 
     #endregion
 
@@ -63,21 +61,10 @@ public class PlayerJump : MonoBehaviour
 
         _velocity.y = Force;
         _jumping = true;
-<<<<<<< HEAD
-        _animator.SetBool("Jumping", true);
-    }
 
-=======
+        _animator.SetBool("Jumping", true);
         _canJump = false;
     }
 
-    void Ground()
-    {
-        _onGround = true;
-        _jumping = false;
-        _velo.y = 0;
-    }
-
->>>>>>> origin/master
     #endregion
 }
