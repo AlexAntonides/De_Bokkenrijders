@@ -20,24 +20,12 @@ public class PhaseSwitchButton : ClickButton {
         {
             _phase = GamePhases.PHASE_DEAD;
 
-            /* 1st prototype */
-
-            GameObject.FindGameObjectWithTag("Player").renderer.material.color = Color.blue;
-
-            /* 1st prototype.end */
-
             aliveWorld.SetActive(false);
             deadWorld.SetActive(true);
          }
          else if (_phase == GamePhases.PHASE_DEAD)
          { 
              _phase = GamePhases.PHASE_ALIVE;
-             
-             /* 1st prototype */
-
-             GameObject.FindGameObjectWithTag("Player").renderer.material.color = Color.red;
-
-             /* 1st prototype.end */
 
              aliveWorld.SetActive(true);
              deadWorld.SetActive(false);
