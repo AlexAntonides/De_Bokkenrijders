@@ -5,10 +5,6 @@ public class PlayerJump : MonoBehaviour
 {
     #region Properties
 
-    public ThumbStick Stick;
-    public float ThumbStickStart = 0.7f;
-    public float ThumbStickReset = 0.1f;
-
     public float Force = 5f;
     public float Gravity = 0.1f;
 
@@ -16,11 +12,15 @@ public class PlayerJump : MonoBehaviour
 
     #region Vars
 
-    private Vector3 _velo = Vector3.zero;
     private bool _jumping = false;
     private bool _onGround = false;
+<<<<<<< HEAD
+    private Animator _animator;
+    private Vector3 _velocity;
+=======
     private bool _canJump = false;
 
+>>>>>>> origin/master
 
     #endregion
 
@@ -28,30 +28,24 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
-        // Check jump
-        if (_canJump && !_jumping && _onGround && Stick.StickUnitDirection.y > ThumbStickStart)
-        {
-            Jump();
-        }
-
-        // Toggle jump stick
-        if (!_canJump && Stick.StickUnitDirection.y < ThumbStickReset)
-        {
-            _canJump = true;
-        }
-
         // Apply gravity
-        if (!_onGround) _velo.y -= Gravity;
+        if (!_onGround) _velocity.y -= Gravity * Time.deltaTime;
 
-        // Apply velo
-        transform.position += _velo * Time.deltaTime;
+        if (_velocity != Vector3.zero) transform.position += _velocity * Time.deltaTime;
     }
     
     void OnCollisionEnter2D(Collision2D other)
     {
         if (!_onGround && other.gameObject.tag == "Ground")
         {
-            Ground();
+            _onGround = true;
+            _velocity.y = 0;
+
+            if (_jumping)
+            {
+                _jumping = false;
+                _animator.SetBool("Jumping", false);
+            }
         }
     }
 
@@ -63,10 +57,17 @@ public class PlayerJump : MonoBehaviour
         }
     }
 
-    void Jump()
+    public void Jump()
     {
-        _velo.y = Force;
+        if (_jumping || !_onGround) return;
+
+        _velocity.y = Force;
         _jumping = true;
+<<<<<<< HEAD
+        _animator.SetBool("Jumping", true);
+    }
+
+=======
         _canJump = false;
     }
 
@@ -77,5 +78,6 @@ public class PlayerJump : MonoBehaviour
         _velo.y = 0;
     }
 
+>>>>>>> origin/master
     #endregion
 }
