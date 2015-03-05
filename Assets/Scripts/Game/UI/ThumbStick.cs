@@ -13,14 +13,14 @@ public class ThumbStick : MonoBehaviour
     public float Range = 3f;
     public float BreakSpeed = 1f;
     public Vector2 StickUnitDirection = Vector2.zero;
-
+    
     #endregion
 
     #region Vars
 
     private int _fingerId = -1;
     private Vector3 _startPos;
-
+    
     #endregion
 
     #region Methods
@@ -32,38 +32,19 @@ public class ThumbStick : MonoBehaviour
 
     void Update()
     {
-        Touch touch = default(Touch);
-        Vector3 stickPos = Stick.transform.localPosition;
-        Vector3 worldTouchPos = Vector3.zero;
-        bool moved = true;
-        
         // Move stick relative to camera size, for multiple resolutions
         transform.localPosition = new Vector3(-Camera.main.orthographicSize, 0, transform.localPosition.z);
 
         // Look for next touch
         if (_fingerId == -1)
         {
-            foreach (Touch c in Input.touches)
-            {
-                // Only check for new touches
-                if (c.phase != TouchPhase.Began) continue;
-
-                // Grab world relative position
-                worldTouchPos = Camera.main.ScreenToWorldPoint(c.position);
-                worldTouchPos.z = 0;
-
-                // Drag Begin when colliding with stick
-                if (collider.bounds.Contains(worldTouchPos))
-                {
-                    touch = c;
-                    _fingerId = c.fingerId;
-                    break;
-                }
-            }
+            FindNextTouch();
         }
-        else
+
+        // Move to finger
+        if (_fingerId != -1)
         {
-            touch = Input.GetTouch(_fingerId);
+            Touch touch = Input.GetTouch(_fingerId);
 
             // Touch end
             if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
@@ -72,50 +53,78 @@ public class ThumbStick : MonoBehaviour
                 return;
             }
 
-            // 
-            if (touch.phase != TouchPhase.Moved) return;
-
-            worldTouchPos = Camera.main.ScreenToWorldPoint(touch.position);
-            worldTouchPos.z = 0;
-        }
-
-        // Drag Move
-        if (_fingerId != -1 && worldTouchPos != Vector3.zero)
-        {
-            // Offset from stick start pos to mouse pos
-            Vector3 offset = (worldTouchPos - transform.position);
-            offset.z = 0;
-
-            // Bound if streched too far
-            if (offset.magnitude > Range)
+            // Cancel out if no movement detected
+            if (touch.phase == TouchPhase.Moved)
             {
-                offset.Normalize();
-                offset *= Range;
+                MoveTo(Camera.main.ScreenToWorldPoint(touch.position));
             }
-
-            // Apply position
-            Stick.transform.localPosition = _startPos + offset;
         }
         // Move back to base pos if not there yet
         else if (Stick.transform.localPosition != _startPos)
         {
-            Vector3 offset = _startPos - stickPos;
-            offset.z = 0;
-
-            // Calc next step
-            if (offset.magnitude > BreakSpeed)
-            {
-                offset.Normalize();
-                offset *= BreakSpeed;
-            }
-
-            // Apply step
-            Stick.transform.localPosition += offset;
+            MoveBack();
         }
-        
-        // Calculate stick direction
-        StickUnitDirection.x = (stickPos.x - _startPos.x) / Range;
-        StickUnitDirection.y = (stickPos.y - _startPos.y) / Range;
+
+        CalculateDirection();
+    }
+
+    private void FindNextTouch()
+    {
+        foreach (Touch c in Input.touches)
+        {
+            // Only check for new touches
+            if (c.phase != TouchPhase.Began) continue;
+
+            // Grab world relative position
+            Vector3 pos = Camera.main.ScreenToWorldPoint(c.position);
+            pos.z = transform.position.z;
+
+            // Drag Begin when colliding with stick
+            if (collider.bounds.Contains(pos))
+            {
+                _fingerId = c.fingerId;
+                break;
+            }
+        }
+    }
+
+    private void MoveTo(Vector3 target)
+    {
+        // Offset from stick start pos to mouse pos
+        Vector3 offset = (target - transform.position);
+        offset.z = 0;
+
+        // Bound if streched too far
+        if (offset.magnitude > Range)
+        {
+            offset.Normalize();
+            offset *= Range;
+        }
+
+        // Apply position
+        Stick.transform.localPosition = _startPos + offset;
+    }
+
+    private void MoveBack()
+    {
+        Vector3 offset = _startPos - Stick.transform.localPosition;
+        offset.z = 0;
+
+        // Calc next step
+        if (offset.magnitude > BreakSpeed)
+        {
+            offset.Normalize();
+            offset *= BreakSpeed;
+        }
+
+        // Apply step
+        Stick.transform.localPosition += offset;
+    }
+
+    private void CalculateDirection()
+    {
+        StickUnitDirection.x = (Stick.transform.localPosition.x - _startPos.x) / Range;
+        StickUnitDirection.y = (Stick.transform.localPosition.y - _startPos.y) / Range;
     }
 
     #endregion
