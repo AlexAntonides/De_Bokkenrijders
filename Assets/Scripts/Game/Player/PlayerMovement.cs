@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     #region Vars
 
     private Animator _animator;
-    private Vector3 _velocity;
+    private float _dir = 0f;
 
     #endregion
 
@@ -20,23 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (_velocity != Vector3.zero)
-        {
-            // Anim
-            //_animator.SetBool("Running", true);
-
-            // Rotate to velo
-            float xScale = transform.localScale.x;
-            float xDir = _velocity.x / Mathf.Abs(_velocity.x);
-
-            if (xDir != xScale / Mathf.Abs(xScale))
-            {
-                transform.localScale = new Vector3(xDir, 1, 1);
-            }
-
-            // Apply velo
-            transform.position += _velocity * Time.deltaTime;
-        }
+        
     }
 
     #endregion
@@ -50,8 +34,20 @@ public class PlayerMovement : MonoBehaviour
             // Bound value
             value = Mathf.Min(Mathf.Max(value, -1), 1);
 
+            // Rotate
+            float newDir = value / Mathf.Abs(value);
+            if (_dir / Mathf.Abs(_dir) != newDir)
+            {
+                transform.localScale = new Vector3(newDir, 1, 1);
+            }
+
             // Apply velo
-            _velocity.x = value * Speed;
+            rigidbody2D.velocity = new Vector2(value * Speed, rigidbody2D.velocity.y);
+            _dir = value;
+        }
+        get
+        {
+            return _dir;
         }
     }
 

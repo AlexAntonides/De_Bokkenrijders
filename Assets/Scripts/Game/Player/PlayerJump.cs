@@ -5,51 +5,52 @@ public class PlayerJump : MonoBehaviour
 {
     #region Properties
 
-    public float Force = 5f;
-    public float Gravity = 0.1f;
-
+    public float Force;
+    
     #endregion
 
     #region Vars
 
+    private bool _falling = false;
     private bool _jumping = false;
     private bool _onGround = false;
-
-    private Animator _animator;
-    private Vector3 _velocity;
-
-    private bool _canJump = false;
+    private GameObject _ground;
 
     #endregion
 
     #region Methods
 
-    void Update()
+    void FixedUpdate()
     {
-        // Apply gravity
-        if (!_onGround) _velocity.y -= Gravity * Time.deltaTime;
-
-        if (_velocity != Vector3.zero) transform.position += _velocity * Time.deltaTime;
+        if (Input.GetKey(KeyCode.Space)) Jump();
     }
-    
+
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (!_onGround && other.gameObject.tag == "Ground")
+        // Look for new ground
+        if (!_onGround)
         {
-            _onGround = true;
-            _velocity.y = 0;
+            // Check for collision on bottom
+            foreach (ContactPoint2D item in other.contacts)
+            {
+                if (item.normal.y >= 0.8f)
+                {
+                    _onGround = true;
+                    _ground = other.gameObject;
+                    break;
+                }
+            }
 
-            if (_jumping)
+            if (_onGround && _jumping)
             {
                 _jumping = false;
-                _animator.SetBool("Jumping", false);
             }
         }
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (_onGround && other.gameObject.tag == "Ground")
+        if (_onGround && other.gameObject == _ground)
         {
             _onGround = false;
         }
@@ -59,11 +60,8 @@ public class PlayerJump : MonoBehaviour
     {
         if (_jumping || !_onGround) return;
 
-        _velocity.y = Force;
         _jumping = true;
-
-        _animator.SetBool("Jumping", true);
-        _canJump = false;
+        rigidbody2D.AddForce(Force * Vector2.up);
     }
 
     #endregion

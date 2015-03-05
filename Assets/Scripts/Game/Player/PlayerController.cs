@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         {
             MovementScript.Direction = thumbXDir;
         }
-        else MovementScript.Direction = 0;
+        else if (MovementScript.Direction != 0) MovementScript.Direction = 0;
 
         // Check jump
         if (_canJump && thumbYDir > StickJumpStart)
