@@ -31,14 +31,17 @@ public class PlayerMovement : MonoBehaviour
     {
         set
         {
-            // Bound value
-            value = Mathf.Min(Mathf.Max(value, -1), 1);
-
-            // Rotate
-            float newDir = value / Mathf.Abs(value);
-            if (_dir / Mathf.Abs(_dir) != newDir)
+            if (value != 0)
             {
-                transform.localScale = new Vector3(newDir, 1, 1);
+                // Bound value
+                value = Mathf.Min(Mathf.Max(value, -1), 1);
+
+                // Rotate
+                float newDir = value / Mathf.Abs(value);
+                if (_dir / Mathf.Abs(_dir) != newDir)
+                {
+                    transform.localScale = new Vector3(newDir, 1, 1);
+                }
             }
 
             // Apply velo
