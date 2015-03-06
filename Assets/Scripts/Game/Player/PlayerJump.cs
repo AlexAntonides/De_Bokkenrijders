@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerJump : MonoBehaviour
 {
@@ -14,11 +14,16 @@ public class PlayerJump : MonoBehaviour
     private bool _falling = false;
     private bool _jumping = false;
     private bool _onGround = false;
-    private GameObject _ground;
+    private List<GameObject> _connectedGrounds;
 
     #endregion
 
     #region Methods
+
+    void Start()
+    {
+        _connectedGrounds = new List<GameObject>();
+    }
 
     void FixedUpdate()
     {
@@ -36,8 +41,17 @@ public class PlayerJump : MonoBehaviour
                 if (item.normal.y >= 0.8f)
                 {
                     _onGround = true;
-                    _ground = other.gameObject;
+                    _connectedGrounds.Add(other.gameObject);
+                    Debug.Log("Ground connect");
                     break;
+                }
+                else if (Mathf.Abs(item.normal.x) >= 0.8f)
+                {
+                    Debug.Log("Wall hit");
+                }
+                else
+                {
+                    Debug.Log("Other collision: " + item.normal.ToString());
                 }
             }
 
@@ -50,9 +64,24 @@ public class PlayerJump : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (_onGround && other.gameObject == _ground)
+        if (_onGround)
         {
-            _onGround = false;
+            foreach (GameObject current in _connectedGrounds)
+            {
+                if (other.gameObject == current)
+                {
+                    _connectedGrounds.Remove(current);
+
+                    // Last ground connected
+                    if (_connectedGrounds.Count == 0)
+                    {
+                        _onGround = false;
+                        Debug.Log("Ground lost");
+                    }
+
+                    break;
+                }
+            }
         }
     }
 

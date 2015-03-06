@@ -12,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
     #region Vars
 
     private Animator _animator;
-    private float _dir = 0f;
+    private float _moveDir = 0f;
+    private bool _canMove = true;
 
     #endregion
 
@@ -23,34 +24,61 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    private void ApplyDirection()
+    {
+        if (!CanMove) return;
+
+        ApplyRotation();
+
+        // Apply velo
+        rigidbody2D.velocity = new Vector2(_moveDir * Speed, rigidbody2D.velocity.y);
+    }
+
+    private void ApplyRotation()
+    {
+        if (_moveDir == 0f) return;
+
+        // Check if art is already rotated towards direction
+        float newLookDir = _moveDir / Mathf.Abs(_moveDir);
+        Vector3 currentScale = transform.localScale;
+        if (newLookDir != currentScale.x / Mathf.Abs(currentScale.x))
+        {
+            transform.localScale = new Vector3(newLookDir * Mathf.Abs(currentScale.x), currentScale.y, currentScale.z);
+        }
+    }
+
     #endregion
 
     #region Get & Set
 
     public float Direction
     {
-        set
-        {
-            if (value != 0)
-            {
-                // Bound value
-                value = Mathf.Min(Mathf.Max(value, -1), 1);
-
-                // Rotate
-                float newDir = value / Mathf.Abs(value);
-                if (_dir / Mathf.Abs(_dir) != newDir)
-                {
-                    transform.localScale = new Vector3(newDir, 1, 1);
-                }
-            }
-
-            // Apply velo
-            rigidbody2D.velocity = new Vector2(value * Speed, rigidbody2D.velocity.y);
-            _dir = value;
-        }
         get
         {
-            return _dir;
+            return _moveDir;
+        }
+        set
+        {
+            if (value == _moveDir) return;
+
+            // Bound value
+            value = Mathf.Min(Mathf.Max(value, -1), 1);
+
+            _moveDir = value;
+            ApplyDirection();
+        }
+    }
+
+    public bool CanMove
+    {
+        get
+        {
+            return _canMove;
+        }
+        set
+        {
+            _canMove = value;
+            ApplyDirection();
         }
     }
 
