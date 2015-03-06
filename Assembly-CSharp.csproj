@@ -48,17 +48,22 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Game\Backgrounds\ParallaxBG.cs" />
      <Compile Include="Assets\Scripts\Game\Camera\CameraMovementScript.cs" />
+     <Compile Include="Assets\Scripts\Game\NPC\Components\NPCAttack.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerJump.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerMoveTest.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Game\UI\AttackButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\ClickButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\DragButton.cs" />
-     <Compile Include="Assets\Scripts\Game\UI\PhaseSwitchButton.cs" />
-     <Compile Include="Assets\Scripts\Game\UI\ThumbStick.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\PauseButtons\MusicButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\PauseButtons\RestartButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\PauseButtons\SoundButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\UIButtons\AttackButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\UIButtons\PauseButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\UIButtons\PhaseSwitchButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\UIButtons\ThumbStick.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

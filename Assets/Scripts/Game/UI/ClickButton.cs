@@ -30,7 +30,7 @@ public class ClickButton : MonoBehaviour {
         }
     }
 
-    void FixedUpdate()
+    public virtual void FixedUpdate()
     {
         transform.localPosition = new Vector3(-Camera.main.orthographicSize + position.x, position.y, transform.localPosition.z);
     }
