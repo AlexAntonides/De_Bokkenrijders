@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     {
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
         float thumbXDir = InputStick.StickUnitDirection.x;
         float thumbYDir = InputStick.StickUnitDirection.y;
