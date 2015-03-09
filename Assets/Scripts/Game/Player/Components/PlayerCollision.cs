@@ -5,11 +5,18 @@ public class PlayerCollision : MonoBehaviour {
 
     private const string TAG_DEATH = "DeathObject";
 
+    private PlayerCheckPoint _playerCheckPoint;
+
+    void Start()
+    {
+        _playerCheckPoint = gameObject.GetComponent<PlayerCheckPoint>();
+    }
+
     void OnCollisionEnter2D(Collision2D _other)
     {
         if (_other.transform.tag == TAG_DEATH)
         {
-            transform.position = new Vector3(-55.68f, -13.56f, 0f);
+            transform.position = _playerCheckPoint.lastCheckPoint;
         }
     }
 }

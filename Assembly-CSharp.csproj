@@ -48,13 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Game\Backgrounds\ParallaxBG.cs" />
      <Compile Include="Assets\Scripts\Game\Camera\CameraMovementScript.cs" />
+     <Compile Include="Assets\Scripts\Game\NPC\Behaviour\EnemyBehaviour.cs" />
      <Compile Include="Assets\Scripts\Game\NPC\Components\NPCAttack.cs" />
-     <Compile Include="Assets\Scripts\Game\Player\PlayerAttack.cs" />
-     <Compile Include="Assets\Scripts\Game\Player\PlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\Game\Player\Components\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Game\Player\Components\PlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\Game\Player\Components\PlayerJump.cs" />
+     <Compile Include="Assets\Scripts\Game\Player\Components\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Game\Player\PlayerCheckPoint.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Game\Player\PlayerJump.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerMoveTest.cs" />
-     <Compile Include="Assets\Scripts\Game\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Game\UI\ClickButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\DragButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\PauseButtons\MusicButton.cs" />
