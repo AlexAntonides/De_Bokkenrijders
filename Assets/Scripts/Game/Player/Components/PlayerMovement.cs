@@ -29,12 +29,12 @@ public class PlayerMovement : MonoBehaviour
         // Horizontal movement
         if (_moveDir != 0)
         {
-            Vector2 currentVelo = rigidbody2D.velocity;
+            Vector2 currentVelo = GetComponent<Rigidbody2D>().velocity;
             Vector2 targetVelo = new Vector2(speed * _moveDir, currentVelo.y);
             
             if (currentVelo != targetVelo)
             {
-                rigidbody2D.velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
+                GetComponent<Rigidbody2D>().velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
             }
         }
 

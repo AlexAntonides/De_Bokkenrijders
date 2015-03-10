@@ -9,6 +9,8 @@ public class ClickButton : MonoBehaviour {
     public GameObject player;
 
     private const string PLAYERTAG = "Player";
+    [SerializeField]
+    private int _fingerId = -1;
 
     void Start()
     {
@@ -20,22 +22,53 @@ public class ClickButton : MonoBehaviour {
 
     void Update()
     {
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+        Touch currentTouch;
+        Vector3 touchPos;
 
-        if (hit.collider != null)
+        // Validate current touch
+        if (_fingerId != -1 && (_fingerId >= Input.touchCount || (currentTouch = Input.GetTouch(_fingerId)).phase == TouchPhase.Ended || currentTouch.phase == TouchPhase.Canceled))
         {
-            if (Input.GetMouseButtonDown(0) && hit.transform.name == transform.name)
+            _fingerId = -1;
+            ButtonReleased();
+        }
+
+        // Search for finger
+        if (_fingerId == -1)
+        {
+            foreach (Touch current in Input.touches)
             {
-                ButtonPressed();
-                gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, 0.5f);
-            }
-            else if (Input.GetMouseButtonUp(0) && hit.transform.name == transform.name)
-            {
-                ButtonReleased();
-                gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, 1f);
+                // Skip non beginning touches
+                if (current.phase != TouchPhase.Began) continue;
+
+                // Check collision
+                Vector3 currentPos = Camera.main.ScreenToWorldPoint(current.position);
+                currentPos.z = transform.position.z;
+                if (GetComponent<Collider2D>().bounds.Contains(currentPos))
+                {
+                    touchPos = currentPos;
+                    currentTouch = current;
+                    _fingerId = current.fingerId;
+                    ButtonPressed();
+                }
             }
         }
+
+        //Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+
+        //if (hit.collider != null)
+        //{
+        //    if (Input.GetMouseButtonDown(0) && hit.transform.name == transform.name)
+        //    {
+        //        ButtonPressed();
+        //        gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, 0.5f);
+        //    }
+        //    else if (Input.GetMouseButtonUp(0) && hit.transform.name == transform.name)
+        //    {
+        //        ButtonReleased();
+        //        gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, 1f);
+        //    }
+        //}
     }
 
     public virtual void FixedUpdate()

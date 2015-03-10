@@ -150,7 +150,7 @@ public class PlayerJump : MonoBehaviour
         {
             _jumping = true;
             // Apply jump
-            rigidbody2D.AddForce(jumpForce * Vector2.up);
+            GetComponent<Rigidbody2D>().AddForce(jumpForce * Vector2.up);
 
             _animator.SetTrigger("Jump");
         }
@@ -160,17 +160,17 @@ public class PlayerJump : MonoBehaviour
             if (_onLeftWall || _onRightWall)
             {
                 // Push back from wall
-                rigidbody2D.AddForce(new Vector2((_onLeftWall ? -1 : 1) * wallPushForce, 0));
+                GetComponent<Rigidbody2D>().AddForce(new Vector2((_onLeftWall ? -1 : 1) * wallPushForce, 0));
 
                 // Apply jump
-                rigidbody2D.AddForce(jumpForce * Vector2.up);
+                GetComponent<Rigidbody2D>().AddForce(jumpForce * Vector2.up);
             }
             // Double jump
             else if (!_doubleJump)
             {
                 _doubleJump = true;
                 // Apply jump
-                rigidbody2D.AddForce(doubleJumpForce * Vector2.up);
+                GetComponent<Rigidbody2D>().AddForce(doubleJumpForce * Vector2.up);
 
                 _animator.SetTrigger("DoubleJump");
             }

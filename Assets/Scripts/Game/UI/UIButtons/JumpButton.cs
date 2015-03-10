@@ -21,7 +21,6 @@ class JumpButton : ClickButton
 
     public override void ButtonReleased()
     {
-        
     }
 
     #endregion

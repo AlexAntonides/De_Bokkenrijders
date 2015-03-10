@@ -78,7 +78,7 @@ public class ThumbStick : MonoBehaviour
             pos.z = transform.position.z;
 
             // Drag Begin when colliding with stick
-            if (collider.bounds.Contains(pos))
+            if (GetComponent<Collider>().bounds.Contains(pos))
             {
                 _fingerId = c.fingerId;
                 break;
