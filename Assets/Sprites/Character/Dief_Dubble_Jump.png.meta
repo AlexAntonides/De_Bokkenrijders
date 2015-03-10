@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: d8c3145e699087e43aa7f1b0377f8dfc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dief_Dubble_Jump_0
+    21300002: Dief_Dubble_Jump_1
+    21300004: Dief_Dubble_Jump_2
+    21300006: Dief_Dubble_Jump_3
+    21300008: Dief_Dubble_Jump_4
+    21300010: Dief_Dubble_Jump_5
+    21300012: Dief_Dubble_Jump_6
+    21300014: Dief_Dubble_Jump_7
+    21300016: Dief_Dubble_Jump_8
+    21300018: Dief_Dubble_Jump_9
+    21300020: Dief_Dubble_Jump_10
+    21300022: Dief_Dubble_Jump_11
+    21300024: Dief_Dubble_Jump_12
+    21300026: Dief_Dubble_Jump_13
+    21300028: Dief_Dubble_Jump_14
+    21300030: Dief_Dubble_Jump_15
+    21300032: Dief_Dubble_Jump_16
+    21300034: Dief_Dubble_Jump_17
+    21300036: Dief_Dubble_Jump_18
+    21300038: Dief_Dubble_Jump_19
+    21300040: Dief_Dubble_Jump_20
+    21300042: Dief_Dubble_Jump_21
+    21300044: Dief_Dubble_Jump_22
+    21300046: Dief_Dubble_Jump_23
+    21300048: Dief_Dubble_Jump_24
+    21300050: Dief_Dubble_Jump_25
+    21300052: Dief_Dubble_Jump_26
+    21300054: Dief_Dubble_Jump_27
+    21300056: Dief_Dubble_Jump_28
+    21300058: Dief_Dubble_Jump_29
+    21300060: Dief_Dubble_Jump_30
+    21300062: Dief_Dubble_Jump_31
+    21300064: Dief_Dubble_Jump_32
+    21300066: Dief_Dubble_Jump_33
+    21300068: Dief_Dubble_Jump_34
+    21300070: Dief_Dubble_Jump_35
+    21300072: Dief_Dubble_Jump_36
+    21300074: Dief_Dubble_Jump_37
+    21300076: Dief_Dubble_Jump_38
+    21300078: Dief_Dubble_Jump_39
+    21300080: Dief_Dubble_Jump_40
+    21300082: Dief_Dubble_Jump_41
+    21300084: Dief_Dubble_Jump_42
+    21300086: Dief_Dubble_Jump_43
+    21300088: Dief_Dubble_Jump_44
+    21300090: Dief_Dubble_Jump_45
+    21300092: Dief_Dubble_Jump_46
+    21300094: Dief_Dubble_Jump_47
+    21300096: Dief_Dubble_Jump_48
+    21300098: Dief_Dubble_Jump_49
+    21300100: Dief_Dubble_Jump_50
+    21300102: Dief_Dubble_Jump_51
+    21300104: Dief_Dubble_Jump_52
+    21300106: Dief_Dubble_Jump_53
+    21300108: Dief_Dubble_Jump_54
+    21300110: Dief_Dubble_Jump_55
+    21300112: Dief_Dubble_Jump_56
+    21300114: Dief_Dubble_Jump_57
+    21300116: Dief_Dubble_Jump_58
+    21300118: Dief_Dubble_Jump_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dief_Dubble_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 720
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 600
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 480
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_32
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_34
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_35
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 360
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_41
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_42
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_43
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_44
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 240
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_48
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_49
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_50
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_51
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_52
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_53
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 120
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_55
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_56
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_57
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Dubble_Jump_59
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -9,10 +9,10 @@ public class ParallaxBG : MonoBehaviour {
 
     void Update()
     {
-        if (InputStick.StickUnitDirection.x != 0 || InputStick.StickUnitDirection.y != 0)
+        if (InputStick.stickUnitDirection.x != 0 || InputStick.stickUnitDirection.y != 0)
         {
-            float valueX = InputStick.StickUnitDirection.x;
-            float valueY = InputStick.StickUnitDirection.y;
+            float valueX = InputStick.stickUnitDirection.x;
+            float valueY = InputStick.stickUnitDirection.y;
 
             for (int i = 0; i < backgrounds.Length; i++)
             { 

@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 8548c0ecdd5844b47a520d4971cf1d22
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dief_Jump_Sprite_0
+    21300002: Dief_Jump_Sprite_1
+    21300004: Dief_Jump_Sprite_2
+    21300006: Dief_Jump_Sprite_3
+    21300008: Dief_Jump_Sprite_4
+    21300010: Dief_Jump_Sprite_5
+    21300012: Dief_Jump_Sprite_6
+    21300014: Dief_Jump_Sprite_7
+    21300016: Dief_Jump_Sprite_8
+    21300018: Dief_Jump_Sprite_9
+    21300020: Dief_Jump_Sprite_10
+    21300022: Dief_Jump_Sprite_11
+    21300024: Dief_Jump_Sprite_12
+    21300026: Dief_Jump_Sprite_13
+    21300028: Dief_Jump_Sprite_14
+    21300030: Dief_Jump_Sprite_15
+    21300032: Dief_Jump_Sprite_16
+    21300034: Dief_Jump_Sprite_17
+    21300036: Dief_Jump_Sprite_18
+    21300038: Dief_Jump_Sprite_19
+    21300040: Dief_Jump_Sprite_20
+    21300042: Dief_Jump_Sprite_21
+    21300044: Dief_Jump_Sprite_22
+    21300046: Dief_Jump_Sprite_23
+    21300048: Dief_Jump_Sprite_24
+    21300050: Dief_Jump_Sprite_25
+    21300052: Dief_Jump_Sprite_26
+    21300054: Dief_Jump_Sprite_27
+    21300056: Dief_Jump_Sprite_28
+    21300058: Dief_Jump_Sprite_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dief_Jump_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 375
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 250
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 125
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 0
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dief_Jump_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -3,19 +3,15 @@ using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
-    #region Properties
-
-    public PlayerMovement MovementScript;
-    public PlayerJump JumpScript;
-
-    public ThumbStick InputStick;
-    public float StickMoveStart = 0.2f;
-    public float StickJumpStart = 0.7f;
-    public float StickJumpReset = 0.1f;
-
-    #endregion
-
     #region Vars
+
+    public PlayerMovement movementScript;
+    public PlayerJump jumpScript;
+
+    public ThumbStick inputStick;
+    public float stickMoveStart = 0.2f;
+    public float stickJumpStart = 0.7f;
+    public float stickJumpReset = 0.1f;
 
     private bool _canJump = false;
 
@@ -29,25 +25,25 @@ public class PlayerController : MonoBehaviour
 
     public void FixedUpdate()
     {
-        float thumbXDir = InputStick.StickUnitDirection.x;
-        float thumbYDir = InputStick.StickUnitDirection.y;
+        float thumbXDir = inputStick.stickUnitDirection.x;
+        float thumbYDir = inputStick.stickUnitDirection.y;
 
         // Horizontal movement
-        if (Mathf.Abs(thumbXDir) > StickMoveStart)
+        if (Mathf.Abs(thumbXDir) > stickMoveStart)
         {
-            MovementScript.Direction = thumbXDir;
+            movementScript.Direction = thumbXDir;
         }
-        else if (MovementScript.Direction != 0) MovementScript.Direction = 0;
+        else if (movementScript.Direction != 0) movementScript.Direction = 0;
 
         // Check jump
-        if (_canJump && thumbYDir > StickJumpStart)
+        if (_canJump && thumbYDir > stickJumpStart)
         {
             _canJump = false;
-            JumpScript.Jump();
+            jumpScript.Jump();
         }
 
         // Toggle jump stick
-        if (!_canJump && thumbYDir < StickJumpReset)
+        if (!_canJump && thumbYDir < stickJumpReset)
         {
             _canJump = true;
         }

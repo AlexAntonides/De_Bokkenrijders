@@ -3,19 +3,21 @@ using System.Collections.Generic;
 
 public class PlayerJump : MonoBehaviour
 {
-    #region Properties
-
-    public float JumpForce = 500f;
-    public float WallPushForce = 200f;
-    public float WallDetectMargin = 0.9f;
-    public float GroundDetectMargin = 0.9f;
-    
-    #endregion
-
     #region Vars
 
+    // Physics
+    public float jumpForce = 500f;
+    public float doubleJumpForce = 1000f;
+    public float wallPushForce = 200f;
+
+    // Collision detection
+    public float wallDetectMargin = 0.9f;
+    public float groundDetectMargin = 0.9f;
+    
+    // State
     [SerializeField]
     private bool _jumping = false;
+    [SerializeField]
     private bool _doubleJump = false;
 
     // If player has collision at the sides
@@ -30,6 +32,8 @@ public class PlayerJump : MonoBehaviour
     private bool _groundCheck = false;
     private bool _leftWallCheck = false;
     private bool _rightWallCheck = false;
+
+    private Animator _animator;
     
     #endregion
 
@@ -37,6 +41,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Start()
     {
+        _animator = GetComponent<Animator>();
     }
 
     private void OnGroundEnter()
@@ -46,15 +51,28 @@ public class PlayerJump : MonoBehaviour
             _jumping = false;
             _doubleJump = false;
         }
+
+        _animator.SetBool("OnGround", true);
     }
 
     private void OnGroundExit()
     {
+        _animator.SetBool("OnGround", false);
+    }
+
+    private void OnWallEnter(bool rightWall)
+    {
+        transform.localScale.Scale(new Vector3(-1, 1, 1));
+    }
+
+    private void OnWallExit(bool rightWall)
+    {
+
     }
 
     private void FixedUpdate()
     {
-        // Ground checks
+        // Enter checks
         if (!_onGround && _groundCheck)
         {
             OnGroundEnter();
@@ -62,6 +80,22 @@ public class PlayerJump : MonoBehaviour
         else if (_onGround && !_groundCheck)
         {
             OnGroundExit();
+        }
+        if (!_onLeftWall && _leftWallCheck)
+        {
+            OnWallEnter(false);
+        }
+        else if (_onLeftWall && !_leftWallCheck)
+        {
+            OnWallExit(false);
+        }
+        if (!_onRightWall && _rightWallCheck)
+        {
+            OnWallEnter(true);
+        }
+        else if (_onRightWall && !_rightWallCheck)
+        {
+            OnWallExit(true);
         }
 
         // Apply scan result
@@ -79,20 +113,29 @@ public class PlayerJump : MonoBehaviour
     // Scan for connected items
     private void OnCollisionStay2D(Collision2D other)
     {
+        // Get horizontal look direction
+        float lookDir = transform.localScale.x;
+        lookDir /= Mathf.Abs(lookDir);
+
         foreach (ContactPoint2D contact in other.contacts)
         {
+            Vector2 pos = contact.normal;
+            pos.x *= lookDir;
+
+            //Debug.Log(lookDir + " : " + pos.ToString());
+
             // Check if collision in below player
-            if (contact.normal.y > GroundDetectMargin)
+            if (pos.y > groundDetectMargin)
             {
                 _groundCheck = true;
             }
             // Left wall
-            else if (contact.normal.x < -WallDetectMargin)
+            else if (pos.x < -wallDetectMargin)
             {
                 _leftWallCheck = true;
             }
             // Right wall
-            else if (contact.normal.x > WallDetectMargin)
+            else if (pos.x > wallDetectMargin)
             {
                 _rightWallCheck = true;
             }
@@ -107,7 +150,9 @@ public class PlayerJump : MonoBehaviour
         {
             _jumping = true;
             // Apply jump
-            rigidbody2D.AddForce(JumpForce * Vector2.up);
+            rigidbody2D.AddForce(jumpForce * Vector2.up);
+
+            _animator.SetTrigger("Jump");
         }
         else if (_jumping && !_onGround)
         {
@@ -115,17 +160,19 @@ public class PlayerJump : MonoBehaviour
             if (_onLeftWall || _onRightWall)
             {
                 // Push back from wall
-                rigidbody2D.AddForce(new Vector2((_onLeftWall ? -1 : 1) * WallPushForce, 0));
+                rigidbody2D.AddForce(new Vector2((_onLeftWall ? -1 : 1) * wallPushForce, 0));
 
                 // Apply jump
-                rigidbody2D.AddForce(JumpForce * Vector2.up);
+                rigidbody2D.AddForce(jumpForce * Vector2.up);
             }
             // Double jump
             else if (!_doubleJump)
             {
                 _doubleJump = true;
                 // Apply jump
-                rigidbody2D.AddForce(JumpForce * Vector2.up);
+                rigidbody2D.AddForce(doubleJumpForce * Vector2.up);
+
+                _animator.SetTrigger("DoubleJump");
             }
         }
     }

@@ -7,17 +7,13 @@ using System.Collections;
 
 public class ThumbStick : MonoBehaviour
 {
-    #region Properties
-
-    public GameObject Stick;
-    public float Range = 3f;
-    public float BreakSpeed = 1f;
-    public Vector2 StickUnitDirection = Vector2.zero;
-    
-    #endregion
-
     #region Vars
 
+    public GameObject stick;
+    public float range = 3f;
+    public float breakSpeed = 1f;
+    public Vector2 stickUnitDirection = Vector2.zero;
+    
     private int _fingerId = -1;
     private Vector3 _startPos;
     
@@ -27,7 +23,7 @@ public class ThumbStick : MonoBehaviour
 
     void Start()
     {
-        _startPos = Stick.transform.localPosition;
+        _startPos = stick.transform.localPosition;
     }
 
     void Update()
@@ -60,7 +56,7 @@ public class ThumbStick : MonoBehaviour
             }
         }
         // Move back to base pos if not there yet
-        else if (Stick.transform.localPosition != _startPos)
+        else if (stick.transform.localPosition != _startPos)
         {
             MoveBack();
         }
@@ -97,36 +93,36 @@ public class ThumbStick : MonoBehaviour
         offset.z = 0;
 
         // Bound if streched too far
-        if (offset.magnitude > Range)
+        if (offset.magnitude > range)
         {
             offset.Normalize();
-            offset *= Range;
+            offset *= range;
         }
 
         // Apply position
-        Stick.transform.localPosition = _startPos + offset;
+        stick.transform.localPosition = _startPos + offset;
     }
 
     private void MoveBack()
     {
-        Vector3 offset = _startPos - Stick.transform.localPosition;
+        Vector3 offset = _startPos - stick.transform.localPosition;
         offset.z = 0;
 
         // Calc next step
-        if (offset.magnitude > BreakSpeed)
+        if (offset.magnitude > breakSpeed)
         {
             offset.Normalize();
-            offset *= BreakSpeed;
+            offset *= breakSpeed;
         }
 
         // Apply step
-        Stick.transform.localPosition += offset;
+        stick.transform.localPosition += offset;
     }
 
     private void CalculateDirection()
     {
-        StickUnitDirection.x = (Stick.transform.localPosition.x - _startPos.x) / Range;
-        StickUnitDirection.y = (Stick.transform.localPosition.y - _startPos.y) / Range;
+        stickUnitDirection.x = (stick.transform.localPosition.x - _startPos.x) / range;
+        stickUnitDirection.y = (stick.transform.localPosition.y - _startPos.y) / range;
     }
 
     #endregion
