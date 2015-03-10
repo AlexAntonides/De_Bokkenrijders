@@ -6,6 +6,6 @@ public class AttackButton : ClickButton
 
     public override void ButtonPressed()
     {
-        player.GetComponent<PlayerAttack>().Attack();
+        //player.GetComponent<PlayerAttack>().Attack();
     }
 }

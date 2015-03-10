@@ -16,6 +16,10 @@ public class EnemyBehaviour : MonoBehaviour {
     private EnemyStates _state = EnemyStates.STATE_OUTOFCOMBAT;
 
     public float speed = 1f;
+    public float attackRange = 5f;
+    public float attackSpeed = 1.5f;
+
+    private float attTimer;
 
     private GameObject player;
 
@@ -39,7 +43,7 @@ public class EnemyBehaviour : MonoBehaviour {
     {
         if (_state == EnemyStates.STATE_OUTOFCOMBAT)
         {
-
+            // Move Around();
         }
         else if (_state == EnemyStates.STATE_INCOMBAT)
         {
@@ -79,16 +83,33 @@ public class EnemyBehaviour : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D _other)
     {
-        if (_other.tag == "Player")
+        if (_other.tag == Constants.PLAYERTAG)
         {
             _state = EnemyStates.STATE_INCOMBAT;
             player = _other.gameObject;
         }
     }
 
+    void OnTriggerStay2D(Collider2D _other)
+    {
+        if (_other.tag == Constants.PLAYERTAG && player != null)
+        {
+            if (player.transform.position.x - transform.position.x <= attackRange && player.transform.position.x - transform.position.x > 0 || player.transform.position.x - transform.position.x >= -attackRange && player.transform.position.x - transform.position.x < 0)
+            {
+                attTimer += Time.deltaTime;
+
+                if (attTimer > attackSpeed)
+                {
+                    gameObject.GetComponent<NPCAttack>().Attack(player);
+                    attTimer = 0;
+                }
+            }
+        }
+    }
+
     void OnTriggerExit2D(Collider2D _other)
     {
-        if (_other.tag == "Player")
+        if (_other.tag == Constants.PLAYERTAG)
         {
             _state = EnemyStates.STATE_OUTOFCOMBAT;
             SetDirection(2);

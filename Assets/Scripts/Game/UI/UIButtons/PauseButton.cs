@@ -4,23 +4,30 @@ using System.Collections;
 public class PauseButton : ClickButton
 {
     [SerializeField]
-    private GameObject PauseScreen;
+    private GameObject _pauseScreen;
 
     [SerializeField]
-    private bool isPauseMenu = false;
+    private bool _isPauseMenu = false;
 
-    public override void FixedUpdate() { if (isPauseMenu == false) { base.FixedUpdate(); } } // Reset Function.
+    [SerializeField]
+    private GameObject _pauseButton;
+
+    public override void FixedUpdate() { if (_isPauseMenu == false) { base.FixedUpdate(); } } // Reset Function.
 
     public override void ButtonPressed()
     {
-        if (PauseScreen.active == true)
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, 1);
+            
+        if (_pauseScreen.active == true)
         {
-            PauseScreen.SetActive(false);
+            _pauseScreen.SetActive(false);
+            _pauseButton.SetActive(true);
             Pause(false);
-        } 
-        else if (PauseScreen.active == false)
+        }
+        else if (_pauseScreen.active == false)
         {
-            PauseScreen.SetActive(true);
+            _pauseScreen.SetActive(true);
+            _pauseButton.SetActive(false);
             Pause(true);
         }
     }

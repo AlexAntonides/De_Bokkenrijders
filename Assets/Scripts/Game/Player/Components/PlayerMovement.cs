@@ -5,7 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     #region Properties
 
-    public float Speed = 3f;
+    public float Speed = 5f;
+    public float Acceleration = 0.1f;
 
     #endregion
 
@@ -13,25 +14,25 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator _animator;
     private float _moveDir = 0f;
-    private bool _canMove = true;
 
     #endregion
 
     #region Methods
 
-    void Update()
+    void FixedUpdate()
     {
-        
-    }
+        // Horizontal movement
+        if (_moveDir != 0)
+        {
+            Vector2 currentVelo = rigidbody2D.velocity;
+            Vector2 targetVelo = new Vector2(Speed * _moveDir, currentVelo.y);
+            
+            if (currentVelo != targetVelo)
+            {
+                rigidbody2D.velocity = Vector2.Lerp(currentVelo, targetVelo, Acceleration);
+            }
+        }
 
-    private void ApplyDirection()
-    {
-        if (!CanMove) return;
-
-        ApplyRotation();
-
-        // Apply velo
-        rigidbody2D.velocity = new Vector2(_moveDir * Speed, rigidbody2D.velocity.y);
     }
 
     private void ApplyRotation()
@@ -39,9 +40,11 @@ public class PlayerMovement : MonoBehaviour
         if (_moveDir == 0f) return;
 
         // Check if art is already rotated towards direction
-        float newLookDir = _moveDir / Mathf.Abs(_moveDir);
         Vector3 currentScale = transform.localScale;
-        if (newLookDir != currentScale.x / Mathf.Abs(currentScale.x))
+        float currentLookDir = currentScale.x / Mathf.Abs(currentScale.x);
+        float newLookDir = _moveDir / Mathf.Abs(_moveDir);
+
+        if (currentLookDir != newLookDir)
         {
             transform.localScale = new Vector3(newLookDir * Mathf.Abs(currentScale.x), currentScale.y, currentScale.z);
         }
@@ -59,26 +62,12 @@ public class PlayerMovement : MonoBehaviour
         }
         set
         {
-            if (value == _moveDir) return;
-
             // Bound value
             value = Mathf.Min(Mathf.Max(value, -1), 1);
-
+            
             _moveDir = value;
-            ApplyDirection();
-        }
-    }
 
-    public bool CanMove
-    {
-        get
-        {
-            return _canMove;
-        }
-        set
-        {
-            _canMove = value;
-            ApplyDirection();
+            ApplyRotation();
         }
     }
 

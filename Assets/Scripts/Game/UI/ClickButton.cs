@@ -8,11 +8,13 @@ public class ClickButton : MonoBehaviour {
     [HideInInspector]
     public GameObject player;
 
+    private const string PLAYERTAG = "Player";
+
     void Start()
     {
         if (player == null)
         {
-            player = GameObject.FindGameObjectWithTag("Player");
+            player = GameObject.FindGameObjectWithTag(PLAYERTAG);
         }
     }
 
@@ -26,6 +28,12 @@ public class ClickButton : MonoBehaviour {
             if (Input.GetMouseButtonDown(0) && hit.transform.name == transform.name)
             {
                 ButtonPressed();
+                gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, gameObject.GetComponent<SpriteRenderer>().color.a - 0.5f);
+            }
+            else if (Input.GetMouseButtonUp(0) && hit.transform.name == transform.name)
+            {
+                ButtonReleased();
+                gameObject.GetComponent<SpriteRenderer>().color = new Color(gameObject.GetComponent<SpriteRenderer>().color.r, gameObject.GetComponent<SpriteRenderer>().color.b, gameObject.GetComponent<SpriteRenderer>().color.g, gameObject.GetComponent<SpriteRenderer>().color.a + 0.5f);
             }
         }
     }

@@ -33,10 +33,10 @@ public class ThumbStick : MonoBehaviour
     void Update()
     {
         // Move stick relative to camera size, for multiple resolutions
-        transform.localPosition = new Vector3(-Camera.main.orthographicSize, 0, transform.localPosition.z);
+        transform.localPosition = new Vector3(-Camera.main.orthographicSize, -Camera.main.orthographicSize/2, transform.localPosition.z);
 
         // Look for next touch
-        if (_fingerId == -1)
+        if (_fingerId == -1 || _fingerId >= Input.touchCount)
         {
             FindNextTouch();
         }
@@ -70,6 +70,8 @@ public class ThumbStick : MonoBehaviour
 
     private void FindNextTouch()
     {
+        _fingerId = -1;
+
         foreach (Touch c in Input.touches)
         {
             // Only check for new touches
