@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: e5d145157ccc8d944beb43f1f6fb11db
+timeCreated: 1426359483
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MineWorkerIdle_0
+    21300002: MineWorkerIdle_1
+    21300004: MineWorkerIdle_2
+    21300006: MineWorkerIdle_3
+    21300008: MineWorkerIdle_4
+    21300010: MineWorkerIdle_5
+    21300012: MineWorkerIdle_6
+    21300014: MineWorkerIdle_7
+    21300016: MineWorkerIdle_8
+    21300018: MineWorkerIdle_9
+    21300020: MineWorkerIdle_10
+    21300022: MineWorkerIdle_11
+    21300024: MineWorkerIdle_12
+    21300026: MineWorkerIdle_13
+    21300028: MineWorkerIdle_14
+    21300030: MineWorkerIdle_15
+    21300032: MineWorkerIdle_16
+    21300034: MineWorkerIdle_17
+    21300036: MineWorkerIdle_18
+    21300038: MineWorkerIdle_19
+    21300040: MineWorkerIdle_20
+    21300042: MineWorkerIdle_21
+    21300044: MineWorkerIdle_22
+    21300046: MineWorkerIdle_23
+    21300048: MineWorkerIdle_24
+    21300050: MineWorkerIdle_25
+    21300052: MineWorkerIdle_26
+    21300054: MineWorkerIdle_27
+    21300056: MineWorkerIdle_28
+    21300058: MineWorkerIdle_29
+    21300060: MineWorkerIdle_30
+    21300062: MineWorkerIdle_31
+    21300064: MineWorkerIdle_32
+    21300066: MineWorkerIdle_33
+    21300068: MineWorkerIdle_34
+    21300070: MineWorkerIdle_35
+    21300072: MineWorkerIdle_36
+    21300074: MineWorkerIdle_37
+    21300076: MineWorkerIdle_38
+    21300078: MineWorkerIdle_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MineWorkerIdle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 186
+        width: 86
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 186
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 186
+        width: 86
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 186
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 186
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 186
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 186
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 186
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_8
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 186
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_9
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 186
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_10
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 186
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_11
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 186
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_12
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 186
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_13
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 186
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_14
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 186
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_15
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 186
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_16
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 186
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 186
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_18
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 186
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_19
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 186
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_24
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_25
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_27
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_28
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2
+        width: 85
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_29
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 2
+        width: 86
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_30
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 2
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_31
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_32
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_33
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 2
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_34
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 2
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_35
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_36
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2
+        width: 86
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_37
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2
+        width: 86
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_38
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2
+        width: 86
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerIdle_39
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 2
+        width: 85
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

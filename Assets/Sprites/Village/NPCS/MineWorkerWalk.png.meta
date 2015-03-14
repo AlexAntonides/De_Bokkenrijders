@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: a3cfd8e750508564292283849fcaf1fc
+timeCreated: 1426359555
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MineWorkerWalk_0
+    21300002: MineWorkerWalk_1
+    21300004: MineWorkerWalk_2
+    21300006: MineWorkerWalk_3
+    21300008: MineWorkerWalk_4
+    21300010: MineWorkerWalk_5
+    21300012: MineWorkerWalk_6
+    21300014: MineWorkerWalk_7
+    21300016: MineWorkerWalk_8
+    21300018: MineWorkerWalk_9
+    21300020: MineWorkerWalk_10
+    21300022: MineWorkerWalk_11
+    21300024: MineWorkerWalk_12
+    21300026: MineWorkerWalk_13
+    21300028: MineWorkerWalk_14
+    21300030: MineWorkerWalk_15
+    21300032: MineWorkerWalk_16
+    21300034: MineWorkerWalk_17
+    21300036: MineWorkerWalk_18
+    21300038: MineWorkerWalk_19
+    21300040: MineWorkerWalk_20
+    21300042: MineWorkerWalk_21
+    21300044: MineWorkerWalk_22
+    21300046: MineWorkerWalk_23
+    21300048: MineWorkerWalk_24
+    21300050: MineWorkerWalk_25
+    21300052: MineWorkerWalk_26
+    21300054: MineWorkerWalk_27
+    21300056: MineWorkerWalk_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MineWorkerWalk_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 181
+        width: 90
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 182
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 182
+        width: 90
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 182
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_4
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 182
+        width: 90
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_5
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_6
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 181
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_8
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_9
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_10
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_11
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_12
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 181
+        width: 89
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_13
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 181
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_14
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 181
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3
+        width: 89
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3
+        width: 89
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 3
+        width: 90
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 90
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 4
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_20
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 4
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_21
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 3
+        width: 90
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_22
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3
+        width: 89
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_23
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 3
+        width: 89
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_24
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 3
+        width: 90
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_25
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 3
+        width: 90
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_26
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 3
+        width: 89
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_27
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2
+        width: 89
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorkerWalk_28
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 3
+        width: 90
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

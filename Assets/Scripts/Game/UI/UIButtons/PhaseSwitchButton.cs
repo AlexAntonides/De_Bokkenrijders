@@ -30,5 +30,7 @@ public class PhaseSwitchButton : ClickButton {
              aliveWorld.SetActive(true);
              deadWorld.SetActive(false);
          }
+
+        GameObject.FindGameObjectWithTag(Constants.PLAYERTAG).transform.FindChild(Constants.EFFECTNAME).transform.FindChild(Constants.SWITCHEFFECTNAME).GetComponent<Animator>().SetTrigger("Switch");
     }
 }
