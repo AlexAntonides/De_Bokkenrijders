@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 7c8054b3e2db67c468e5804325640d15
+timeCreated: 1426522838
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sledgehammer_death_0
+    21300002: sledgehammer_death_1
+    21300004: sledgehammer_death_2
+    21300006: sledgehammer_death_3
+    21300008: sledgehammer_death_4
+    21300010: sledgehammer_death_5
+    21300012: sledgehammer_death_6
+    21300014: sledgehammer_death_7
+    21300016: sledgehammer_death_8
+    21300018: sledgehammer_death_9
+    21300020: sledgehammer_death_10
+    21300022: sledgehammer_death_11
+    21300024: sledgehammer_death_12
+    21300026: sledgehammer_death_13
+    21300028: sledgehammer_death_14
+    21300030: sledgehammer_death_15
+    21300032: sledgehammer_death_16
+    21300034: sledgehammer_death_17
+    21300036: sledgehammer_death_18
+    21300038: sledgehammer_death_19
+    21300040: sledgehammer_death_20
+    21300042: sledgehammer_death_21
+    21300044: sledgehammer_death_22
+    21300046: sledgehammer_death_23
+    21300048: sledgehammer_death_24
+    21300050: sledgehammer_death_25
+    21300052: sledgehammer_death_26
+    21300054: sledgehammer_death_27
+    21300056: sledgehammer_death_28
+    21300058: sledgehammer_death_29
+    21300060: sledgehammer_death_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sledgehammer_death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_4
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_5
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_6
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_7
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 592
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_12
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_13
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_14
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_15
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 398
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_18
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_20
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_21
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_22
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_23
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 204
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_26
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_27
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_28
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_29
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_death_30
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 10
+        width: 248
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,21 +3,26 @@ using System.Collections;
 
 public class NPCHealth : MonoBehaviour {
 
+    public float destroyTime = 2.5f;
+
     [SerializeField]
-    private float health = 5;
+    private float _health = 5;
+    private bool _dead = false;
 
     public float GetHealth()
     {
-        return health;
+        return _health;
     }
 
     public void ChangeHealth(float amount)
     {
-        health = health + amount;
+        _health = _health + amount;
 
-        if (health <= 0)
+        if (_health <= 0 && _dead == false)
         {
-            Destroy(gameObject);
+            gameObject.GetComponent<Animator>().SetTrigger(Constants.ENEMY_ANIMATOR_PARAMETER_DEATH);
+            Destroy(gameObject, destroyTime);
+            _dead = true;
         }
     }
 }

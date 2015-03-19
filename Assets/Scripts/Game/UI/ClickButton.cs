@@ -8,9 +8,13 @@ public class ClickButton : MonoBehaviour {
     [HideInInspector]
     public GameObject player;
 
+    public float holdTime = 0.4f;
+
     private const string PLAYERTAG = "Player";
     [SerializeField]
     private int _fingerId = -1;
+    private float _curholdTime;
+    private bool _holdable = false;
 
     void Start()
     {
@@ -38,18 +42,56 @@ public class ClickButton : MonoBehaviour {
             foreach (Touch current in Input.touches)
             {
                 // Skip non beginning touches
-                if (current.phase != TouchPhase.Began) continue;
+                //if (_holdable == true)
+                //{
+                    if (current.phase != TouchPhase.Began)
+                    {
+                        _curholdTime += Time.deltaTime;
+                    }
 
-                // Check collision
-                Vector3 currentPos = Camera.main.ScreenToWorldPoint(current.position);
-                currentPos.z = transform.position.z;
-                if (GetComponent<Collider2D>().bounds.Contains(currentPos))
+                    if (current.phase == TouchPhase.Ended)
+                    {
+                        // Check collision
+                        Vector3 currentPos = Camera.main.ScreenToWorldPoint(current.position);
+                        currentPos.z = transform.position.z;
+                        if (GetComponent<Collider2D>().bounds.Contains(currentPos))
+                        {
+                            touchPos = currentPos;
+                            currentTouch = current;
+                            _fingerId = current.fingerId;
+
+                            if (_curholdTime < holdTime)
+                            {
+                                ButtonPressed();
+                            }
+                            else
+                            {
+                                ButtonHold();
+                            }
+
+                            _curholdTime = 0;
+                        }
+                    }
+                //}
+                    /*
+                else if (_holdable == false)
                 {
-                    touchPos = currentPos;
-                    currentTouch = current;
-                    _fingerId = current.fingerId;
-                    ButtonPressed();
-                }
+                    if (current.phase == TouchPhase.Began)
+                    {
+                        // Skip non beginning touches.
+                    }
+
+                    // Check collision
+                    Vector3 currentPos = Camera.main.ScreenToWorldPoint(current.position);
+                    currentPos.z = transform.position.z;
+                    if (GetComponent<Collider2D>().bounds.Contains(currentPos))
+                    {
+                        touchPos = currentPos;
+                        currentTouch = current;
+                        _fingerId = current.fingerId;
+                        ButtonPressed();
+                    }
+                } */
             }
         }
 
@@ -89,5 +131,10 @@ public class ClickButton : MonoBehaviour {
     public virtual void ButtonPressed()
     {
         print("You clicked the button: " + gameObject.name);
+    }
+
+    public virtual void ButtonHold()
+    {
+        print("You held the button: " + gameObject.name);
     }
 }

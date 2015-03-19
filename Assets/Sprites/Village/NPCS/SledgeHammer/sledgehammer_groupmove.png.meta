@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: bf4225fff746aa84fb52f17a650f1dea
+timeCreated: 1426522576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sledgehammer_groupmove_0
+    21300002: sledgehammer_groupmove_1
+    21300004: sledgehammer_groupmove_2
+    21300006: sledgehammer_groupmove_3
+    21300008: sledgehammer_groupmove_4
+    21300010: sledgehammer_groupmove_5
+    21300012: sledgehammer_groupmove_6
+    21300014: sledgehammer_groupmove_7
+    21300016: sledgehammer_groupmove_8
+    21300018: sledgehammer_groupmove_9
+    21300020: sledgehammer_groupmove_10
+    21300022: sledgehammer_groupmove_11
+    21300024: sledgehammer_groupmove_12
+    21300026: sledgehammer_groupmove_13
+    21300028: sledgehammer_groupmove_14
+    21300030: sledgehammer_groupmove_15
+    21300032: sledgehammer_groupmove_16
+    21300034: sledgehammer_groupmove_17
+    21300036: sledgehammer_groupmove_18
+    21300038: sledgehammer_groupmove_19
+    21300040: sledgehammer_groupmove_20
+    21300042: sledgehammer_groupmove_21
+    21300044: sledgehammer_groupmove_22
+    21300046: sledgehammer_groupmove_23
+    21300048: sledgehammer_groupmove_24
+    21300050: sledgehammer_groupmove_25
+    21300052: sledgehammer_groupmove_26
+    21300054: sledgehammer_groupmove_27
+    21300056: sledgehammer_groupmove_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sledgehammer_groupmove_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 444
+        width: 84
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 446
+        width: 94
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 445
+        width: 97
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 445
+        width: 96
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_4
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 445
+        width: 101
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_5
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 445
+        width: 104
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_6
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 444
+        width: 105
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_7
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 444
+        width: 103
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_8
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 444
+        width: 101
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_9
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 444
+        width: 97
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 223
+        width: 95
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 223
+        width: 97
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 223
+        width: 96
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 92
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_14
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 223
+        width: 84
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_15
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 224
+        width: 93
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_16
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 225
+        width: 96
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_17
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 225
+        width: 96
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_18
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 225
+        width: 98
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_19
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 225
+        width: 100
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4
+        width: 104
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 4
+        width: 105
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_22
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 3
+        width: 104
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_23
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 4
+        width: 100
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_24
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3
+        width: 98
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_25
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3
+        width: 96
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3
+        width: 97
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_27
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 3
+        width: 95
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sledgehammer_groupmove_28
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 3
+        width: 87
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

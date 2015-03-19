@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 4126a4bd5f1c3a54c8ccf4023efa2359
+timeCreated: 1426527702
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Axe_Idle_0
+    21300002: Axe_Idle_1
+    21300004: Axe_Idle_2
+    21300006: Axe_Idle_3
+    21300008: Axe_Idle_4
+    21300010: Axe_Idle_5
+    21300012: Axe_Idle_6
+    21300014: Axe_Idle_7
+    21300016: Axe_Idle_8
+    21300018: Axe_Idle_9
+    21300020: Axe_Idle_10
+    21300022: Axe_Idle_11
+    21300024: Axe_Idle_12
+    21300026: Axe_Idle_13
+    21300028: Axe_Idle_14
+    21300030: Axe_Idle_15
+    21300032: Axe_Idle_16
+    21300034: Axe_Idle_17
+    21300036: Axe_Idle_18
+    21300038: Axe_Idle_19
+    21300040: Axe_Idle_20
+    21300042: Axe_Idle_21
+    21300044: Axe_Idle_22
+    21300046: Axe_Idle_23
+    21300048: Axe_Idle_24
+    21300050: Axe_Idle_25
+    21300052: Axe_Idle_26
+    21300054: Axe_Idle_27
+    21300056: Axe_Idle_28
+    21300058: Axe_Idle_29
+    21300060: Axe_Idle_30
+    21300062: Axe_Idle_31
+    21300064: Axe_Idle_32
+    21300066: Axe_Idle_33
+    21300068: Axe_Idle_34
+    21300070: Axe_Idle_35
+    21300072: Axe_Idle_36
+    21300074: Axe_Idle_37
+    21300076: Axe_Idle_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Axe_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 184
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 184
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 184
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 184
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 184
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 184
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 184
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 184
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 184
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 184
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 184
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 184
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 184
+        width: 74
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 184
+        width: 74
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 184
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 184
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 184
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 184
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 184
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 184
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2
+        width: 73
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 74
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 73
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2
+        width: 74
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2
+        width: 74
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 2
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 2
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 2
+        width: 73
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 2
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 2
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

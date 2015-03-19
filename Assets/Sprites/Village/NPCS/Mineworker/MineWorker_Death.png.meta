@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 327d827eaf0337844916994388f1c911
+timeCreated: 1426526476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MineWorker_Death_0
+    21300002: MineWorker_Death_1
+    21300004: MineWorker_Death_2
+    21300006: MineWorker_Death_3
+    21300008: MineWorker_Death_4
+    21300010: MineWorker_Death_5
+    21300012: MineWorker_Death_6
+    21300014: MineWorker_Death_7
+    21300016: MineWorker_Death_8
+    21300018: MineWorker_Death_9
+    21300020: MineWorker_Death_10
+    21300022: MineWorker_Death_11
+    21300024: MineWorker_Death_12
+    21300026: MineWorker_Death_13
+    21300028: MineWorker_Death_14
+    21300030: MineWorker_Death_15
+    21300032: MineWorker_Death_16
+    21300034: MineWorker_Death_17
+    21300036: MineWorker_Death_18
+    21300038: MineWorker_Death_19
+    21300040: MineWorker_Death_20
+    21300042: MineWorker_Death_21
+    21300044: MineWorker_Death_22
+    21300046: MineWorker_Death_23
+    21300048: MineWorker_Death_24
+    21300050: MineWorker_Death_25
+    21300052: MineWorker_Death_26
+    21300054: MineWorker_Death_27
+    21300056: MineWorker_Death_28
+    21300058: MineWorker_Death_29
+    21300060: MineWorker_Death_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MineWorker_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 628
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_12
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_15
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 422
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_23
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 216
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MineWorker_Death_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 10
+        width: 250
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

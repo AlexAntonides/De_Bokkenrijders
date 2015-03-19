@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 41926255a4dd47547908cdace9b94512
+timeCreated: 1426527719
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Axe_Walk_0
+    21300002: Axe_Walk_1
+    21300004: Axe_Walk_2
+    21300006: Axe_Walk_3
+    21300008: Axe_Walk_4
+    21300010: Axe_Walk_5
+    21300012: Axe_Walk_6
+    21300014: Axe_Walk_7
+    21300016: Axe_Walk_8
+    21300018: Axe_Walk_9
+    21300020: Axe_Walk_10
+    21300022: Axe_Walk_11
+    21300024: Axe_Walk_12
+    21300026: Axe_Walk_13
+    21300028: Axe_Walk_14
+    21300030: Axe_Walk_15
+    21300032: Axe_Walk_16
+    21300034: Axe_Walk_17
+    21300036: Axe_Walk_18
+    21300038: Axe_Walk_19
+    21300040: Axe_Walk_20
+    21300042: Axe_Walk_21
+    21300044: Axe_Walk_22
+    21300046: Axe_Walk_23
+    21300048: Axe_Walk_24
+    21300050: Axe_Walk_25
+    21300052: Axe_Walk_26
+    21300054: Axe_Walk_27
+    21300056: Axe_Walk_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Axe_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 179
+        width: 94
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 180
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 180
+        width: 83
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 180
+        width: 77
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 180
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 179
+        width: 67
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 179
+        width: 62
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 179
+        width: 62
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 179
+        width: 61
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 179
+        width: 60
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 179
+        width: 61
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 179
+        width: 63
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 179
+        width: 66
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 179
+        width: 69
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 179
+        width: 75
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3
+        width: 71
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3
+        width: 68
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3
+        width: 66
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 4
+        width: 63
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 4
+        width: 61
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 4
+        width: 62
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 3
+        width: 62
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 3
+        width: 65
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 3
+        width: 68
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 3
+        width: 72
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3
+        width: 77
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2
+        width: 81
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 2
+        width: 85
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 2
+        width: 90
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

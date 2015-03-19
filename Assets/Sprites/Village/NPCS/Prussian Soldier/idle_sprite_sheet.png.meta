@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 0ac5d8a2e89bd694ba8d7c137e7fee60
+timeCreated: 1426536010
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle_sprite_sheet_0
+    21300002: idle_sprite_sheet_1
+    21300004: idle_sprite_sheet_2
+    21300006: idle_sprite_sheet_3
+    21300008: idle_sprite_sheet_4
+    21300010: idle_sprite_sheet_5
+    21300012: idle_sprite_sheet_6
+    21300014: idle_sprite_sheet_7
+    21300016: idle_sprite_sheet_8
+    21300018: idle_sprite_sheet_9
+    21300020: idle_sprite_sheet_10
+    21300022: idle_sprite_sheet_11
+    21300024: idle_sprite_sheet_12
+    21300026: idle_sprite_sheet_13
+    21300028: idle_sprite_sheet_14
+    21300030: idle_sprite_sheet_15
+    21300032: idle_sprite_sheet_16
+    21300034: idle_sprite_sheet_17
+    21300036: idle_sprite_sheet_18
+    21300038: idle_sprite_sheet_19
+    21300040: idle_sprite_sheet_20
+    21300042: idle_sprite_sheet_21
+    21300044: idle_sprite_sheet_22
+    21300046: idle_sprite_sheet_23
+    21300048: idle_sprite_sheet_24
+    21300050: idle_sprite_sheet_25
+    21300052: idle_sprite_sheet_26
+    21300054: idle_sprite_sheet_27
+    21300056: idle_sprite_sheet_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: idle_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 966
+        width: 132
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 966
+        width: 133
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 966
+        width: 134
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 966
+        width: 136
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 966
+        width: 137
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 966
+        width: 138
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 966
+        width: 138
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 966
+        width: 139
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 966
+        width: 141
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 966
+        width: 141
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 143
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 484
+        width: 144
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 484
+        width: 145
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 484
+        width: 146
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 484
+        width: 147
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 484
+        width: 146
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 484
+        width: 145
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 484
+        width: 144
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 484
+        width: 143
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 484
+        width: 142
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 141
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 140
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2
+        width: 139
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 2
+        width: 138
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 2
+        width: 137
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2
+        width: 136
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2
+        width: 135
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 2
+        width: 134
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: idle_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2
+        width: 133
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

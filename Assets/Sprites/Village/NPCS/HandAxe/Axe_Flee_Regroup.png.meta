@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: a4435e44655f0824fa59e07ca7b628db
+timeCreated: 1426527743
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Axe_Flee_Regroup_0
+    21300002: Axe_Flee_Regroup_1
+    21300004: Axe_Flee_Regroup_2
+    21300006: Axe_Flee_Regroup_3
+    21300008: Axe_Flee_Regroup_4
+    21300010: Axe_Flee_Regroup_5
+    21300012: Axe_Flee_Regroup_6
+    21300014: Axe_Flee_Regroup_7
+    21300016: Axe_Flee_Regroup_8
+    21300018: Axe_Flee_Regroup_9
+    21300020: Axe_Flee_Regroup_10
+    21300022: Axe_Flee_Regroup_11
+    21300024: Axe_Flee_Regroup_12
+    21300026: Axe_Flee_Regroup_13
+    21300028: Axe_Flee_Regroup_14
+    21300030: Axe_Flee_Regroup_15
+    21300032: Axe_Flee_Regroup_16
+    21300034: Axe_Flee_Regroup_17
+    21300036: Axe_Flee_Regroup_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Axe_Flee_Regroup_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 212
+        width: 131
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 211
+        width: 120
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 208
+        width: 108
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 206
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 205
+        width: 100
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_5
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 207
+        width: 105
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 209
+        width: 110
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 213
+        width: 114
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_8
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 217
+        width: 122
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_9
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 216
+        width: 136
+        height: 175
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 13
+        width: 126
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12
+        width: 117
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 9
+        width: 104
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_13
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 6
+        width: 99
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 4
+        width: 100
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_15
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 6
+        width: 104
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_16
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 9
+        width: 108
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_17
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 12
+        width: 113
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Flee_Regroup_18
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 13
+        width: 119
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

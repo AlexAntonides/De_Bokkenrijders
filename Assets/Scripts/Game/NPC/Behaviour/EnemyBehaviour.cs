@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(CircleCollider2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(Animator))]
 public class EnemyBehaviour : MonoBehaviour {
@@ -19,15 +18,33 @@ public class EnemyBehaviour : MonoBehaviour {
         STATE_ATTACK = 2
     }
 
+    public enum EnemyTypes
+    {
+        TYPE_NORMAL = 1,
+        TYPE_BOSS = 2
+    }
+
+    public enum EnemyAttackTypes
+    {
+        TYPE_MELEE = 0,
+        TYPE_RANGED = 1,
+        TYPE_THROW = 2
+    }
+
     [SerializeField]
-    private EnemyPhases _phase = EnemyPhases.PHASE_OUTOFCOMBAT;
+    public EnemyPhases phase = EnemyPhases.PHASE_OUTOFCOMBAT;
     [SerializeField]
-    private EnemyStates _state = EnemyStates.STATE_IDLE;
+    public EnemyStates state = EnemyStates.STATE_IDLE;
+    [SerializeField]
+    public EnemyTypes type = EnemyTypes.TYPE_NORMAL;
+    [SerializeField]
+    public EnemyAttackTypes attackType = EnemyAttackTypes.TYPE_MELEE;
 
     public float moveSpeed = 1f;
-    public float attackSpeed = 1.5f;
+    private float _attackSpeed;
     public float attackRange = 2f;
     public float alertRange = 8f;
+    public float knockBackRate = 2f;
 
     private float _walkDirection = 0;
 
@@ -37,52 +54,52 @@ public class EnemyBehaviour : MonoBehaviour {
     [SerializeField]
     private Vector2 _walkTime;
 
-    private NPCAttack _attack;
     private Animator _animator;
-    private BoxCollider2D _attackCollider;
 
-    private GameObject _target = null;
+    public GameObject target = null;
 
     void Start()
     {
-        gameObject.GetComponent<CircleCollider2D>().radius = alertRange;
+        gameObject.GetComponentInChildren<CircleCollider2D>().radius = alertRange;
 
-        _attack = gameObject.GetComponent<NPCAttack>();
         _animator = gameObject.GetComponent<Animator>();
-        _attackCollider = gameObject.GetComponent<BoxCollider2D>();
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
 
-        _attackCollider.enabled = false;
-        _tAttack = attackSpeed;
+        _tAttack = _attackSpeed;
     }
 
     void Update()
     {
-        UpdatePhases();
-        UpdateStates();
-        UpdateSprite();
+        if (gameObject.GetComponent<NPCHealth>().GetHealth() > 0)
+        {
+            UpdatePhases();
+            UpdateStates();
+            UpdateSprite();
+            CheckPlayer();
+        }
     }
 
     void UpdatePhases()
     {
-        if (_phase == EnemyPhases.PHASE_INCOMBAT)
+        if (phase == EnemyPhases.PHASE_INCOMBAT)
         {
-            if (_target != null)
+            if (target != null)
             {
-                if(transform.position.x - _target.transform.position.x > 0)
+                if(transform.position.x - target.transform.position.x > 0)
                 {
                     _walkDirection = -1;
                 }
-                else if(transform.position.x - _target.transform.position.x < 0)
+                else if(transform.position.x - target.transform.position.x < 0)
                 {
                     _walkDirection = 1;
                 }
             } 
-            else if (_target == null)
+            else if (target == null)
             {
-                _phase = EnemyPhases.PHASE_OUTOFCOMBAT;
+                phase = EnemyPhases.PHASE_OUTOFCOMBAT;
             }
         }
-        else if (_phase == EnemyPhases.PHASE_OUTOFCOMBAT)
+        else if (phase == EnemyPhases.PHASE_OUTOFCOMBAT)
         {
             if (Time.time >= _tDir)
             {
@@ -91,11 +108,11 @@ public class EnemyBehaviour : MonoBehaviour {
 
                 if (_walkDirection == 0)
                 {
-                    _state = EnemyStates.STATE_IDLE;
+                    SetStateIdle();
                 }
                 else
                 {
-                    _state = EnemyStates.STATE_WALK;
+                    state = EnemyStates.STATE_WALK;
                 }
             }
         }
@@ -103,17 +120,17 @@ public class EnemyBehaviour : MonoBehaviour {
 
     void UpdateStates()
     {
-        if (_state == EnemyStates.STATE_IDLE)
+        if (state == EnemyStates.STATE_IDLE)
         {
             _animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, false);
             _walkDirection = 0;
         }
-        else if (_state == EnemyStates.STATE_WALK && _walkDirection != 0)
+        else if (state == EnemyStates.STATE_WALK && _walkDirection != 0)
         {
             _animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, true);
             transform.position = new Vector2((transform.position.x + _walkDirection * moveSpeed * Time.deltaTime), transform.position.y);
         }
-        else if (_state == EnemyStates.STATE_ATTACK && _phase == EnemyPhases.PHASE_INCOMBAT)
+        else if (state == EnemyStates.STATE_ATTACK && phase == EnemyPhases.PHASE_INCOMBAT)
         {
             _tAttack += Time.deltaTime;
         }
@@ -134,61 +151,70 @@ public class EnemyBehaviour : MonoBehaviour {
             transform.rotation = Quaternion.Euler(new Vector2(transform.rotation.x, transform.rotation.y));
         }
     }
-    
-    void OnTriggerEnter2D(Collider2D _other)
-    {
-        if (_other.tag == Constants.PLAYERTAG)
-        {
-            _phase = EnemyPhases.PHASE_INCOMBAT;
-            _target = _other.gameObject;
-        }
-    }
 
-    void OnTriggerStay2D(Collider2D _other)
+    void CheckPlayer()
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if (target != null)
         {
-            float _distance = Vector2.Distance(_other.transform.position, transform.position);
+            float _distance = Vector2.Distance(target.transform.position, transform.position);
 
             if (_distance < attackRange)
             {
-                _state = EnemyStates.STATE_ATTACK;
+                print("NU");
+                state = EnemyStates.STATE_ATTACK;
+                _animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, false);
 
-                if (_tAttack > attackSpeed)
+                if (attackType == EnemyAttackTypes.TYPE_MELEE)
                 {
-                    _animator.SetTrigger(Constants.ENEMY_ANIMATOR_PARAMETER_ATTACK);
-                    _attackCollider.enabled = true;
-                    _tAttack = 0;
+                    _attackSpeed = GetComponent<Weapon>().attackSpeed;
+
+                    if (_tAttack > _attackSpeed)
+                    {
+                        _animator.SetTrigger(Constants.ENEMY_ANIMATOR_PARAMETER_ATTACK);
+                        gameObject.GetComponent<Weapon>().Attack();
+                        _tAttack = 0;
+                    }
                 }
-            } 
+                else if (attackType == EnemyAttackTypes.TYPE_RANGED)
+                {
+                    _attackSpeed = GetComponent<Gun>().reloadSpeed;
+
+                    if (_tAttack > _attackSpeed)
+                    {
+                        _animator.SetTrigger(Constants.ENEMY_ANIMATOR_PARAMETER_SHOOT);
+                        gameObject.GetComponent<Gun>().Shoot();
+                        _tAttack = 0;
+                    }
+                }
+                else if (attackType == EnemyAttackTypes.TYPE_THROW)
+                {
+                    _attackSpeed = GetComponent<ThrowableObject>().throwSpeed;
+
+                    if (_tAttack > _attackSpeed)
+                    {
+                        _animator.SetTrigger(Constants.ENEMY_ANIMATOR_PARAMETER_THROW);
+                        gameObject.GetComponent<ThrowableObject>().Throw();
+                        _tAttack = 0;
+                    }
+                }
+            }
             else if (_distance > attackRange)
             {
-                _state = EnemyStates.STATE_WALK;
+                state = EnemyStates.STATE_WALK;
             }
         }
     }
 
-    void OnTriggerExit2D(Collider2D _other)
+    void OnTriggerEnter2D(Collider2D _other)
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if(_other.gameObject.tag == Constants.PLAYERTAG && gameObject.GetComponent<BoxCollider2D>().enabled == true)
         {
-            _state = EnemyStates.STATE_IDLE;
-            _phase = EnemyPhases.PHASE_OUTOFCOMBAT;
-            _target = null;
+            _other.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-gameObject.GetComponent<Weapon>().damage);
         }
     }
 
-    void OnCollisionEnter2D(Collision2D _other)
+    void SetStateIdle()
     {
-        if(_other.gameObject.tag == Constants.PLAYERTAG && _attackCollider.enabled == true)
-        {
-            _attack.Attack(_other.gameObject);
-        }
-    }
-
-    void DisableColliderAfterAttack()
-    {
-        _state = EnemyStates.STATE_IDLE;
-        _attackCollider.enabled = false;
+        state = EnemyStates.STATE_IDLE;
     }
 }

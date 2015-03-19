@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: e90dbff03a94dc5439d634aaca35b9cb
+timeCreated: 1426527823
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Axe_Attack_0
+    21300002: Axe_Attack_1
+    21300004: Axe_Attack_2
+    21300006: Axe_Attack_3
+    21300008: Axe_Attack_4
+    21300010: Axe_Attack_5
+    21300012: Axe_Attack_6
+    21300014: Axe_Attack_7
+    21300016: Axe_Attack_8
+    21300018: Axe_Attack_9
+    21300020: Axe_Attack_10
+    21300022: Axe_Attack_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Axe_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 200
+        width: 76
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 200
+        width: 76
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 200
+        width: 81
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 200
+        width: 69
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 200
+        width: 99
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 200
+        width: 100
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3
+        width: 113
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3
+        width: 168
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 5
+        width: 169
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 4
+        width: 168
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3
+        width: 165
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Axe_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 3
+        width: 161
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

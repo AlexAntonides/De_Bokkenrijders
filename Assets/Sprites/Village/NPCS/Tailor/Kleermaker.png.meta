@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 5df8de9952268cb41a6847ca65ae1b9e
+timeCreated: 1426438439
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kleermaker_0
+    21300002: Kleermaker_1
+    21300004: Kleermaker_2
+    21300006: Kleermaker_3
+    21300008: Kleermaker_4
+    21300010: Kleermaker_5
+    21300012: Kleermaker_6
+    21300014: Kleermaker_7
+    21300016: Kleermaker_8
+    21300018: Kleermaker_9
+    21300020: Kleermaker_10
+    21300022: Kleermaker_11
+    21300024: Kleermaker_12
+    21300026: Kleermaker_13
+    21300028: Kleermaker_14
+    21300030: Kleermaker_15
+    21300032: Kleermaker_16
+    21300034: Kleermaker_17
+    21300036: Kleermaker_18
+    21300038: Kleermaker_19
+    21300040: Kleermaker_20
+    21300042: Kleermaker_21
+    21300044: Kleermaker_22
+    21300046: Kleermaker_23
+    21300048: Kleermaker_24
+    21300050: Kleermaker_25
+    21300052: Kleermaker_26
+    21300054: Kleermaker_27
+    21300056: Kleermaker_28
+    21300058: Kleermaker_29
+    21300060: Kleermaker_30
+    21300062: Kleermaker_31
+    21300064: Kleermaker_32
+    21300066: Kleermaker_33
+    21300068: Kleermaker_34
+    21300070: Kleermaker_35
+    21300072: Kleermaker_36
+    21300074: Kleermaker_37
+    21300076: Kleermaker_38
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kleermaker_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_4
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_5
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_7
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_8
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_9
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 720
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_14
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_15
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_16
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_17
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_18
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_19
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 480
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_24
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_25
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_26
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_27
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_28
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_29
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 240
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_34
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_35
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_36
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_37
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kleermaker_38
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
