@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\PhaseSwitchButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\ThumbStick.cs" />
      <Compile Include="Assets\Scripts\Menu\LoadSceneOnTap.cs" />
+     <Compile Include="Assets\TutorialDisplayer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
