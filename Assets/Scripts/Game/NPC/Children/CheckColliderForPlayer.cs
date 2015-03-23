@@ -13,19 +13,19 @@ public class CheckColliderForPlayer : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D _other)
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if (_other.tag == Constants.TAG_PLAYER)
         {
-            _enemyBehaviour.phase = EnemyBehaviour.EnemyPhases.PHASE_INCOMBAT;
+            _enemyBehaviour.phase = EnemyBehaviour.EnemyPhases.INCOMBAT;
             _enemyBehaviour.target = _other.gameObject;
         }
     }
 
     void OnTriggerExit2D(Collider2D _other)
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if (_other.tag == Constants.TAG_PLAYER)
         {
-            _enemyBehaviour.state = EnemyBehaviour.EnemyStates.STATE_IDLE;
-            _enemyBehaviour.phase = EnemyBehaviour.EnemyPhases.PHASE_OUTOFCOMBAT;
+            _enemyBehaviour.state = EnemyBehaviour.EnemyStates.IDLE;
+            _enemyBehaviour.phase = EnemyBehaviour.EnemyPhases.OUTOFCOMBAT;
             _enemyBehaviour.target = null;
         }
     }

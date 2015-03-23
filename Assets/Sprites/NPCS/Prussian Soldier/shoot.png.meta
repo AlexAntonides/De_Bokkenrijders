@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 1687273b767b4bb47ad77bd890434c8d
+timeCreated: 1427052679
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shoot_0
+    21300002: shoot_1
+    21300004: shoot_2
+    21300006: shoot_3
+    21300008: shoot_4
+    21300010: shoot_5
+    21300012: shoot_6
+    21300014: shoot_7
+    21300016: shoot_8
+    21300018: shoot_9
+    21300020: shoot_10
+    21300022: shoot_11
+    21300024: shoot_12
+    21300026: shoot_13
+    21300028: shoot_14
+    21300030: shoot_15
+    21300032: shoot_16
+    21300034: shoot_17
+    21300036: shoot_18
+    21300038: shoot_19
+    21300040: shoot_20
+    21300042: shoot_21
+    21300044: shoot_22
+    21300046: shoot_23
+    21300048: shoot_24
+    21300050: shoot_25
+    21300052: shoot_26
+    21300054: shoot_27
+    21300056: shoot_28
+    21300058: shoot_29
+    21300060: shoot_30
+    21300062: shoot_31
+    21300064: shoot_32
+    21300066: shoot_33
+    21300068: shoot_34
+    21300070: shoot_35
+    21300072: shoot_36
+    21300074: shoot_21
+    21300076: shoot_22
+    21300078: shoot_23
+    21300080: shoot_24
+    21300082: shoot_25
+    21300084: shoot_26
+    21300086: shoot_27
+    21300088: shoot_28
+    21300090: shoot_45
+    21300092: shoot_46
+    21300094: shoot_47
+    21300096: shoot_48
+    21300098: shoot_49
+    21300100: shoot_50
+    21300102: shoot_51
+    21300104: shoot_52
+    21300106: shoot_53
+    21300108: shoot_54
+    21300110: shoot_55
+    21300112: shoot_56
+    21300114: shoot_57
+    21300116: shoot_58
+    21300118: shoot_29
+    21300120: shoot_60
+    21300122: shoot_61
+    21300124: shoot_62
+    21300126: shoot_63
+    21300128: shoot_64
+    21300130: shoot_65
+    21300132: shoot_36
+    21300134: shoot_37
+    21300136: shoot_38
+    21300138: shoot_69
+    21300140: shoot_70
+    21300142: shoot_71
+    21300144: shoot_72
+    21300146: shoot_73
+    21300148: shoot_74
+    21300150: shoot_75
+    21300152: shoot_76
+    21300154: shoot_77
+    21300156: shoot_78
+    21300158: shoot_79
+    21300160: shoot_80
+    21300162: shoot_81
+    21300164: shoot_82
+    21300166: shoot_83
+    21300168: shoot_84
+    21300170: shoot_85
+    21300172: shoot_86
+    21300174: shoot_87
+    21300176: shoot_88
+    21300178: shoot_89
+    21300180: shoot_90
+    21300182: shoot_91
+    21300184: shoot_92
+    21300186: shoot_93
+    21300188: shoot_94
+    21300190: shoot_95
+    21300192: shoot_96
+    21300194: shoot_97
+    21300196: shoot_98
+    21300198: shoot_99
+    21300200: shoot_100
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: shoot_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3189
+        width: 138
+        height: 483
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_1
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 3189
+        width: 136
+        height: 483
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_2
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 3189
+        width: 136
+        height: 483
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_3
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 3189
+        width: 138
+        height: 499
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_4
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 3189
+        width: 138
+        height: 529
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_5
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 3189
+        width: 139
+        height: 502
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_6
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 3189
+        width: 155
+        height: 466
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_7
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 3189
+        width: 230
+        height: 439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_8
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 3186
+        width: 299
+        height: 439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_9
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 3186
+        width: 350
+        height: 437
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2655
+        width: 349
+        height: 439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_11
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2655
+        width: 349
+        height: 434
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_12
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 2655
+        width: 350
+        height: 436
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_13
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2655
+        width: 366
+        height: 439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_30
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2129
+        width: 266
+        height: 469
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_21
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2129
+        width: 277
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_22
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 2129
+        width: 284
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_23
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 2129
+        width: 290
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_24
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 2129
+        width: 288
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_25
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 2129
+        width: 158
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_26
+      rect:
+        serializedVersion: 2
+        x: 4024
+        y: 2129
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_27
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 2129
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_28
+      rect:
+        serializedVersion: 2
+        x: 5122
+        y: 2129
+        width: 174
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1598
+        width: 182
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_60
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1598
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_61
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1598
+        width: 160
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_63
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1598
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_64
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1598
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_65
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 1598
+        width: 158
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_36
+      rect:
+        serializedVersion: 2
+        x: 4024
+        y: 1598
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_37
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 1598
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_38
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 1598
+        width: 160
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_69
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1598
+        width: 157
+        height: 444
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1067
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_73
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1067
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_74
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1067
+        width: 160
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_75
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1067
+        width: 157
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_76
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1067
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_77
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1067
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_78
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 1067
+        width: 158
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_79
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 1067
+        width: 157
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_80
+      rect:
+        serializedVersion: 2
+        x: 4577
+        y: 1067
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_81
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 1067
+        width: 160
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_82
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 535
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_83
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 535
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_84
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 535
+        width: 160
+        height: 448
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_85
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 535
+        width: 157
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_86
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 535
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_87
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 535
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_88
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 535
+        width: 158
+        height: 448
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_89
+      rect:
+        serializedVersion: 2
+        x: 4029
+        y: 535
+        width: 160
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_90
+      rect:
+        serializedVersion: 2
+        x: 4580
+        y: 535
+        width: 168
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_91
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 535
+        width: 138
+        height: 448
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_93
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 4
+        width: 136
+        height: 482
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_94
+      rect:
+        serializedVersion: 2
+        x: 4024
+        y: 4
+        width: 139
+        height: 482
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_95
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4
+        width: 132
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_96
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 4
+        width: 266
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_97
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 4
+        width: 258
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_98
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 4
+        width: 227
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_99
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 4
+        width: 195
+        height: 447
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_100
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 4
+        width: 135
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_14
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 2654
+        width: 398
+        height: 440
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_15
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 2659
+        width: 441
+        height: 445
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_16
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2661
+        width: 508
+        height: 473
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_17
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 2654
+        width: 517
+        height: 487
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_18
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 2648
+        width: 527
+        height: 513
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_19
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 2653
+        width: 522
+        height: 525
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoot_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2121
+        width: 533
+        height: 494
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

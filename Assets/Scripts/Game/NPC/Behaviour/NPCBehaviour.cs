@@ -29,7 +29,7 @@ public class NPCBehaviour : MonoBehaviour {
     {
         INTERACTION_NONE = 0,
         INTERACTION_NEARBY = 1,
-        INTERACTION_THUMBSTICK = 2
+        INTERACTION_BUTTON = 2
     }
 
     public NPCType npcType;
@@ -39,7 +39,7 @@ public class NPCBehaviour : MonoBehaviour {
 
     private NPCActions _npcCurrentAction;
 
-    public ThumbStick inputStick;
+    public bool interacted = false;
 
     public float movementSpeed = 1f;
     public float interactionRange = 8f;
@@ -108,20 +108,18 @@ public class NPCBehaviour : MonoBehaviour {
         else if (npcPhases == NPCPhases.PHASE_GIVEQUEST && _target != null)
         {
             _npcCurrentAction = NPCActions.ACTION_IDLE;
-            inputStick.stickUnitDirection = new Vector2(0, 0); // Stop possible player movement.
             // Open Quest Menu.
         }
         else if (npcPhases == NPCPhases.PHASE_TRADING && _target != null)
         {
             _npcCurrentAction = NPCActions.ACTION_IDLE;
-            inputStick.stickUnitDirection = new Vector2(0, 0); // Stop possible player movement.
             // Open Trade Menu.
         }
     }
 
     void OnTriggerEnter2D(Collider2D _other)
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if (_other.tag == Constants.TAG_PLAYER)
         {
             _target = _other.gameObject;
 
@@ -141,14 +139,11 @@ public class NPCBehaviour : MonoBehaviour {
 
     void OnTriggerStay2D(Collider2D _other)
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if (_other.tag == Constants.TAG_PLAYER)
         {
-            if (npcInteraction == NPCInteraction.INTERACTION_THUMBSTICK && npcType != NPCType.TYPE_VILLAGER && inputStick != null)
+            if (npcInteraction == NPCInteraction.INTERACTION_BUTTON && npcType != NPCType.TYPE_VILLAGER && interacted == true)
             {
-                if (inputStick.stickUnitDirection.y > 1)
-                {
-                    CheckTradeShop();
-                }
+                CheckTradeShop();
             }
             else if (npcInteraction == NPCInteraction.INTERACTION_NEARBY && npcType != NPCType.TYPE_VILLAGER)
             {
@@ -159,7 +154,7 @@ public class NPCBehaviour : MonoBehaviour {
 
     void CheckTradeShop()
     {
-        if (npcType == NPCType.TYPE_TRADER && gameObject.GetComponent<NPCShop>() != null)
+        if (npcType == NPCType.TYPE_TRADER && npcPhases != NPCPhases.PHASE_TRADING && gameObject.GetComponent<NPCShop>() != null)
         {
             npcPhases = NPCPhases.PHASE_TRADING;
             gameObject.GetComponent<NPCShop>().Shop();
@@ -173,7 +168,7 @@ public class NPCBehaviour : MonoBehaviour {
 
     void OnTriggerExit2D(Collider2D _other)
     {
-        if (_other.tag == Constants.PLAYERTAG)
+        if (_other.tag == Constants.TAG_PLAYER)
         {
             _target = null;
 

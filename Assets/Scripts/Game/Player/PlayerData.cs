@@ -16,7 +16,7 @@ public class PlayerData : MonoBehaviour {
         }
         set
         {
-            _gold = value;
+            _gold = gold + value;
         }
     }
 

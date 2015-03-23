@@ -14,7 +14,8 @@ public class ClickButton : MonoBehaviour {
     [SerializeField]
     private int _fingerId = -1;
     private float _curholdTime;
-    private bool _holdable = false;
+
+    public bool changePosition = true;
 
     void Start()
     {
@@ -115,7 +116,10 @@ public class ClickButton : MonoBehaviour {
 
     public virtual void FixedUpdate()
     {
-        transform.localPosition = new Vector3(-Camera.main.orthographicSize + position.x, position.y, transform.localPosition.z);
+        if (changePosition == true)
+        {
+            transform.localPosition = new Vector3(-Camera.main.orthographicSize + position.x, position.y, transform.localPosition.z);
+        }
     }
 
     public virtual void ButtonUpdate()

@@ -3,85 +3,81 @@ using System.Collections;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(BoxCollider2D))]
-public class Projectile : MonoBehaviour {
+public class Projectile : MonoBehaviour
+{
 
+    #region Vars
     public enum projectileTypes
     {
-        TYPE_NONE = 0,
-        TYPE_EXPLOSIVE = 1
+        TYPE_NONE = 0,          // No special effects.
+        TYPE_EXPLOSIVE = 1      // Explode on touch ground.
     }
 
     public projectileTypes types = projectileTypes.TYPE_NONE;
 
-    public float damage = 1f;
-    public float bulletSpeed = 1.5f;
-    public float lifeTime = 3f;
+    public GameObject owner;    // GameObject who shot the projectile.
 
-    public float wallDetectMargin = 0.9f;
-    public float groundDetectMargin = 0.9f;
+    [HideInInspector]
+    public float damage = 1f;           // Damage of the bullet set by gun.
+    public float bulletSpeed = 1.5f;    // Speed of the bullet.
+    public float lifeTime = 3f;         // Lifetime of bullet.
+    [HideInInspector]
+    public float moveX;                 // Way the bullet moves.
 
-    public bool instantDeath = false;
+    public bool instantDeath = false;   // Set true of projectile instantly kills the gameobject.
 
-    public float moveX;
+    private float _wallDetectMargin = 0.9f;
+    private float _groundDetectMargin = 0.9f;
+    #endregion
 
+    #region Methods
     void Start()
     {
-        Destroy(gameObject, lifeTime);
+        Destroy(gameObject, lifeTime); // Destroy the projectile after x seconds.
     }
 
     void Update()
     {
-        transform.Translate(new Vector2(moveX, 0) * bulletSpeed * Time.deltaTime);
+        transform.Translate(new Vector2(moveX, 0) * bulletSpeed * Time.deltaTime); // Move the Projectile.
     }
 
     void OnCollisionEnter2D(Collision2D _other)
     {
-        print("k");
-        if (types == projectileTypes.TYPE_NONE)
+        /* If type is explosive check every contactpoint. If Gameobject touches the ground, do the explode animation */
+        if (types == projectileTypes.TYPE_EXPLOSIVE) 
         {
-            print("l");
-            if (_other.gameObject.tag == Constants.PLAYERTAG)
-            {
-                print("kk");
-                Destroy(gameObject);
-                _other.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-damage);
-            }
-            else if (_other.gameObject.tag == Constants.ENEMYTAG)
-            {
-                print("ll");
-                Destroy(gameObject);
-                _other.gameObject.GetComponent<NPCHealth>().ChangeHealth(-damage);
-            }
-        }
-        else if (types == projectileTypes.TYPE_EXPLOSIVE)
-        {
-            float lookDir = transform.localScale.x;
-            lookDir /= Mathf.Abs(lookDir);
+            float lookDir = transform.localScale.x; 
+            lookDir /= Mathf.Abs(lookDir); 
 
             foreach(ContactPoint2D contact in _other.contacts)
             {
                 Vector2 pos = contact.normal;
                 pos.x *= lookDir;
 
-                if(pos.y > groundDetectMargin || pos.x < -wallDetectMargin || pos.x > wallDetectMargin)
+                if (pos.y > _groundDetectMargin || pos.x < -_wallDetectMargin || pos.x > _wallDetectMargin)
                 {
-                    gameObject.GetComponent<Animator>(); // set trigger to explode;
+                    gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
+                    Destroy(gameObject, 1f);
                 }
             }
+        }
 
-            if(gameObject.GetComponent<Animator>()) // get trigger to explode
+        /* If the GameObject touches a player or an enemy, check once again if he doesn't hit himself. If that isn't so, deal damage to the target */
+
+        if (_other.gameObject.tag == Constants.TAG_PLAYER || _other.gameObject.tag == Constants.TAG_ENEMY)
+        {
+            if (_other.gameObject.tag != owner.tag)
             {
-                if (_other.gameObject.tag == Constants.PLAYERTAG && gameObject.tag != Constants.PLAYERTAG)
+                Destroy(gameObject);
+                _other.gameObject.GetComponent<Health>().health = -damage;
+
+                if (types == projectileTypes.TYPE_EXPLOSIVE)
                 {
-                    Destroy(gameObject);
-                    _other.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-damage);
-                }
-                else if (_other.gameObject.tag == Constants.ENEMYTAG && gameObject.tag != Constants.ENEMYTAG)
-                {
-                    Destroy(gameObject);
-                    _other.gameObject.GetComponent<NPCHealth>().ChangeHealth(-damage);
+                    gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
+                    Destroy(gameObject, 1f);
                 }
             }
         }
     }
+    #endregion
 }

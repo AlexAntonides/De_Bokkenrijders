@@ -13,8 +13,8 @@ public class AttackButton : ClickButton
 
     void Start()
     {
-        _weapon = GameObject.FindGameObjectWithTag(Constants.PLAYERTAG).transform.Find(WEAPONS).gameObject.GetComponent<Weapon>();
-        _gun = GameObject.FindGameObjectWithTag(Constants.PLAYERTAG).transform.Find(WEAPONS).gameObject.GetComponent<Gun>();
+        _weapon = GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).transform.Find(WEAPONS).gameObject.GetComponent<Weapon>();
+        _gun = GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).transform.Find(WEAPONS).gameObject.GetComponent<Gun>();
 
         _curAttackTimer = _weapon.attackSpeed;
         _curShootTimer = _gun.reloadSpeed;
@@ -28,7 +28,7 @@ public class AttackButton : ClickButton
 
     public override void ButtonPressed()
     {
-        if (GameObject.FindGameObjectWithTag(Constants.PLAYERTAG).GetComponent<Animator>().GetBool(Constants.PLAYER_ANIMATOR_PARAMETER_ONGROUND))
+        if (GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<Animator>().GetBool(Constants.PLAYER_ANIMATOR_PARAMETER_ONGROUND))
         {
             if (_curAttackTimer >= _weapon.attackSpeed)
             {
@@ -40,7 +40,7 @@ public class AttackButton : ClickButton
 
     public override void ButtonHold()
     {
-        if (GameObject.FindGameObjectWithTag(Constants.PLAYERTAG).GetComponent<Animator>().GetBool(Constants.PLAYER_ANIMATOR_PARAMETER_ONGROUND))
+        if (GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<Animator>().GetBool(Constants.PLAYER_ANIMATOR_PARAMETER_ONGROUND))
         {
             if (_curShootTimer >= _gun.reloadSpeed)
             {

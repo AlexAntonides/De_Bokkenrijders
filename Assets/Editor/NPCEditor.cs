@@ -32,10 +32,6 @@ public class NPCEditor : Editor {
             case NPCBehaviour.NPCInteraction.INTERACTION_NEARBY:
                 _target.interactionRange = EditorGUILayout.FloatField("Interaction Range:", _target.interactionRange);
                 break;
-
-            case NPCBehaviour.NPCInteraction.INTERACTION_THUMBSTICK:
-                _target.inputStick = (ThumbStick)EditorGUILayout.ObjectField("Input Stick:", _target.inputStick, typeof(ThumbStick), true);
-                break;
         }
     }
 }

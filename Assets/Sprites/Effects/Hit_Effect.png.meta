@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 7d317eb499176294091c32b86e7301a6
+timeCreated: 1427104592
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hit_Effect_0
+    21300002: Hit_Effect_1
+    21300004: Hit_Effect_2
+    21300006: Hit_Effect_3
+    21300008: Hit_Effect_4
+    21300010: Hit_Effect_5
+    21300012: Hit_Effect_6
+    21300014: Hit_Effect_7
+    21300016: Hit_Effect_8
+    21300018: Hit_Effect_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hit_Effect_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 80
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 80
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 80
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 84
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_4
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 88
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 15
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 19
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 23
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 28
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hit_Effect_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 30
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

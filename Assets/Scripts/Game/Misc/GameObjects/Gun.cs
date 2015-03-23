@@ -2,37 +2,75 @@
 using System.Collections;
 
 [RequireComponent(typeof(Animator))]
-public class Gun : MonoBehaviour {
+public class Gun : MonoBehaviour
+{
 
-    public GameObject bullet;
+    #region Vars
+    public GameObject bullet;                   // Bullet to shoot.
+    public Transform spawnPoint;                // Bullet Spawnpoint.
+     
+    public float damage;                        // Damage that the gun does.
+    public float reloadSpeed;                   // Reload speed.
+    public float bulletSpawnTime = 0.2f;        // Fix for gun. Amount of seconds when the bullet spawns. 
+    public float bulletsToShoot = 3;            // Amount of Bullets that the gun will shoot.
 
-    public float damage;
-    public float reloadSpeed;
-    public float bulletSpawnTime = 0.2f;
-    public float bulletsToShoot = 3;
-
-    [SerializeField]
-    private const string SHOOT = "Shoot";
     private Animator _controller;
-    
+    private GameObject owner;                   
+    #endregion
+
+    #region Methods
     void Start()
     {
+        /* Get all information needed on start */
+
         _controller = gameObject.GetComponent<Animator>();
+
+        if (transform.parent.tag == Constants.TAG_PLAYER)
+        {
+            owner = transform.parent.gameObject;
+        }
+        else
+        {
+            owner = gameObject;
+        }
     }
     
     public void Shoot()
     {
-        _controller.SetTrigger(SHOOT);
+        /* Play the Animation and spawn the bullet after x seconds */
+
+        _controller.SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
         Invoke("SpawnBullet", bulletSpawnTime);
     }
 
     void SpawnBullet()
     {
+        /* Get the Scale of the object. */
+
+        float scaleX;
+
+        if (transform.parent.tag == Constants.TAG_PLAYER)
+        {
+            scaleX = gameObject.GetComponentInParent<Transform>().localScale.x;
+            print(scaleX);
+        }
+        else
+        {
+            scaleX = transform.localScale.x;
+        }
+
+        /* Spawn x amount of bullets and set the information */
+
         for (int i = 0; i < bulletsToShoot; i++)
         {
-            Instantiate(bullet, new Vector2(transform.position.x + (GetComponentInParent<Transform>().lossyScale.x * 2), transform.position.y), transform.rotation);
-            bullet.GetComponent<Projectile>().damage = damage;
-            bullet.GetComponent<Projectile>().moveX = GetComponentInParent<Transform>().lossyScale.x;
+            Instantiate(bullet, spawnPoint.position, transform.rotation);
+
+            Projectile projectile = bullet.GetComponent<Projectile>();
+            projectile.damage = damage; // Damage.
+            projectile.moveX = scaleX;  // Scale of the object.
+            projectile.owner = owner;   // Gameobject who shot the projectile.
+            projectile.lifeTime = projectile.lifeTime * i;    // Lifetime of projectile.
         }
     }
+    #endregion
 }

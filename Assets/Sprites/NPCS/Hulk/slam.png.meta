@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 180a9c4c25dc0a544ade45047770e286
+timeCreated: 1427050809
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: slam_0
+    21300002: slam_1
+    21300004: slam_2
+    21300006: slam_3
+    21300008: slam_4
+    21300010: slam_5
+    21300012: slam_6
+    21300014: slam_7
+    21300016: slam_8
+    21300018: slam_9
+    21300020: slam_10
+    21300022: slam_11
+    21300024: slam_12
+    21300026: slam_13
+    21300028: slam_14
+    21300030: slam_15
+    21300032: slam_16
+    21300034: slam_17
+    21300036: slam_18
+    21300038: slam_19
+    21300040: slam_20
+    21300042: slam_21
+    21300044: slam_22
+    21300046: slam_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: slam_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 642
+        width: 73
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 643
+        width: 75
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 642
+        width: 94
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_3
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 642
+        width: 112
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_4
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 642
+        width: 127
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_5
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 642
+        width: 113
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_6
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 642
+        width: 101
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_7
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 642
+        width: 91
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 324
+        width: 92
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 324
+        width: 93
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 322
+        width: 88
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_11
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 323
+        width: 81
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_12
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 341
+        width: 86
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_13
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 362
+        width: 108
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_14
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 386
+        width: 138
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_15
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 368
+        width: 127
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 34
+        width: 167
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 22
+        width: 155
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_18
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 13
+        width: 145
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_19
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 7
+        width: 137
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_20
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 6
+        width: 129
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_21
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 5
+        width: 126
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_22
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 5
+        width: 102
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slam_23
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 6
+        width: 79
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
