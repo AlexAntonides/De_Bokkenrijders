@@ -53,21 +53,28 @@ public class HybridBehaviour : EnemyBehaviour {
             }
             else if (_distance < shootRange)
             {
-                state = EnemyStates.ATTACK;
-                animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, false);
-
                 if (_tRange > _rangeSpeed && _rangeSpeed != 0)
                 {
+                    StopWalking();
                     animator.SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
-                    gameObject.GetComponent<Gun>().Shoot();
+                    //gameObject.GetComponent<Gun>().Shoot();
                     _tRange = 0;
+                }
+                else
+                {
+                    state = EnemyStates.WALK;
                 }
 
                 if (_tThrow > _throwSpeed && _throwSpeed != 0)
                 {
+                    StopWalking();
                     animator.SetTrigger(Constants.ENEMY_ANIMATOR_PARAMETER_THROW);
-                    gameObject.GetComponent<ThrowableObject>().Throw();
+                    //gameObject.GetComponent<ThrowableObject>().Throw();
                     _tThrow = 0;
+                }
+                else
+                {
+                    state = EnemyStates.WALK;
                 }
             }
             else if (_distance > attackRange)
@@ -75,5 +82,11 @@ public class HybridBehaviour : EnemyBehaviour {
                 state = EnemyStates.WALK;
             }
         }
+    }
+
+    void StopWalking()
+    {
+        state = EnemyStates.ATTACK;
+        animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, false);
     }
 }

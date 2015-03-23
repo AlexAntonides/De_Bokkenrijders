@@ -23,6 +23,7 @@ public class Projectile : MonoBehaviour
     public float lifeTime = 3f;         // Lifetime of bullet.
     [HideInInspector]
     public float moveX;                 // Way the bullet moves.
+    public float moveY = 0;                 // Way the bullet moves.
 
     public bool instantDeath = false;   // Set true of projectile instantly kills the gameobject.
 
@@ -38,7 +39,7 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(new Vector2(moveX, 0) * bulletSpeed * Time.deltaTime); // Move the Projectile.
+        transform.Translate(new Vector2(moveX, moveY) * bulletSpeed * Time.deltaTime); // Move the Projectile.
     }
 
     void OnCollisionEnter2D(Collision2D _other)

@@ -24,6 +24,11 @@ public class AttackButton : ClickButton
     {
         _curAttackTimer += Time.deltaTime;
         _curShootTimer += Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            ButtonPressed();
+        }
     }
 
     public override void ButtonPressed()

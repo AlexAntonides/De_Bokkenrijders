@@ -15,14 +15,15 @@ public class ThrowableObject : MonoBehaviour
     #region Method
     public void Throw()
     {
-        Instantiate(gObject, spawnPoint.position, transform.rotation);
+        Instantiate(gObject, spawnPoint.position, Quaternion.Euler(new Vector2(spawnPoint.rotation.x, spawnPoint.rotation.y - 0.5f)));
 
         Projectile projectileComponent = gObject.GetComponent<Projectile>();
         projectileComponent.damage = damage;
         projectileComponent.owner = gameObject;
         projectileComponent.lifeTime = 5f;
-        projectileComponent.bulletSpeed = 3f;
+        projectileComponent.bulletSpeed = 10f;
         projectileComponent.moveX = transform.localScale.x;
+        projectileComponent.moveY = -0.5f;
     }
     #endregion
 }

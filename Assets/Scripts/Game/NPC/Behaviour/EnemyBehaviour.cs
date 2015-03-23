@@ -97,11 +97,11 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (target != null)
         {
-            if (transform.position.x - target.transform.position.x > 0)
+            if (transform.position.x - target.transform.position.x > 0.5)
             {
                 _walkDirection = -1;
             }
-            else if (transform.position.x - target.transform.position.x < 0)
+            else if (transform.position.x - target.transform.position.x < -0.5)
             {
                 _walkDirection = 1;
             }

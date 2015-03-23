@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
 
     #region Vars
+    public int weaponID;        // ID of Weapon.
     public float damage;        // Damage of the weapon.
     public float range;         // Range of the weapon.         // This is for the shop.
     public float attackSpeed;   // Attackspeed of the weapon.   
