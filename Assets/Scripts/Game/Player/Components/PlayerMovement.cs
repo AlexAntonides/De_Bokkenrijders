@@ -2,62 +2,97 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-    #region Properties
+    #region Vars
 
     public float speed = 5f;
     public float acceleration = 0.1f;
+    public float wallPushTime = 1f;
 
-    #endregion
-
-    #region Vars
-
-    private Animator _animator;
     private float _moveDir = 0f;
-    private float _lookDir = 1f;
+    private bool _lookingRight = true;
 
+    [SerializeField]
+    private float _wallPushTime = 0f;
+    private bool _canWallPush = false;
+    private bool _wallPushing = false;
+
+    // Other components
+    private Rigidbody2D _rigidbody;
+    private Animator _animator;
+    private PlayerCollision _collider;
+    private PlayerJump _jumpscript;
+    
     #endregion
 
     #region Methods
 
-    void Start()
+    private void Start()
     {
+        _collider = GetComponent<PlayerCollision>();
         _animator = GetComponent<Animator>();
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _jumpscript = GetComponent<PlayerJump>();
     }
 
-    void FixedUpdate()
+    private void Update()
+    {
+        if (_wallPushing)
+        {
+            _wallPushTime += Time.deltaTime;
+            
+            // Wall push end from timeout
+            if (_wallPushTime >= wallPushTime)
+            {
+                _wallPushing = false;
+                _canWallPush = false;
+            }
+        }
+    }
+
+    private void FixedUpdate()
     {
         // Horizontal movement
-        if (_moveDir != 0)
+        if (_moveDir != 0 && !_jumpscript.IsWallJumping)
         {
-            Vector2 currentVelo = GetComponent<Rigidbody2D>().velocity;
+            Vector2 currentVelo = _rigidbody.velocity;
             Vector2 targetVelo = new Vector2(speed * _moveDir, currentVelo.y);
             
             if (currentVelo != targetVelo)
             {
-                GetComponent<Rigidbody2D>().velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
+                _rigidbody.velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
             }
         }
 
+        // Wall push end from wall lost
+        if (_canWallPush && !_collider.OnWall)
+        {
+            _wallPushing = false;
+            _canWallPush = false;
+        }
+        // Enable wall pushing when connecting with wall
+        else if (!_wallPushing && _collider.WallEntered)
+        {
+            _canWallPush = true;
+        }
     }
 
-    private void ApplyRotation()
+    public void ApplyRotation()
     {
-        if (_moveDir == 0f) return;
-
         // Check if art is already rotated towards direction
         Vector3 currentScale = transform.localScale;
-        float newLookDir = _moveDir / Mathf.Abs(_moveDir);
+        bool currentLookingRight = currentScale.x / Mathf.Abs(currentScale.x) > 0;
 
-        if (_lookDir != newLookDir)
+        if (currentLookingRight != _lookingRight)
         {
-            _lookDir = newLookDir;
-            transform.localScale = new Vector3(newLookDir * Mathf.Abs(currentScale.x), currentScale.y, currentScale.z);
+            //Debug.Log("Now looking " + (_lookingRight ? "right" : "left"));
+            float dir = _lookingRight ? 1 : -1;
+            transform.localScale = new Vector3(dir * Mathf.Abs(currentScale.x), currentScale.y, currentScale.z);
         }
     }
 
     #endregion
 
-    #region Get & Set
+    #region Properties
 
     public float Direction
     {
@@ -69,16 +104,57 @@ public class PlayerMovement : MonoBehaviour
         {
             // Bound value
             value = Mathf.Min(Mathf.Max(value, -1), 1);
+
+            // Allow player to push into wall
+            if (!_wallPushing &&_canWallPush && !_collider.OnGround && (_collider.OnLeftWall ? value < 0 : value > 0))
+            {
+                _wallPushTime = 0f;
+                _wallPushing = true;
+            }
+
+            // Stop player from pushing into wall
+            if (!_wallPushing && _collider.OnWall)
+            {
+                if (_collider.OnLeftWall) value = Mathf.Max(value, 0f);
+                if (_collider.OnRightWall) value = Mathf.Min(value, 0f);
+            }
             
             _moveDir = value;
 
+            // Rotate
+            if (value != 0f && !_wallPushing && !_jumpscript.IsWallJumping)
+            {
+                LookingRight = value > 0f;
+            }
+
+            // Set anim
             if (_moveDir == 0f) _animator.SetBool("IsRunning", false);
             else _animator.SetBool("IsRunning", true);
-
-            ApplyRotation();
         }
     }
 
     #endregion
 
+    #region Properties
+
+    public bool LookingRight
+    {
+        get { return _lookingRight; }
+        set
+        {
+            _lookingRight = value;
+            ApplyRotation();
+        }
+    }
+    public bool LookingLeft
+    {
+        get { return !_lookingRight; }
+        set
+        {
+            _lookingRight = !value;
+            ApplyRotation();
+        }
+    }
+
+    #endregion
 }

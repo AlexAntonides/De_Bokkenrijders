@@ -5,9 +5,7 @@ public class CameraMovementScript : MonoBehaviour
 {
     #region Vars
 
-    public float accelleration = 1f;
     public float maxSpeed = 6f;
-    public float breakSpeed = 0.5f;
     public Vector3 minPos = Vector3.zero;
     public Vector3 maxPos = Vector3.zero;
     public GameObject followingObject;
@@ -19,23 +17,28 @@ public class CameraMovementScript : MonoBehaviour
     void Update()
     {
         // Target point to look at
-        float horizontalTargetX = followingObject.transform.position.x + followingObject.transform.localScale.x * Camera.main.orthographicSize / 4;
-        float horizontalTargetY = followingObject.transform.position.y + followingObject.transform.localScale.y * Camera.main.orthographicSize / 4;
+        Vector3 targetPoint = followingObject.transform.position + followingObject.transform.localScale * Camera.main.orthographicSize / 4;
+        //float horizontalTargetX = followingObject.transform.position.x + followingObject.transform.localScale.x * Camera.main.orthographicSize / 4;
+        //float horizontalTargetY = followingObject.transform.position.y + followingObject.transform.localScale.y * Camera.main.orthographicSize / 4;
 
-        // Calculate horizontal offset towards player look direction
-        float horizontalOffsetX = horizontalTargetX - transform.position.x;
-        float horizontalOffsetY = horizontalTargetY - transform.position.y;
+        // Bound position
+        if (minPos != Vector3.zero) targetPoint = Vector3.Max(targetPoint, minPos);
+        if (maxPos != Vector3.zero) targetPoint = Vector3.Min(targetPoint, maxPos);
 
-        // Calc final pos
-        Vector3 newPos = Vector3.Lerp(transform.position, transform.position + new Vector3(horizontalOffsetX, horizontalOffsetY, 0), maxSpeed * Time.deltaTime);
+        // Calculate offset
+        Vector3 offset = targetPoint - transform.position;
+        offset.z = 0;
+        //float offsetX = horizontalTargetX - transform.position.x;
+        //float offsetY = horizontalTargetY - transform.position.y;
 
-        // Bound pos
-        if (minPos != Vector3.zero) newPos = Vector3.Max(newPos, minPos);
-        if (maxPos != Vector3.zero) newPos = Vector3.Min(newPos, maxPos);
+        if (offset.magnitude > 0)
+        {
+            // Calc final pos
+            Vector3 newPos = Vector3.Lerp(transform.position, transform.position + offset, maxSpeed * Time.deltaTime);
 
-        // Move to target
-        transform.position = newPos;
-
+            // Move to target
+            transform.position = newPos;
+        }
     }
 
     #endregion

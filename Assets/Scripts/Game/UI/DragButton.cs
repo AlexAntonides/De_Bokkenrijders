@@ -12,6 +12,8 @@ public class DragButton : MonoBehaviour {
 
         if (hit.collider != null)
         {
+            print(hit.collider.name);
+
             if (Input.GetMouseButton(0) && hit.transform.name == transform.name)
             {
                 ButtonPressed();
