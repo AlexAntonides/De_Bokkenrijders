@@ -85,6 +85,8 @@
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\PauseButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\PhaseSwitchButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\ThumbStick.cs" />
+     <Compile Include="Assets\Scripts\Game\UserData.cs" />
+     <Compile Include="Assets\Scripts\Game\UserDataHandler.cs" />
      <Compile Include="Assets\Scripts\Menu\LoadSceneOnTap.cs" />
      <Compile Include="Assets\TutorialDisplayer.cs" />
  <Reference Include="UnityEngine.UI">

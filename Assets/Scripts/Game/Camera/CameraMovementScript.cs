@@ -20,7 +20,7 @@ public class CameraMovementScript : MonoBehaviour
         Vector3 targetPoint = followingObject.transform.position + followingObject.transform.localScale * Camera.main.orthographicSize / 4;
         //float horizontalTargetX = followingObject.transform.position.x + followingObject.transform.localScale.x * Camera.main.orthographicSize / 4;
         //float horizontalTargetY = followingObject.transform.position.y + followingObject.transform.localScale.y * Camera.main.orthographicSize / 4;
-
+        
         // Bound position
         if (minPos != Vector3.zero) targetPoint = Vector3.Max(targetPoint, minPos);
         if (maxPos != Vector3.zero) targetPoint = Vector3.Min(targetPoint, maxPos);
@@ -39,6 +39,12 @@ public class CameraMovementScript : MonoBehaviour
             // Move to target
             transform.position = newPos;
         }
+    }
+
+    public void Shake(float force)
+    {
+        Vector3 offsetForce = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0) * force;
+        transform.position += offsetForce;
     }
 
     #endregion
