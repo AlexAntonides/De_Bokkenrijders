@@ -45,7 +45,7 @@ public class ClickButton : MonoBehaviour {
                 // Check collision
                 Vector3 currentPos = Camera.main.ScreenToWorldPoint(current.position);
                 currentPos.z = transform.position.z;
-                if (GetComponent<Collider>().bounds.Contains(currentPos))
+                if (GetComponent<Collider2D>().bounds.Contains(currentPos))
                 {
                     touchPos = currentPos;
                     currentTouch = current;
