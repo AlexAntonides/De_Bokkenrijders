@@ -69,13 +69,18 @@ public class Projectile : MonoBehaviour
         {
             if (_other.gameObject.tag != owner.tag)
             {
-                Destroy(gameObject);
                 _other.gameObject.GetComponent<Health>().health = -damage;
 
                 if (types == projectileTypes.TYPE_EXPLOSIVE)
                 {
                     gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
-                    Destroy(gameObject, 1f);
+                    Destroy(gameObject, 1.5f);
+                    moveX = 0;
+                    moveY = 0;
+                }
+                else
+                {
+                    Destroy(gameObject);
                 }
             }
         }

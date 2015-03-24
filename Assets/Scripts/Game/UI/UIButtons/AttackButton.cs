@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AttackButton : ClickButton
+public class AttackButton : HoldButton
 {
     private const string WEAPONS = "Weapons";
 

@@ -139,8 +139,11 @@ public class EnemyBehaviour : MonoBehaviour
         }
         else if (state == EnemyStates.WALK && _walkDirection != 0)
         {
-            _animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, true);
-            transform.position = new Vector2((transform.position.x + _walkDirection * moveSpeed * Time.deltaTime), transform.position.y);
+            if (_animator.GetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK) != null)
+            {
+                _animator.SetBool(Constants.ENEMY_ANIMATOR_PARAMETER_WALK, true);
+                transform.position = new Vector2((transform.position.x + _walkDirection * moveSpeed * Time.deltaTime), transform.position.y);
+            }
         }
         else if (state == EnemyStates.ATTACK && phase == EnemyPhases.INCOMBAT)
         {

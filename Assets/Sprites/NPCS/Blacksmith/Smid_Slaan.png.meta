@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0577abfef73c57a4180d1b36eb1a667a
-timeCreated: 1426522255
+timeCreated: 1427176916
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -72,7 +72,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 50
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -81,30 +81,30 @@ TextureImporter:
     - name: Smid_Slaan_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1126
-        width: 116
-        height: 193
+        x: 0
+        y: 1125
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_1
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1126
-        width: 126
-        height: 193
+        x: 180
+        y: 1125
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_2
       rect:
         serializedVersion: 2
-        x: 386
-        y: 1126
-        width: 141
-        height: 193
+        x: 360
+        y: 1125
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,259 +112,259 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 540
-        y: 1126
-        width: 167
-        height: 193
+        y: 1125
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_4
       rect:
         serializedVersion: 2
-        x: 766
-        y: 1126
-        width: 121
-        height: 220
+        x: 720
+        y: 1125
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 901
-        width: 120
-        height: 220
+        x: 0
+        y: 900
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_6
       rect:
         serializedVersion: 2
-        x: 227
-        y: 901
-        width: 120
-        height: 220
+        x: 180
+        y: 900
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_7
       rect:
         serializedVersion: 2
-        x: 408
-        y: 901
-        width: 119
-        height: 220
+        x: 360
+        y: 900
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_8
       rect:
         serializedVersion: 2
-        x: 580
-        y: 901
-        width: 127
-        height: 197
+        x: 540
+        y: 900
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_9
       rect:
         serializedVersion: 2
-        x: 764
-        y: 901
-        width: 123
-        height: 193
+        x: 720
+        y: 900
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_10
       rect:
         serializedVersion: 2
-        x: 51
-        y: 676
-        width: 116
-        height: 193
+        x: 0
+        y: 675
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_11
       rect:
         serializedVersion: 2
-        x: 231
-        y: 676
-        width: 116
-        height: 193
+        x: 180
+        y: 675
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_12
       rect:
         serializedVersion: 2
-        x: 411
-        y: 676
-        width: 121
-        height: 193
+        x: 360
+        y: 675
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_13
       rect:
         serializedVersion: 2
-        x: 591
-        y: 676
-        width: 119
-        height: 193
+        x: 540
+        y: 675
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_14
       rect:
         serializedVersion: 2
-        x: 771
-        y: 676
-        width: 118
-        height: 193
+        x: 720
+        y: 675
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_15
       rect:
         serializedVersion: 2
-        x: 51
-        y: 451
-        width: 116
-        height: 193
+        x: 0
+        y: 450
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_16
       rect:
         serializedVersion: 2
-        x: 231
-        y: 451
-        width: 116
-        height: 193
+        x: 180
+        y: 450
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_17
       rect:
         serializedVersion: 2
-        x: 411
-        y: 451
-        width: 116
-        height: 193
+        x: 360
+        y: 450
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_18
       rect:
         serializedVersion: 2
-        x: 591
-        y: 451
-        width: 116
-        height: 193
+        x: 540
+        y: 450
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_19
       rect:
         serializedVersion: 2
-        x: 771
-        y: 451
-        width: 116
-        height: 193
+        x: 720
+        y: 450
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_20
       rect:
         serializedVersion: 2
-        x: 51
-        y: 226
-        width: 116
-        height: 193
+        x: 0
+        y: 225
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_21
       rect:
         serializedVersion: 2
-        x: 231
-        y: 226
-        width: 116
-        height: 193
+        x: 180
+        y: 225
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_22
       rect:
         serializedVersion: 2
-        x: 411
-        y: 226
-        width: 116
-        height: 193
+        x: 360
+        y: 225
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_23
       rect:
         serializedVersion: 2
-        x: 591
-        y: 226
-        width: 116
-        height: 193
+        x: 540
+        y: 225
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_24
       rect:
         serializedVersion: 2
-        x: 771
-        y: 226
-        width: 116
-        height: 193
+        x: 720
+        y: 225
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_25
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1
-        width: 116
-        height: 193
+        x: 0
+        y: 0
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_26
       rect:
         serializedVersion: 2
-        x: 231
-        y: 1
-        width: 116
-        height: 193
+        x: 180
+        y: 0
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_27
       rect:
         serializedVersion: 2
-        x: 411
-        y: 1
-        width: 116
-        height: 193
+        x: 360
+        y: 0
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Smid_Slaan_28
       rect:
         serializedVersion: 2
-        x: 591
-        y: 1
-        width: 116
-        height: 193
+        x: 540
+        y: 0
+        width: 180
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

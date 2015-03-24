@@ -10,6 +10,8 @@ public class ThrowableObject : MonoBehaviour
 
     public float damage;
     public float throwSpeed;
+
+    public float moveY = -0.5f;
     #endregion
 
     #region Method
@@ -23,7 +25,7 @@ public class ThrowableObject : MonoBehaviour
         projectileComponent.lifeTime = 5f;
         projectileComponent.bulletSpeed = 10f;
         projectileComponent.moveX = transform.localScale.x;
-        projectileComponent.moveY = -0.5f;
+        projectileComponent.moveY = moveY;
     }
     #endregion
 }

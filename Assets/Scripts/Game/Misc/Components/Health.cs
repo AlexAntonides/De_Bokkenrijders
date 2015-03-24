@@ -34,10 +34,16 @@ public class Health : MonoBehaviour
                 }
                 else
                 {
-                    transform.Find("Weapons").gameObject.SetActive(false);
+                    //
                 }
             }
         }
     }
+
+    public void DisableWeapon()
+    {
+        transform.Find("Weapons").gameObject.SetActive(false);
+    }
+
     #endregion
 }

@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: ebcfcc41afb3d904091a87bd85a811c0
+timeCreated: 1427132883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_0
+    21300002: Idle_1
+    21300004: Idle_2
+    21300006: Idle_3
+    21300008: Idle_4
+    21300010: Idle_5
+    21300012: Idle_6
+    21300014: Idle_7
+    21300016: Idle_8
+    21300018: Idle_9
+    21300020: Idle_10
+    21300022: Idle_11
+    21300024: Idle_12
+    21300026: Idle_13
+    21300028: Idle_14
+    21300030: Idle_15
+    21300032: Idle_16
+    21300034: Idle_17
+    21300036: Idle_18
+    21300038: Idle_19
+    21300040: Idle_20
+    21300042: Idle_21
+    21300044: Idle_22
+    21300046: Idle_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1579
+        width: 341
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1579
+        width: 341
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_2
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1579
+        width: 340
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1354
+        width: 340
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1354
+        width: 341
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_5
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1354
+        width: 340
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1128
+        width: 340
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1127
+        width: 340
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_8
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1128
+        width: 340
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 903
+        width: 339
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 902
+        width: 340
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_11
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 903
+        width: 339
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 678
+        width: 339
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 678
+        width: 340
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_14
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 678
+        width: 340
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 453
+        width: 339
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 454
+        width: 340
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_17
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 453
+        width: 340
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 229
+        width: 341
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_19
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 229
+        width: 340
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_20
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 229
+        width: 340
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4
+        width: 340
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 4
+        width: 342
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_23
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 4
+        width: 341
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

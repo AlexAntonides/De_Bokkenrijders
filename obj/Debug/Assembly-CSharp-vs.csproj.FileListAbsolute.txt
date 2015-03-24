@@ -23,3 +23,6 @@ C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\Temp
 C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\obj\Debug\Assembly-CSharp.dll
 C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\Project-Mythe\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\Project-Mythe\obj\Debug\Assembly-CSharp.dll
+C:\Users\Alex Antonides\Projects\Project Mythe; De Bokkenrijders\Mythe Code\Project-Mythe\obj\Debug\Assembly-CSharp.pdb

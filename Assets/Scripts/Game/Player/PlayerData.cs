@@ -5,6 +5,8 @@ public class PlayerData : MonoBehaviour {
 
     /* This is the Class that holds the current Data of the player such as: Gold, Ammunition etc. */
 
+    public bool villageTakenOver = false;
+
     private int _gold;
     private int _ammunition;
 

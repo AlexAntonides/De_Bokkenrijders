@@ -25,7 +25,7 @@ public class Gun : MonoBehaviour
 
         _controller = gameObject.GetComponent<Animator>();
 
-        if (transform.parent.tag == Constants.TAG_PLAYER)
+        if (transform.parent != null)
         {
             owner = transform.parent.gameObject;
         }
@@ -39,7 +39,7 @@ public class Gun : MonoBehaviour
     {
         /* Play the Animation and spawn the bullet after x seconds */
 
-        _controller.SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
+        //_controller.SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
         Invoke("SpawnBullet", bulletSpawnTime);
     }
 
@@ -49,7 +49,7 @@ public class Gun : MonoBehaviour
 
         float scaleX;
 
-        if (transform.parent.tag == Constants.TAG_PLAYER)
+        if (transform.parent != null)
         {
             scaleX = gameObject.GetComponentInParent<Transform>().localScale.x;
             print(scaleX);
@@ -68,6 +68,7 @@ public class Gun : MonoBehaviour
             Projectile projectile = bullet.GetComponent<Projectile>();
             projectile.damage = damage; // Damage.
             projectile.moveX = scaleX;  // Scale of the object.
+            projectile.bulletSpeed = 10f; // bulletspeed;
             projectile.owner = owner;   // Gameobject who shot the projectile.
             projectile.lifeTime = projectile.lifeTime * i;    // Lifetime of projectile.
         }
