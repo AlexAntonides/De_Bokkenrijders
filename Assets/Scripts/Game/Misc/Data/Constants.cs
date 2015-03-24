@@ -1,8 +1,33 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum Levels
+{
+    Forest = 1,
+    Village = 2,
+    Cave = 3,
+    Cathedral = 4
+}
+
+public enum CloseWeaponTypes
+{
+    MathiasSword = 0,
+    MelsSword = 1
+}
+
 public class Constants
 {
+    #region SaveData
+
+    public static string SAVEDATA_TAGS_MONEY = "MONEY";
+    public static string SAVEDATA_TAGS_BULLETS = "BULLETS";
+    public static string SAVEDATA_TAGS_NAME = "NAME";
+    public static string SAVEDATA_TAGS_LEVEL = "CURRENT_LEVEL";
+    public static string SAVEDATA_TAGS_CITY_CLEARED = "CITY_CLEARED";
+    public static string SAVEDATA_TAGS_CURRENT_WEAPON = "CURRENT_WEAPON";
+
+    #endregion
+
     #region Names
     public static string NAME_CONTROLLER = "Controller";
     public static string NAME_EFFECT = "Effects";
