@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 0f181658e51fa924c9b58adf38b6054e
+timeCreated: 1427221506
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stad_Assets_0
+    21300002: Stad_Assets_1
+    21300004: Stad_Assets_2
+    21300006: Stad_Assets_3
+    21300008: Stad_Assets_4
+    21300010: Stad_Assets_5
+    21300012: Stad_Assets_6
+    21300014: Stad_Assets_7
+    21300016: Stad_Assets_8
+    21300018: Stad_Assets_9
+    21300020: Stad_Assets_10
+    21300022: Stad_Assets_11
+    21300024: Stad_Assets_12
+    21300026: Stad_Assets_13
+    21300028: Stad_Assets_14
+    21300030: Stad_Assets_15
+    21300032: Stad_Assets_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Stad_Assets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 922
+        width: 264
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 910
+        width: 258
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1212
+        width: 174
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_3
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 881
+        width: 377
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_4
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1334
+        width: 300
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_5
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1012
+        width: 92
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 921
+        width: 265
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_7
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1182
+        width: 627
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_8
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1103
+        width: 20
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_9
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 958
+        width: 187
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_10
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1104
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_11
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 1105
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_12
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1098
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 864
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_14
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 382
+        width: 384
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_15
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 486
+        width: 546
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stad_Assets_16
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 200
+        width: 398
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,5 +8,6 @@ public class RestartButton : ClickButton
     public override void ButtonPressed()
     {
         Application.LoadLevel(Application.loadedLevel);
+        Time.timeScale = 1;
     }
 }

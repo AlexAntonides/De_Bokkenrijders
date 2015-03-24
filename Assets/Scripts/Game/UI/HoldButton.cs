@@ -8,7 +8,7 @@ public class HoldButton : ClickButton {
 
     private int _fingerID = -1;
 
-    public override void FixedUpdate()
+    public override void HoldUpdate()
     {
         if (changePosition == true)
         {

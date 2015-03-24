@@ -35,17 +35,20 @@ public class PlayerJump : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_jumping && _collision.GroundEntered)
+        if (gameObject.GetComponent<Health>().health > 0)
         {
-            _jumping = false;
-            _doubleJump = false;
-            _wallJumping = false;
-            //_moveScript.enabled = true;
-        }
-        else if (_wallJumping && _collision.WallEntered)
-        {
-            //_moveScript.enabled = true;
-            _wallJumping = false;
+            if (_jumping && _collision.GroundEntered)
+            {
+                _jumping = false;
+                _doubleJump = false;
+                _wallJumping = false;
+                //_moveScript.enabled = true;
+            }
+            else if (_wallJumping && _collision.WallEntered)
+            {
+                //_moveScript.enabled = true;
+                _wallJumping = false;
+            }
         }
     }
 

@@ -54,6 +54,8 @@ public class ClickButton : MonoBehaviour {
                 }
             }
         }
+
+        HoldUpdate();
     }
 
     public virtual void FixedUpdate()
@@ -62,6 +64,11 @@ public class ClickButton : MonoBehaviour {
         {
             transform.localPosition = new Vector3(-Camera.main.orthographicSize + position.x, position.y, transform.localPosition.z);
         }
+    }
+
+    public virtual void HoldUpdate()
+    {
+
     }
 
     public virtual void ButtonUpdate()

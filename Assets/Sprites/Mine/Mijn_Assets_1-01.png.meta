@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: b9b3137b64788654eb02c4fd5d52fc24
+timeCreated: 1427221791
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mijn_Assets_1-01_0
+    21300002: Mijn_Assets_1-01_1
+    21300004: Mijn_Assets_1-01_2
+    21300006: Mijn_Assets_1-01_3
+    21300008: Mijn_Assets_1-01_4
+    21300010: Mijn_Assets_1-01_5
+    21300012: Mijn_Assets_1-01_6
+    21300014: Mijn_Assets_1-01_7
+    21300016: Mijn_Assets_1-01_8
+    21300018: Mijn_Assets_1-01_9
+    21300020: Mijn_Assets_1-01_10
+    21300022: Mijn_Assets_1-01_11
+    21300024: Mijn_Assets_1-01_12
+    21300026: Mijn_Assets_1-01_13
+    21300028: Mijn_Assets_1-01_14
+    21300030: Mijn_Assets_1-01_15
+    21300032: Mijn_Assets_1-01_16
+    21300034: Mijn_Assets_1-01_17
+    21300036: Mijn_Assets_1-01_18
+    21300038: Mijn_Assets_1-01_19
+    21300040: Mijn_Assets_1-01_20
+    21300042: Mijn_Assets_1-01_21
+    21300044: Mijn_Assets_1-01_22
+    21300046: Mijn_Assets_1-01_23
+    21300048: Mijn_Assets_1-01_24
+    21300050: Mijn_Assets_1-01_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mijn_Assets_1-01_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1729
+        width: 930
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_1
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1720
+        width: 948
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1064
+        width: 632
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1153
+        width: 1050
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_4
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1570
+        width: 172
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_5
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1395
+        width: 190
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 419
+        width: 650
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 616
+        width: 1032
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_8
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 922
+        width: 237
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_9
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 498
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_10
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 509
+        width: 192
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_11
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 514
+        width: 183
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_12
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 515
+        width: 155
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 503
+        width: 155
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_14
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 422
+        width: 254
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_15
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 383
+        width: 171
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_16
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 393
+        width: 210
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_17
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 403
+        width: 199
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_18
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 412
+        width: 172
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_19
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 389
+        width: 172
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 368
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_21
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 382
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_22
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 28
+        width: 336
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_23
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 19
+        width: 354
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_24
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 152
+        width: 142
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_1-01_25
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 144
+        width: 158
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

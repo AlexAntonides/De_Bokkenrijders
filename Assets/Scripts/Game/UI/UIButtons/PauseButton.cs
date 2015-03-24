@@ -20,15 +20,15 @@ public class PauseButton : ClickButton
             
         if (_pauseScreen.active == true)
         {
+            Pause(false);
             _pauseScreen.SetActive(false);
             _pauseButton.SetActive(true);
-            Pause(false);
         }
         else if (_pauseScreen.active == false)
         {
+            Pause(true);
             _pauseScreen.SetActive(true);
             _pauseButton.SetActive(false);
-            Pause(true);
         }
     }
 

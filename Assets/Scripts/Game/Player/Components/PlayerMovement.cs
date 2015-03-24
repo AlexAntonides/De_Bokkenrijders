@@ -51,28 +51,31 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Horizontal movement
-        if (_moveDir != 0 && !_jumpscript.IsWallJumping)
+        if (gameObject.GetComponent<Health>().health > 0)
         {
-            Vector2 currentVelo = _rigidbody.velocity;
-            Vector2 targetVelo = new Vector2(speed * _moveDir, currentVelo.y);
-            
-            if (currentVelo != targetVelo)
+            // Horizontal movement
+            if (_moveDir != 0 && !_jumpscript.IsWallJumping)
             {
-                _rigidbody.velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
-            }
-        }
+                Vector2 currentVelo = _rigidbody.velocity;
+                Vector2 targetVelo = new Vector2(speed * _moveDir, currentVelo.y);
 
-        // Wall push end from wall lost
-        if (_canWallPush && !_collider.OnWall)
-        {
-            _wallPushing = false;
-            _canWallPush = false;
-        }
-        // Enable wall pushing when connecting with wall
-        else if (!_wallPushing && _collider.WallEntered)
-        {
-            _canWallPush = true;
+                if (currentVelo != targetVelo)
+                {
+                    _rigidbody.velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
+                }
+            }
+
+            // Wall push end from wall lost
+            if (_canWallPush && !_collider.OnWall)
+            {
+                _wallPushing = false;
+                _canWallPush = false;
+            }
+            // Enable wall pushing when connecting with wall
+            else if (!_wallPushing && _collider.WallEntered)
+            {
+                _canWallPush = true;
+            }
         }
     }
 

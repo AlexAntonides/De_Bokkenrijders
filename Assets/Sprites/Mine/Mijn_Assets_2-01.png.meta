@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: cd59bb1f5906f6f4cb0e71135d14cd9e
+timeCreated: 1427221810
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mijn_Assets_2-01_0
+    21300002: Mijn_Assets_2-01_1
+    21300004: Mijn_Assets_2-01_2
+    21300006: Mijn_Assets_2-01_3
+    21300008: Mijn_Assets_2-01_4
+    21300010: Mijn_Assets_2-01_5
+    21300012: Mijn_Assets_2-01_6
+    21300014: Mijn_Assets_2-01_7
+    21300016: Mijn_Assets_2-01_8
+    21300018: Mijn_Assets_2-01_9
+    21300020: Mijn_Assets_2-01_10
+    21300022: Mijn_Assets_2-01_11
+    21300024: Mijn_Assets_2-01_12
+    21300026: Mijn_Assets_2-01_13
+    21300028: Mijn_Assets_2-01_14
+    21300030: Mijn_Assets_2-01_15
+    21300032: Mijn_Assets_2-01_16
+    21300034: Mijn_Assets_2-01_17
+    21300036: Mijn_Assets_2-01_18
+    21300038: Mijn_Assets_2-01_19
+    21300040: Mijn_Assets_2-01_20
+    21300042: Mijn_Assets_2-01_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mijn_Assets_2-01_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 843
+        width: 333
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 836
+        width: 347
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_2
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 836
+        width: 300
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_3
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 821
+        width: 318
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_4
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1135
+        width: 317
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_5
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 737
+        width: 77
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 417
+        width: 211
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 409
+        width: 226
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 569
+        width: 235
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 748
+        width: 335
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_10
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 411
+        width: 162
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_11
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 403
+        width: 179
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_12
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 324
+        width: 249
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_13
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 206
+        width: 247
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_14
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 171
+        width: 263
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_15
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 5
+        width: 91
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 292
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 25
+        width: 274
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 108
+        width: 182
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 117
+        width: 166
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_20
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 15
+        width: 164
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mijn_Assets_2-01_21
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 7
+        width: 182
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
