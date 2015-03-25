@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 601c4b95104af384392949396db68546
+timeCreated: 1427309476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FabioTalk_0
+    21300002: FabioTalk_1
+    21300004: FabioTalk_2
+    21300006: FabioTalk_3
+    21300008: FabioTalk_4
+    21300010: FabioTalk_5
+    21300012: FabioTalk_6
+    21300014: FabioTalk_7
+    21300016: FabioTalk_8
+    21300018: FabioTalk_9
+    21300020: FabioTalk_10
+    21300022: FabioTalk_11
+    21300024: FabioTalk_12
+    21300026: FabioTalk_13
+    21300028: FabioTalk_14
+    21300030: FabioTalk_15
+    21300032: FabioTalk_16
+    21300034: FabioTalk_17
+    21300036: FabioTalk_18
+    21300038: FabioTalk_19
+    21300040: FabioTalk_20
+    21300042: FabioTalk_21
+    21300044: FabioTalk_22
+    21300046: FabioTalk_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FabioTalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1650
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1650
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1650
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1650
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1320
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1320
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_7
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1320
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_9
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 990
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 990
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_11
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 990
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 660
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_14
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 660
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 660
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 330
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 330
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_19
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 330
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_22
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FabioTalk_23
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 0
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: .435000002, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

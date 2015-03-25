@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
     public float actionTime = 2.5f; // Do action after x seconds
 
     [SerializeField]
-    private float _health = 5;      // Health of gameObject.
+    public float _health = 5;      // Health of gameObject.
     [SerializeField]
     private float _curHealth = 5;      // Health of gameObject.
     private bool _isDead = false;   // Fix for animation.
@@ -49,6 +49,7 @@ public class Health : MonoBehaviour
 
                 if (gameObject.tag != Constants.TAG_PLAYER)
                 {
+                    UserData.loaded.money = UserData.loaded.money + gameObject.GetComponent<EnemyBehaviour>().amountMoneyReward;
                     Destroy(gameObject, actionTime);
                 }
             }

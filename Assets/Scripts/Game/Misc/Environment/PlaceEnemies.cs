@@ -5,12 +5,9 @@ public class PlaceEnemies : MonoBehaviour {
 
     public GameObject[] enableEnemies;
     public GameObject[] disableEnemies;
-    private PlayerData _data;
 
 	void Start () {
-        _data = GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerData>();
-
-        if (_data.villageTakenOver == false)
+        if (UserData.loaded.cityCleared == false)
         {
             for (int i = 0; i < enableEnemies.Length; i++)
             {

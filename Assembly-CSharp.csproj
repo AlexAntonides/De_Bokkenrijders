@@ -71,9 +71,9 @@
      <Compile Include="Assets\Scripts\Game\Player\Components\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerCheckPoint.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Game\Player\PlayerData.cs" />
      <Compile Include="Assets\Scripts\Game\Player\PlayerMoveTest.cs" />
      <Compile Include="Assets\Scripts\Game\UI\ClickButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\Design\Healthbar.cs" />
      <Compile Include="Assets\Scripts\Game\UI\DragButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\HoldButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\PauseButtons\MusicButton.cs" />
