@@ -9,8 +9,26 @@ public class Health : MonoBehaviour
 
     [SerializeField]
     private float _health = 5;      // Health of gameObject.
+    [SerializeField]
     private float _curHealth = 5;      // Health of gameObject.
     private bool _isDead = false;   // Fix for animation.
+    #endregion
+
+    #region Methods
+
+    void Start()
+    {
+        _curHealth = _health;
+    }
+
+    void Update()
+    {
+        if (_curHealth < 0)
+        {
+            Respawn();
+        }
+    }
+
     #endregion
 
     #region Getters & Setters
@@ -26,16 +44,12 @@ public class Health : MonoBehaviour
 
             if (_curHealth <= 0 && _isDead == false)
             {
-                gameObject.GetComponent<Animator>().SetTrigger(Constants.ANIMATOR_PARAMETER_DEATH);
                 _isDead = true;
+                gameObject.GetComponent<Animator>().SetTrigger(Constants.ANIMATOR_PARAMETER_DEATH);
 
                 if (gameObject.tag != Constants.TAG_PLAYER)
                 {
                     Destroy(gameObject, actionTime);
-                }
-                else
-                {
-
                 }
             }
         }
@@ -48,10 +62,13 @@ public class Health : MonoBehaviour
 
     public void Respawn()
     {
-        transform.Find("Weapons").gameObject.SetActive(true);
-        transform.position = gameObject.GetComponent<PlayerCheckPoint>().lastCheckPoint;
-        _curHealth = health;
-        _isDead = false;
+        if (transform.tag == Constants.TAG_PLAYER)
+        {
+            transform.position = gameObject.GetComponent<PlayerCheckPoint>().lastCheckPoint;
+            transform.Find("Weapons").gameObject.SetActive(true);
+            _curHealth = _health;
+            _isDead = false;
+        }
     }
 
     #endregion

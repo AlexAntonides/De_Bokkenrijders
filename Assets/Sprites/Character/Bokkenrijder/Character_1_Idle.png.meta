@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bf2ad97efa6d9eb4aa159ae8cff6e3c7
-timeCreated: 1426538726
+timeCreated: 1427280842
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -95,8 +95,8 @@ TextureImporter:
         y: 430
         width: 150
         height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_1
       rect:
@@ -105,8 +105,8 @@ TextureImporter:
         y: 430
         width: 150
         height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_2
       rect:
@@ -116,7 +116,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_3
       rect:
@@ -126,7 +126,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_4
       rect:
@@ -136,7 +136,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_5
       rect:
@@ -146,7 +146,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_6
       rect:
@@ -156,7 +156,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_7
       rect:
@@ -166,7 +166,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_8
       rect:
@@ -176,7 +176,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_9
       rect:
@@ -186,7 +186,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_10
       rect:
@@ -196,7 +196,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_11
       rect:
@@ -206,7 +206,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_12
       rect:
@@ -216,7 +216,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_13
       rect:
@@ -226,7 +226,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_14
       rect:
@@ -236,7 +236,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_15
       rect:
@@ -246,7 +246,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_16
       rect:
@@ -256,7 +256,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_17
       rect:
@@ -266,7 +266,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_18
       rect:
@@ -276,7 +276,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_19
       rect:
@@ -286,7 +286,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_20
       rect:
@@ -296,7 +296,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_21
       rect:
@@ -306,7 +306,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_22
       rect:
@@ -316,7 +316,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_23
       rect:
@@ -326,7 +326,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_24
       rect:
@@ -336,7 +336,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_25
       rect:
@@ -346,7 +346,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_26
       rect:
@@ -356,7 +356,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_27
       rect:
@@ -366,7 +366,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_28
       rect:
@@ -376,7 +376,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_29
       rect:
@@ -386,7 +386,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_30
       rect:
@@ -396,7 +396,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_31
       rect:
@@ -406,7 +406,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_32
       rect:
@@ -416,7 +416,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_33
       rect:
@@ -426,7 +426,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_34
       rect:
@@ -436,7 +436,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_35
       rect:
@@ -446,7 +446,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_36
       rect:
@@ -456,7 +456,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_37
       rect:
@@ -466,7 +466,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Character_1_Idle_38
       rect:
@@ -476,7 +476,7 @@ TextureImporter:
         width: 150
         height: 215
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

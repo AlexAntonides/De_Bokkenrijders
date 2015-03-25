@@ -38,9 +38,10 @@ public class Weapon : MonoBehaviour
     {
         if (_other.gameObject.tag == Constants.TAG_ENEMY || _other.gameObject.tag == Constants.TAG_PLAYER) // Check if target is the enemy or the player.
         {
-            if (_other.gameObject.tag != gameObject.tag) // If he doesn't have collision with himself.
+            if (_other.gameObject.tag != gameObject.tag) // If he doesn't have collision with himself or his friends.
             {
                 _other.gameObject.GetComponent<Health>().health = -damage;  // Deal damage.
+                //GameObject.FindGameObjectWithTag(Constants.TAG_CAMERA).GetComponent<CameraMovementScript>().Shake(0.5f);
             }
         }
     }

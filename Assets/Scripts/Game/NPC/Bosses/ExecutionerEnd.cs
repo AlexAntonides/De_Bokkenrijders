@@ -5,7 +5,7 @@ public class ExecutionerEnd : MonoBehaviour {
 
 	public void VillageSaved()
     {
-        GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerData>().villageTakenOver = false;
+        UserData.loaded.cityCleared = false;
         Application.LoadLevel(Application.loadedLevel);
     }
 }
