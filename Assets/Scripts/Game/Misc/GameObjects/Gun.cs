@@ -14,6 +14,8 @@ public class Gun : MonoBehaviour
     public float bulletSpawnTime = 0.2f;        // Fix for gun. Amount of seconds when the bullet spawns. 
     public float bulletsToShoot = 3;            // Amount of Bullets that the gun will shoot.
 
+    private const string WEAPONS = "Weapons";
+
     private Animator _controller;
     private GameObject owner;                   
     #endregion
@@ -38,8 +40,6 @@ public class Gun : MonoBehaviour
     public void Shoot()
     {
         /* Play the Animation and spawn the bullet after x seconds */
-
-        //_controller.SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
         Invoke("SpawnBullet", bulletSpawnTime);
     }
 
@@ -70,7 +70,7 @@ public class Gun : MonoBehaviour
             projectile.moveX = scaleX;  // Scale of the object.
             projectile.bulletSpeed = 10f; // bulletspeed;
             projectile.owner = owner;   // Gameobject who shot the projectile.
-            projectile.lifeTime = projectile.lifeTime * i;    // Lifetime of projectile.
+            projectile.lifeTime = 10f;    // Lifetime of projectile.
         }
     }
     #endregion

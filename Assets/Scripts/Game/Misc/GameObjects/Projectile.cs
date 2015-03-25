@@ -69,7 +69,14 @@ public class Projectile : MonoBehaviour
         {
             if (_other.gameObject.tag != owner.tag)
             {
-                _other.gameObject.GetComponent<Health>().health = -damage;
+                if (instantDeath == false)
+                {
+                    _other.gameObject.GetComponent<Health>().health = -damage;
+                }
+                else if (instantDeath == true)
+                {
+                    _other.gameObject.GetComponent<Health>().health = -damage * 10;
+                }
 
                 if (types == projectileTypes.TYPE_EXPLOSIVE)
                 {

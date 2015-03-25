@@ -8,7 +8,7 @@ public class HoldButton : ClickButton {
 
     private int _fingerID = -1;
 
-    public override void HoldUpdate()
+    public override void Update()
     {
         if (changePosition == true)
         {
@@ -30,9 +30,6 @@ public class HoldButton : ClickButton {
         {
             foreach (Touch current in Input.touches)
             {
-                // Skip non beginning touches
-                //if (_holdable == true)
-                //{
                 if (current.phase != TouchPhase.Began)
                 {
                     _curholdTime += Time.deltaTime;
@@ -49,34 +46,18 @@ public class HoldButton : ClickButton {
                         currentTouch = current;
                         _fingerID = current.fingerId;
 
-                        if (_curholdTime > holdTime)
+                        if (_curholdTime > holdTime && UserData.loaded.bullets > 0)
                         {
                             ButtonHold();
                         }
-
-                        _curholdTime = 0;
+                        else
+                        {
+                            ButtonPressed();
+                        }
                     }
-                }
-                //}
-                /*
-            else if (_holdable == false)
-            {
-                if (current.phase == TouchPhase.Began)
-                {
-                    // Skip non beginning touches.
-                }
 
-                // Check collision
-                Vector3 currentPos = Camera.main.ScreenToWorldPoint(current.position);
-                currentPos.z = transform.position.z;
-                if (GetComponent<Collider2D>().bounds.Contains(currentPos))
-                {
-                    touchPos = currentPos;
-                    currentTouch = current;
-                    _fingerId = current.fingerId;
-                    ButtonPressed();
+                    _curholdTime = 0;
                 }
-            } */
             }
         }
     }

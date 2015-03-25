@@ -45,13 +45,10 @@ public class AttackButton : HoldButton
 
     public override void ButtonHold()
     {
-        if (GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<Animator>().GetBool(Constants.PLAYER_ANIMATOR_PARAMETER_ONGROUND))
+        if (_curShootTimer >= _gun.reloadSpeed)
         {
-            if (_curShootTimer >= _gun.reloadSpeed)
-            {
-                _gun.Shoot();
-                _curShootTimer = 0;
-            }
+            _weapon.GetComponent<Animator>().SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
+            _curShootTimer = 0;
         }
     }
 }
