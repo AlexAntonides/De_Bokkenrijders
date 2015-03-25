@@ -79,6 +79,8 @@
      <Compile Include="Assets\Scripts\Game\UI\PauseButtons\SoundButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\ShareScoreMenu.cs" />
      <Compile Include="Assets\Scripts\Game\UI\Shop\ChangeWeapon.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\Tutorials\TutorialDisplayer.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\Tutorials\WallJumpTutorial.cs" />
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\AttackButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\InteractIcon.cs" />
      <Compile Include="Assets\Scripts\Game\UI\UIButtons\JumpButton.cs" />
@@ -88,7 +90,6 @@
      <Compile Include="Assets\Scripts\Game\UserData.cs" />
      <Compile Include="Assets\Scripts\Game\UserDataHandler.cs" />
      <Compile Include="Assets\Scripts\Menu\LoadSceneOnTap.cs" />
-     <Compile Include="Assets\TutorialDisplayer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

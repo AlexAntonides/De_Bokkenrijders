@@ -10,8 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float _moveDir = 0f;
     private bool _lookingRight = true;
-
-    [SerializeField]
+    
     private float _wallPushTime = 0f;
     private bool _canWallPush = false;
     private bool _wallPushing = false;
@@ -113,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Stop player from pushing into wall
-            if (!_wallPushing && _collider.OnWall)
+            if (!_wallPushing && _collider.OnWall && !_collider.OnGround)
             {
                 if (_collider.OnLeftWall) value = Mathf.Max(value, 0f);
                 if (_collider.OnRightWall) value = Mathf.Min(value, 0f);
