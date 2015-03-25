@@ -3,10 +3,10 @@ using System.Collections;
 
 public enum Levels
 {
-    Forest = 1,
-    Village = 2,
-    Cave = 3,
-    Cathedral = 4
+    Forest = 3,
+    Village = 4,
+    Cave = 5,
+    Cathedral = 6
 }
 
 public enum CloseWeaponTypes

@@ -53,7 +53,15 @@ public class NPCQuest : MonoBehaviour {
     [SerializeField]
     private ThumbStick _inputStick; 
     [SerializeField] 
-    private Text _description; 
+    private Text _description;
+    [SerializeField]
+    private Image _head;
+    [SerializeField]
+    private Sprite _headIMG;
+    [SerializeField]
+    private Image _name;
+    [SerializeField]
+    private Sprite _nameIMG;
 
     public bool show = false;
     private bool showOff = false;
@@ -65,6 +73,8 @@ public class NPCQuest : MonoBehaviour {
         if (show == true)
         {
             _questUI.SetActive(true);
+            _head.sprite = _headIMG;
+            _name.sprite = _nameIMG;
             _description.text = questDescription[_curText];
             GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = false;
         }

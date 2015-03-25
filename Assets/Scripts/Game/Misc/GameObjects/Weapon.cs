@@ -14,6 +14,8 @@ public class Weapon : MonoBehaviour
 
     private Animator _controller;       // Animator Component.
     private BoxCollider2D _collider;    // Collider Component.
+
+    private bool colliderEnabled = false;
     #endregion
 
     void Start()
@@ -25,20 +27,27 @@ public class Weapon : MonoBehaviour
     public void Attack()
     {
         _controller.SetTrigger(Constants.ANIMATOR_PARAMETER_ATTACK);    // Play the animation.
-        _collider.enabled = true;   // Enable the collider.
     }
 
     /* This script is for the Animator. */
-    public void DisableColliderAfterAttack()
+    public void EnableCollider()
+    {
+        _collider.enabled = true; // Enable Collider;
+        colliderEnabled = true;
+    }
+
+    /* This script is for the Animator. */
+    public void DisableCollider()
     {
         _collider.enabled = false;  // Disable the Collider.
+        colliderEnabled = false;
     }
 
     void OnCollisionEnter2D(Collision2D _other)
     {
         if (_other.gameObject.tag == Constants.TAG_ENEMY || _other.gameObject.tag == Constants.TAG_PLAYER) // Check if target is the enemy or the player.
         {
-            if (_other.gameObject.tag != gameObject.tag) // If he doesn't have collision with himself or his friends.
+            if (_other.gameObject.tag != gameObject.tag && colliderEnabled == true) // If he doesn't have collision with himself or his friends.
             {
                 _other.gameObject.GetComponent<Health>().health = -damage;  // Deal damage.
                 //GameObject.FindGameObjectWithTag(Constants.TAG_CAMERA).GetComponent<CameraMovementScript>().Shake(0.5f);

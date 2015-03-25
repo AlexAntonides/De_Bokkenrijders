@@ -3,6 +3,7 @@ using System.Collections;
 
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Health))]
 public class EnemyBehaviour : MonoBehaviour
 {
 
@@ -44,6 +45,8 @@ public class EnemyBehaviour : MonoBehaviour
     public float alertRange = 8f;
     public float knockBackRate = 2f;
 
+    public int amountMoneyReward = 10;
+
     private float _walkDirection = 0;
 
     private float _tDir = 0;
@@ -53,6 +56,7 @@ public class EnemyBehaviour : MonoBehaviour
     private Vector2 _walkTime;
 
     private Animator _animator;
+    private Health _health;
 
     public GameObject target = null;
     #endregion
@@ -63,6 +67,7 @@ public class EnemyBehaviour : MonoBehaviour
         gameObject.GetComponentInChildren<CircleCollider2D>().radius = alertRange;
 
         _animator = gameObject.GetComponent<Animator>();
+        _health = gameObject.GetComponent<Health>();
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
 
         _tAttack = _attackSpeed;
@@ -127,6 +132,15 @@ public class EnemyBehaviour : MonoBehaviour
             {
                 state = EnemyStates.WALK;
             }
+        }
+
+        /* This looks really weird, but if you're out of combat and your current health isn't the same as your maximum health 
+         * Reset it back.
+         */
+
+        if (_health.health != _health._health)
+        {
+            _health.health = _health._health;
         }
     }
 

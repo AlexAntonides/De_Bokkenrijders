@@ -6,8 +6,7 @@ public class TakeableGameObject : MonoBehaviour {
     public enum Actions
     {
         GOLD = 0,
-        SCORE = 1,
-        REMOVE_GAMEOBJECT = 2
+        REMOVE_GAMEOBJECT = 1
     }
 
     [SerializeField]
@@ -34,11 +33,7 @@ public class TakeableGameObject : MonoBehaviour {
 
             if (_actions == Actions.GOLD)
             {
-                _other.GetComponent<PlayerData>().gold = amount;
-            }
-            else if (_actions == Actions.SCORE)
-            {
-                // Add score.
+                UserData.loaded.money = UserData.loaded.money + amount;
             }
             else if (_actions == Actions.REMOVE_GAMEOBJECT)
             {

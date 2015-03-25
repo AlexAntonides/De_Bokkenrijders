@@ -8,6 +8,9 @@ public class LoadSceneOnTap : MonoBehaviour {
     [SerializeField]
     private string _sceneName;
 
+    [SerializeField]
+    private bool _currentLevel = false;
+
     void Start()
     {
         /* Check if the scene exists. */
@@ -27,6 +30,14 @@ public class LoadSceneOnTap : MonoBehaviour {
     public void OnClick()
     {
         Debug.Log("Loading the scene: " + _sceneName + ", of the gameObject: " + gameObject.name);
-        Application.LoadLevel(_sceneName);
+
+        if (_currentLevel == false)
+        {
+            Application.LoadLevel(_sceneName);
+        }
+        else
+        {
+            Application.LoadLevel((int)UserData.loaded.currentLevel);
+        }
     }
 }
