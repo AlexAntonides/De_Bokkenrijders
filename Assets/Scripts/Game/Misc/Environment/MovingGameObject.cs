@@ -8,6 +8,7 @@ public class MovingGameObject : MonoBehaviour
     public float velocity;                  // Velocity of moving Object.
 
     private Vector2 curPosition;            // Current moving position.
+    private Vector2 startPos;
     [SerializeField]
     private bool stopOnCollision = true;    // Set by Editor: Should object stop when collides with a player.
     #endregion
@@ -16,11 +17,21 @@ public class MovingGameObject : MonoBehaviour
     void Start()
     {
         curPosition = movePosition; // Set current position to the position he should move to.
+        startPos = transform.position;
     }
 
     void Update()
     {
         transform.Translate(curPosition * velocity * Time.deltaTime); // Move the object.
+
+        if (transform.position.y > startPos.y + movePosition.y)
+        {
+            curPosition = -curPosition;
+        } 
+        else if (transform.position.y < startPos.y - movePosition.y)
+        {
+            curPosition = -curPosition;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D _other)

@@ -27,7 +27,7 @@ public class NPCQuest : MonoBehaviour {
     public int questID;
 
     public string questName;
-    public string questDescription;
+    public string[] questDescription;
 
     public questMethod method;
     public typeQuest type;
@@ -44,20 +44,19 @@ public class NPCQuest : MonoBehaviour {
 
     public float moneyReward;
 
+    private int _curText = 0;
+
     [SerializeField]
     private GameObject _controller;
     [SerializeField]
     private GameObject _questUI;
     [SerializeField]
     private ThumbStick _inputStick; 
-    [SerializeField]
-    private Text _nameText;
-    [SerializeField]
-    private Text _startText;
     [SerializeField] 
     private Text _description; 
 
     public bool show = false;
+    private bool showOff = false;
     private const string _questStartText = "Quest Start Text";
     private const string _questName = "Quest Name";
     
@@ -66,34 +65,21 @@ public class NPCQuest : MonoBehaviour {
         if (show == true)
         {
             _questUI.SetActive(true);
-            _nameText.text = questName;
-            _startText.text = questStartMessage;
-            _description.text = questDescription;
-
-            if (_inputStick.stickUnitDirection.y > 1)
-            {
-                AcceptQuest();
-                show = false;
-            }
+            _description.text = questDescription[_curText];
+            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = false;
         }
         else if (show == false)
         {
             _questUI.SetActive(false);
+            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = true;
         }
     }
 
     public void Quest()
     {
-        if (_controller.GetComponent<CurrentQuest>() == null)
+        if (_controller.GetComponent<CurrentQuest>() == null && showOff == false)
         {
-            if (!_controller.GetComponent<QuestsList>().finishedQuests.Contains(questID))
-            {
-                show = true;
-            }
-            else
-            {
-                print("You've already finished the quest.");
-            }
+            show = true;
         }
         else if (_controller.GetComponent<CurrentQuest>() != null)
         {
@@ -101,37 +87,51 @@ public class NPCQuest : MonoBehaviour {
         }
     }
 
-    void AcceptQuest()
+    public void AcceptQuest()
     {
-        if (method != questMethod.METHOD_AUTOCOMPLETE)
+        if (_curText >= questDescription.Length - 1)
         {
-            CurrentQuest cQuest = _controller.GetComponent<CurrentQuest>();
+            show = false;
 
-            cQuest.questID = questID;
-            cQuest.questName = questName;
-            cQuest.questDescription = questDescription;
-            cQuest.method = method;
-            cQuest.type = type;
-            cQuest.action = action;
-            cQuest.questCompleteMessage = questCompleteMessage;
-            cQuest.nameObjective = nameObjective;
-            cQuest.nameAction = nameAction;
-            cQuest.amountEnemyToKill = amountEnemyToKill;
-            cQuest.moneyReward = moneyReward;
+            if (method != questMethod.METHOD_AUTOCOMPLETE)
+            {
+                /*
+                CurrentQuest cQuest = _controller.GetComponent<CurrentQuest>();
+
+                cQuest.questID = questID;
+                cQuest.questName = questName;
+                cQuest.questDescription = questDescription[_curText];
+                cQuest.method = method;
+                cQuest.type = type;
+                cQuest.action = action;
+                cQuest.questCompleteMessage = questCompleteMessage;
+                cQuest.nameObjective = nameObjective;
+                cQuest.nameAction = nameAction;
+                cQuest.amountEnemyToKill = amountEnemyToKill;
+                cQuest.moneyReward = moneyReward;
+                 */
+            }
+            else
+            {
+                if (moneyReward > 0)
+                {
+                    print("Give money.");
+                }
+
+                if (action == questAction.ACTION_CHANGE_SCENE && nameAction != null)
+                {
+                    Application.LoadLevel(nameAction);
+                }
+
+                _questUI.SetActive(false);
+                show = false;
+                showOff = true;
+            }
         }
         else
         {
-            _controller.GetComponent<QuestsList>().finishedQuests.Add(questID);
-            
-            if (moneyReward > 0)
-            {
-                print("Give money.");
-            }
-
-            if (action == questAction.ACTION_CHANGE_SCENE && nameAction != null )
-            {
-                Application.LoadLevel(nameAction);
-            }
+            _curText++;
+            _description.text = questDescription[_curText];
         }
 
     }
@@ -172,29 +172,6 @@ public class NPCQuest : MonoBehaviour {
         }
     }
 
-    public Text nameText 
-    {
-        get
-        {
-            return _nameText;
-        }
-        set
-        {
-            _nameText = value;
-        }
-    }
-
-    public Text startText
-    {
-        get
-        {
-            return _startText;
-        }
-        set
-        {
-            _startText = value;
-        }
-    }
 
     public Text description
     {

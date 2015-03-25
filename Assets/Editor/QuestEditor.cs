@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine.UI;
 
-[CustomEditor(typeof(NPCQuest))]
 [CanEditMultipleObjects]
 public class QuestEditor : Editor {
 
@@ -13,16 +12,11 @@ public class QuestEditor : Editor {
 
         _target.questID = EditorGUILayout.IntField("Quest ID:", _target.questID);
 
-        _target.questName = EditorGUILayout.TextField("Quest Name:", _target.questName);
-
         EditorGUILayout.LabelField("Quest Description:");
-        _target.questDescription = EditorGUILayout.TextArea(_target.questDescription, GUILayout.Height(75));
+        //_target.questDescription = EditorGUILayout.TextArea(_target.questDescription, GUILayout.Height(75));
 
         EditorGUILayout.LabelField("Quest Method:");
         _target.method = (NPCQuest.questMethod)EditorGUILayout.EnumPopup(_target.method);
-
-        EditorGUILayout.LabelField("Start Quest Message:");
-        _target.questStartMessage = EditorGUILayout.TextArea(_target.questStartMessage);
 
         switch (_target.method)
         {
@@ -61,15 +55,6 @@ public class QuestEditor : Editor {
         End();
         Begin();
         _target.questUI = (GameObject)EditorGUILayout.ObjectField("Quest UI:", _target.questUI, typeof(GameObject), true);
-        End();
-        Begin();
-        _target.inputStick = (ThumbStick)EditorGUILayout.ObjectField("Input Stick:", _target.inputStick, typeof(ThumbStick), true);
-        End();
-        Begin();
-        _target.nameText = (Text)EditorGUILayout.ObjectField("Name Text:", _target.nameText, typeof(Text), true);
-        End();
-        Begin();
-        _target.startText = (Text)EditorGUILayout.ObjectField("Start Text:", _target.startText, typeof(Text), true);
         End();
         Begin();
         _target.description = (Text)EditorGUILayout.ObjectField("Description:", _target.description, typeof(Text), true);

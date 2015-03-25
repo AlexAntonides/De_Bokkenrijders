@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿    using UnityEngine;
 using System.Collections;
 
 public class TakeableGameObject : MonoBehaviour {
@@ -10,6 +10,7 @@ public class TakeableGameObject : MonoBehaviour {
         REMOVE_GAMEOBJECT = 2
     }
 
+    [SerializeField]
     private Actions _actions;
 
     public GameObject removeableGameObject;
