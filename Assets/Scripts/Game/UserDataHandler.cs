@@ -19,7 +19,7 @@ public class UserDataHandler : MonoBehaviour
         data = UserData.Load();
 
         // Load last loaded level
-        Application.LoadLevel((int)data.currentLevel);
+        data.LoadCurrentLevel();
     }
 
     void OnApplicationQuit()

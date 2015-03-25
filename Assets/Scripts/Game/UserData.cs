@@ -64,6 +64,11 @@ public class UserData
         PlayerPrefs.Save();
     }
 
+    public void LoadCurrentLevel()
+    {
+        Application.LoadLevel((int)currentLevel);
+    }
+
     #endregion
 
 }
