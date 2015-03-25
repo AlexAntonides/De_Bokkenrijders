@@ -11,6 +11,7 @@ public class PlayerCollision : MonoBehaviour
     private bool _sliding = false;
 
     // If player has collision at the sides
+    [SerializeField]
     private bool _onGround = false;
     [SerializeField]
     private bool _onLeftWall = false;
@@ -89,11 +90,11 @@ public class PlayerCollision : MonoBehaviour
         if ((_onRightWall || _onLeftWall) && !_onGround && !_sliding)
         {
             _sliding = true;
-            _movescript.LookingRight = _onLeftWall;
-            _animator.SetTrigger("WallSlide");
             _animator.SetBool("OnWall", true);
+            _animator.SetTrigger("WallSlide");
+            _movescript.LookingRight = _onLeftWall;
         }
-        else if (_sliding && ((!_onLeftWall && !_onRightWall) || _onGround))
+        else if (_sliding && (!OnWall || _onGround))
         {
             _sliding = false;
             _animator.SetBool("OnWall", false);
@@ -107,6 +108,11 @@ public class PlayerCollision : MonoBehaviour
         {
             Vector2 pos = contact.normal;
 
+            // Below player
+            if (pos.y > groundDetectMargin)
+            {
+                _groundCheck = true;
+            }
             // Left wall
             if (pos.x > wallDetectMargin)
             {
@@ -116,11 +122,6 @@ public class PlayerCollision : MonoBehaviour
             else if (pos.x < -wallDetectMargin)
             {
                 _rightWallCheck = true;
-            }
-            // Below player
-            else if (pos.y > groundDetectMargin)
-            {
-                _groundCheck = true;
             }
         }
 

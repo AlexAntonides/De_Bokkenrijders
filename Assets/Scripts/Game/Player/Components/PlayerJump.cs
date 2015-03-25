@@ -6,6 +6,8 @@ public class PlayerJump : MonoBehaviour
     #region Vars
 
     // Physics
+    public bool doubleJumpEnabled = true;
+    public bool wallJumpEnabled = true;
     public float jumpForce = 500f;
     public float doubleJumpForce = 1000f;
     public float wallPushForce = 200f;
@@ -49,6 +51,13 @@ public class PlayerJump : MonoBehaviour
                 //_moveScript.enabled = true;
                 _wallJumping = false;
             }
+            _jumping = false;
+            _doubleJump = false;
+            _wallJumping = false;
+        }
+        else if (_wallJumping && _collision.WallEntered)
+        {
+            _wallJumping = false;
         }
     }
 
@@ -64,11 +73,9 @@ public class PlayerJump : MonoBehaviour
         else if (_jumping && !_collision.OnGround)
         {
             // Wall Jump
-            if (_collision.OnLeftWall || _collision.OnRightWall)
+            if (wallJumpEnabled && (_collision.OnLeftWall || _collision.OnRightWall))
             {
                 _wallJumping = true;
-                // Disable movement
-                //_moveScript.enabled = false;
 
                 // Push back from wall
                 _rigidbody.AddForce(new Vector2((_collision.OnLeftWall ? 1 : -1) * wallPushForce, 0));
@@ -79,7 +86,7 @@ public class PlayerJump : MonoBehaviour
                 _animator.SetTrigger("WallJump");
             }
             // Double jump
-            else if (!_doubleJump)
+            else if (!_doubleJump && doubleJumpEnabled)
             {
                 _doubleJump = true;
                 _rigidbody.AddForce(doubleJumpForce * Vector2.up);

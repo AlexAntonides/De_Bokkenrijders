@@ -43,6 +43,11 @@ public class TutorialDisplayer : MonoBehaviour
     {
         if (other.gameObject.tag != "Player" || _opened || _open) return;
 
+        ShowTutorial();
+    }
+
+    protected virtual void ShowTutorial()
+    {
         _open = _opened = true;
     }
 
