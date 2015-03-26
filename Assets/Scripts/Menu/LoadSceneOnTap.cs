@@ -5,6 +5,9 @@ public class LoadSceneOnTap : MonoBehaviour {
 
     /* You don't have to multi-touch the Menu-Buttons so we use Click Events */
 
+    public bool testModus = false;
+    public Levels testLevel;
+
     [SerializeField]
     private string _sceneName;
 
@@ -30,14 +33,18 @@ public class LoadSceneOnTap : MonoBehaviour {
     public void OnClick()
     {
         Debug.Log("Loading the scene: " + _sceneName + ", of the gameObject: " + gameObject.name);
-
-        if (_currentLevel == false)
+        
+        if (testModus == true)
+        {
+            Application.LoadLevel((int)testLevel);
+        }
+        else if (_currentLevel == false)
         {
             Application.LoadLevel(_sceneName);
         }
-        else
+        else if (_currentLevel == true && testModus == false) 
         {
-            Application.LoadLevel((int)UserData.loaded.currentLevel);
+            UserData.loaded.LoadCurrentLevel();
         }
     }
 }
