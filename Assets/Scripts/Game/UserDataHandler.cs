@@ -19,7 +19,7 @@ public class UserDataHandler : MonoBehaviour
         data = UserData.Load();
 
         // Load last loaded level
-        data.LoadCurrentLevel();
+        Application.LoadLevel("Menu");
     }
 
     void OnApplicationQuit()

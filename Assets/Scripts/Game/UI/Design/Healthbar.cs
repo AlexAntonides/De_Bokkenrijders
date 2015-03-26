@@ -20,5 +20,10 @@ public class Healthbar : MonoBehaviour {
     {
         health.value = player.GetComponent<Health>().health;
         gold.text = UserData.loaded.money.ToString();
+
+        if (UserData.loaded.bullets < bullets.Length)
+        {
+            Destroy(bullets[bullets.Length - 1]);
+        }
     }
 }

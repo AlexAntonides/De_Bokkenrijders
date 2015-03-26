@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Game\Camera\CameraMovementScript.cs" />
      <Compile Include="Assets\Scripts\Game\Misc\Components\Health.cs" />
      <Compile Include="Assets\Scripts\Game\Misc\Data\Constants.cs" />
+     <Compile Include="Assets\Scripts\Game\Misc\Environment\ChangeCameraPosition.cs" />
      <Compile Include="Assets\Scripts\Game\Misc\Environment\DestroyEverythingInside.cs" />
      <Compile Include="Assets\Scripts\Game\Misc\Environment\MovingGameObject.cs" />
      <Compile Include="Assets\Scripts\Game\Misc\Environment\PlaceEnemies.cs" />
