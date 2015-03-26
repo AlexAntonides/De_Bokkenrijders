@@ -132,7 +132,6 @@ public class NPCQuest : MonoBehaviour {
                 //    Application.LoadLevel(nameAction);
                 //}
 
-
                 _questUI.SetActive(false);
                 show = false;
                 showOff = true;

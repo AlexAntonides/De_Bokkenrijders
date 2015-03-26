@@ -14,6 +14,8 @@ public class TutorialDisplayer : MonoBehaviour
     private bool _open = false;
     private bool _opened = false;
 
+    private GameObject _connectedPlayer;
+
     #endregion
 
     #region Methods
@@ -35,20 +37,24 @@ public class TutorialDisplayer : MonoBehaviour
             if (GUI.Button(new Rect(Screen.width * (padding + tutorialSize * 0.075f), Screen.height * (padding + tutorialSize * 0.24f), Screen.width * tutorialSize * 0.08f, Screen.width * tutorialSize * 0.08f), closeButtonImage, closeButtonStyle))
             {
                 _open = false;
+                //Camera.main.transform.FindChild("User Interface Design").gameObject.SetActive(true);
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag != "Player" || _opened || _open) return;
+        if (other.gameObject.tag != Constants.TAG_PLAYER || _opened || _open) return;
 
+        _connectedPlayer = other.gameObject;
         ShowTutorial();
     }
 
     protected virtual void ShowTutorial()
     {
         _open = _opened = true;
+
+        //Camera.main.transform.FindChild("User Interface Design").gameObject.SetActive(false);
     }
 
     #endregion
