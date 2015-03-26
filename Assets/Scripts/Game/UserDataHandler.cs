@@ -6,6 +6,7 @@ public class UserDataHandler : MonoBehaviour
     #region Vars
 
     public UserData data;
+    public bool autoLoad = true;
 
     #endregion
 
@@ -16,9 +17,10 @@ public class UserDataHandler : MonoBehaviour
         DontDestroyOnLoad(this);
 
         // Load data
-        data = UserData.Load();
+        if (autoLoad) data = UserData.Load();
+        else UserData.loaded = data;
 
-        // Load last loaded level
+        // Load
         Application.LoadLevel("Menu");
     }
 
