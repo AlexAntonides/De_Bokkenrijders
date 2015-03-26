@@ -9,7 +9,7 @@ public class CurrentQuest : MonoBehaviour {
 
     public NPCQuest.questMethod method;     // Current Method.
     public NPCQuest.typeQuest type;         // Current Type.
-    public NPCQuest.questAction action;     // Current Action.
+    //public NPCQuest.questAction action;     // Current Action.
 
     public string questCompleteMessage;     // Message NPC gives when he completes the quest.
 

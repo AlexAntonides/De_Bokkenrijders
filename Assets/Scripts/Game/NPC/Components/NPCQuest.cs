@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
 public class NPCQuest : MonoBehaviour {
 
@@ -18,11 +19,11 @@ public class NPCQuest : MonoBehaviour {
         TYPE_KILL = 2       // Kill amount of Creatures Quest.
     }
 
-    public enum questAction
-    {
-        ACTION_NONE = 0,
-        ACTION_CHANGE_SCENE = 1 // Change scene when finished.
-    }
+    //public enum questAction
+    //{
+    //    ACTION_NONE = 0,
+    //    ACTION_CHANGE_SCENE = 1 // Change scene when finished.
+    //}
 
     public int questID;
 
@@ -31,13 +32,13 @@ public class NPCQuest : MonoBehaviour {
 
     public questMethod method;
     public typeQuest type;
-    public questAction action;
+    //public questAction action;
 
     public string questStartMessage;
     public string questCompleteMessage;
 
     public string nameObjective; // The name whom to talk / kill.
-    public string nameAction; // The name of the scene to load.
+    //public string nameAction; // The name of the scene to load.
 
     public int amountEnemyToKill;
     public int questIdCondition;
@@ -77,11 +78,13 @@ public class NPCQuest : MonoBehaviour {
             _name.sprite = _nameIMG;
             _description.text = questDescription[_curText];
             GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = false;
+            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerMovement>().enabled = false;
         }
         else if (show == false)
         {
             _questUI.SetActive(false);
             GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = true;
+            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerMovement>().enabled = true;
         }
     }
 
@@ -128,14 +131,17 @@ public class NPCQuest : MonoBehaviour {
                     print("Give money.");
                 }
 
-                if (action == questAction.ACTION_CHANGE_SCENE && nameAction != null)
-                {
-                    Application.LoadLevel(nameAction);
-                }
+                //if (action == questAction.ACTION_CHANGE_SCENE && nameAction != null)
+                //{
+                //    Application.LoadLevel(nameAction);
+                //}
+
 
                 _questUI.SetActive(false);
                 show = false;
                 showOff = true;
+
+                ScoreManager.current.EndSession();
             }
         }
         else

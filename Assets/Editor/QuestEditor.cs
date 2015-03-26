@@ -32,16 +32,16 @@ public class QuestEditor : Editor {
                 break;
         }
 
-        EditorGUILayout.LabelField("Quest Action On Complete:");
-        _target.action = (NPCQuest.questAction)EditorGUILayout.EnumPopup(_target.action);
+        //EditorGUILayout.LabelField("Quest Action On Complete:");
+        //_target.action = (NPCQuest.questAction)EditorGUILayout.EnumPopup(_target.action);
 
-        switch (_target.action)
-        {
-            case NPCQuest.questAction.ACTION_CHANGE_SCENE:
-                EditorGUILayout.LabelField("Scene Name:");
-                _target.nameAction = EditorGUILayout.TextArea(_target.nameAction);
-                break;
-        }
+        //switch (_target.action)
+        //{
+        //    case NPCQuest.questAction.ACTION_CHANGE_SCENE:
+        //        EditorGUILayout.LabelField("Scene Name:");
+        //        _target.nameAction = EditorGUILayout.TextArea(_target.nameAction);
+        //        break;
+        //}
 
         EditorGUILayout.LabelField("Amount of money rewarded:");
         _target.moneyReward = EditorGUILayout.FloatField(_target.moneyReward);
