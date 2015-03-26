@@ -8,12 +8,10 @@ public class ChangeWeapon : ClickButton {
 
     void Start()
     {
-        print("LRELRESR");
     }
 
     public void ButtonPressed()
     {
-        print("LOL");
         _currentShopkeeper.GetComponent<NPCShop>().ChangeWeapon(actionID);
     }
 }
