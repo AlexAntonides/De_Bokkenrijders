@@ -13,9 +13,11 @@ public class ThumbStick : MonoBehaviour
     public float range = 3f;
     public float breakSpeed = 1f;
     public Vector2 stickUnitDirection = Vector2.zero;
-    
+    public Vector2 relativeScreenPos;
+
     private int _fingerId = -1;
     private Vector3 _startPos;
+
     
     #endregion
 
@@ -23,14 +25,17 @@ public class ThumbStick : MonoBehaviour
 
     void Start()
     {
+        float screenHeight = 2f * Camera.main.orthographicSize;
+        float screenWidth = screenHeight * Camera.main.aspect;
+
+        // Move stick relative to camera size, for multiple resolutions
+        transform.localPosition = new Vector3(-screenWidth/2 + relativeScreenPos.x * screenWidth, -screenHeight + relativeScreenPos.y * screenHeight, transform.localPosition.z);
+        
         _startPos = stick.transform.localPosition;
     }
 
     void Update()
     {
-        // Move stick relative to camera size, for multiple resolutions
-        transform.localPosition = new Vector3(-Camera.main.orthographicSize, -Camera.main.orthographicSize/2, transform.localPosition.z);
-
         // Look for next touch
         if (_fingerId == -1 || _fingerId >= Input.touchCount)
         {

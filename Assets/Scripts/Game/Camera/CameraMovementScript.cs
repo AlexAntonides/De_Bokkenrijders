@@ -6,6 +6,7 @@ public class CameraMovementScript : MonoBehaviour
     #region Vars
 
     public float maxSpeed = 6f;
+    public float rotationBreakSpeed = 5f;
     public Vector3 minPos = Vector3.zero;
     public Vector3 maxPos = Vector3.zero;
     public GameObject followingObject;
@@ -39,12 +40,23 @@ public class CameraMovementScript : MonoBehaviour
             // Move to target
             transform.position = newPos;
         }
+
+        // Rotate back
+        if (transform.eulerAngles.z != 0f)
+        {
+            transform.eulerAngles = new Vector3(0f, 0f, Mathf.LerpAngle(transform.eulerAngles.z, 0f, rotationBreakSpeed * Time.deltaTime));
+        }
     }
 
     public void Shake(float force)
     {
         Vector3 offsetForce = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0) * force;
         transform.position += offsetForce;
+    }
+
+    public void ShakeAngle(float angle)
+    {
+        transform.eulerAngles += new Vector3(0, 0, (Random.value < 0.5f ? -1 : 1) * angle);
     }
 
     #endregion
