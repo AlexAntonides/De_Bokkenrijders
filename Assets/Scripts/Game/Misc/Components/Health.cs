@@ -5,7 +5,8 @@ public class Health : MonoBehaviour
 {
 
     #region Vars
-    public float actionTime = 2.5f; // Do action after x seconds
+
+    public AudioClip deadSound;
 
     [SerializeField]
     public float _health = 5;      // Health of gameObject.
@@ -53,6 +54,11 @@ public class Health : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void PlaySound()
+    {
+        GameObject.Find(Constants.NAME_SOUND).transform.Find("Dead Sound").GetComponent<PlayAudio>().PlayAudioFile(false, deadSound);
     }
 
     public void DisableWeapon()
