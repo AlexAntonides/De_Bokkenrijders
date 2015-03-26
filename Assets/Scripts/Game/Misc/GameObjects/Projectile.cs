@@ -67,28 +67,25 @@ public class Projectile : MonoBehaviour
 
         if (_other.gameObject.tag == Constants.TAG_PLAYER || _other.gameObject.tag == Constants.TAG_ENEMY)
         {
-            if (_other.gameObject.tag != owner.tag)
+            if (instantDeath == false)
             {
-                if (instantDeath == false)
-                {
-                    _other.gameObject.GetComponent<Health>().health = -damage;
-                }
-                else if (instantDeath == true)
-                {
-                    _other.gameObject.GetComponent<Health>().health = -damage * 10;
-                }
+                _other.gameObject.GetComponent<Health>().health = -damage;
+            }
+            else if (instantDeath == true)
+            {
+                _other.gameObject.GetComponent<Health>().health = -damage * 10;
+            }
 
-                if (types == projectileTypes.TYPE_EXPLOSIVE)
-                {
-                    gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
-                    Destroy(gameObject, 1.5f);
-                    moveX = 0;
-                    moveY = 0;
-                }
-                else
-                {
-                    Destroy(gameObject);
-                }
+            if (types == projectileTypes.TYPE_EXPLOSIVE)
+            {
+                gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
+                Destroy(gameObject, 1.5f);
+                moveX = 0;
+                moveY = 0;
+            }
+            else
+            {
+                Destroy(gameObject);
             }
         }
     }

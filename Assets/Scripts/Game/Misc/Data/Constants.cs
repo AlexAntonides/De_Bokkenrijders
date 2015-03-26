@@ -32,6 +32,8 @@ public class Constants
     public static string NAME_CONTROLLER = "Controller";
     public static string NAME_EFFECT = "Effects";
     public static string NAME_SWITCHEFFECT = "Switch_Effect";
+    public static string NAME_SOUND = "Sound";
+    public static string NAME_MUSIC = "Music";
     #endregion
 
     #region Tags

@@ -50,7 +50,6 @@ public class Health : MonoBehaviour
                 if (gameObject.tag != Constants.TAG_PLAYER)
                 {
                     UserData.loaded.money = UserData.loaded.money + gameObject.GetComponent<EnemyBehaviour>().amountMoneyReward;
-                    Destroy(gameObject, actionTime);
                 }
             }
         }
@@ -70,6 +69,11 @@ public class Health : MonoBehaviour
             _curHealth = _health;
             _isDead = false;
         }
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 
     #endregion

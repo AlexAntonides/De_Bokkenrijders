@@ -246,11 +246,6 @@ public class EnemyBehaviour : MonoBehaviour
         state = EnemyStates.IDLE;
     }
 
-    public void RemoveSelf()
-    {
-        Destroy(gameObject);
-    }
-
     #endregion
 
     #region Getters & Setters

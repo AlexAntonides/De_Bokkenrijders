@@ -5,9 +5,9 @@ public class ChangeCameraPosition : MonoBehaviour {
 
     public CameraMovementScript camera;
 
-    public Vector2 minPos;
-    public Vector2 maxPos;
-    public Vector2 position;
+    public Vector3 minPos;
+    public Vector3 maxPos;
+    public Vector3 position;
     public float size;
 
     void OnTriggerEnter2D(Collider2D _other)

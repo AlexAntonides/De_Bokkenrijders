@@ -5,6 +5,7 @@ class JumpButton : ClickButton
     #region Vars
 
     public PlayerJump playerJumpScript;
+    public PlayAudio audioSource;
 
     #endregion
 
@@ -17,6 +18,7 @@ class JumpButton : ClickButton
     public override void ButtonPressed()
     {
         playerJumpScript.Jump();
+        audioSource.PlayRandomJump();
     }
 
     public override void ButtonReleased()

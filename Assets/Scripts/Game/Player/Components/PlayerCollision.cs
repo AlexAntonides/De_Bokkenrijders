@@ -49,8 +49,13 @@ public class PlayerCollision : MonoBehaviour
         // Death
         if (_other.transform.tag == TAG_DEATH)
         {
-            transform.position = _playerCheckPoint.lastCheckPoint;
+            _animator.SetTrigger(Constants.ANIMATOR_PARAMETER_DEATH);
         }
+    }
+
+    public void ResetCheckPoint()
+    {
+        transform.position = _playerCheckPoint.lastCheckPoint;
     }
 
     private void FixedUpdate()

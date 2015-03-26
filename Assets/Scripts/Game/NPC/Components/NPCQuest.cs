@@ -77,14 +77,10 @@ public class NPCQuest : MonoBehaviour {
             _head.sprite = _headIMG;
             _name.sprite = _nameIMG;
             _description.text = questDescription[_curText];
-            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = false;
-            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerMovement>().enabled = false;
         }
         else if (show == false)
         {
             _questUI.SetActive(false);
-            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerJump>().enabled = true;
-            GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).GetComponent<PlayerMovement>().enabled = true;
         }
     }
 

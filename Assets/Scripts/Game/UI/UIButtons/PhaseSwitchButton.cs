@@ -6,6 +6,9 @@ public class PhaseSwitchButton : ClickButton {
     public GameObject deadWorld;
     public GameObject aliveWorld;
 
+    public PlayAudio audioSource;
+    public AudioClip audioClip;
+
     public enum GamePhases
     {
         PHASE_ALIVE = 0,
@@ -32,5 +35,6 @@ public class PhaseSwitchButton : ClickButton {
          }
 
         GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).transform.FindChild(Constants.NAME_EFFECT).transform.FindChild(Constants.NAME_SWITCHEFFECT).GetComponent<Animator>().SetTrigger("Switch");
+        audioSource.PlayAudioFile(false, audioClip);
     }
 }

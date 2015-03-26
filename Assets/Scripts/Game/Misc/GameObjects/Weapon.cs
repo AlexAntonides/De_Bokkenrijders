@@ -50,6 +50,7 @@ public class Weapon : MonoBehaviour
             if (_other.gameObject.tag != gameObject.tag && colliderEnabled == true) // If he doesn't have collision with himself or his friends.
             {
                 _other.gameObject.GetComponent<Health>().health = -damage;  // Deal damage.
+                GameObject.Find(Constants.NAME_SOUND).transform.Find("Attack Sound").GetComponent<PlayAudio>().PlayRandomWeaponSound();
                 //GameObject.FindGameObjectWithTag(Constants.TAG_CAMERA).GetComponent<CameraMovementScript>().Shake(0.5f);
             }
         }
