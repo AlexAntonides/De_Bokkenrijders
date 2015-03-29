@@ -22,13 +22,14 @@ public class AttackButton : HoldButton
 
     void FixedUpdate()
     {
-        _curAttackTimer += Time.deltaTime;
-        _curShootTimer += Time.deltaTime;
+        if (_weapon == null) _weapon = GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).transform.Find(WEAPONS).gameObject.GetComponent<Weapon>();
+        if (_gun == null) _gun = GameObject.FindGameObjectWithTag(Constants.TAG_PLAYER).transform.Find(WEAPONS).gameObject.GetComponent<Gun>();
 
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            ButtonPressed();
-        }
+        if (_curAttackTimer < _weapon.attackSpeed)
+            _curAttackTimer += Time.deltaTime;
+        if (_curShootTimer < _gun.reloadSpeed)
+            _curShootTimer += Time.deltaTime;
+
     }
 
     public override void ButtonPressed()

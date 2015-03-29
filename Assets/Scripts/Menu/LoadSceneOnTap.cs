@@ -32,19 +32,6 @@ public class LoadSceneOnTap : MonoBehaviour {
 
     public void OnClick()
     {
-        Debug.Log("Loading the scene: " + _sceneName + ", of the gameObject: " + gameObject.name);
-        
-        if (testModus == true)
-        {
-            Application.LoadLevel((int)testLevel);
-        }
-        else if (_currentLevel == false)
-        {
-            Application.LoadLevel(_sceneName);
-        }
-        else if (_currentLevel == true && testModus == false) 
-        {
-            UserData.loaded.LoadCurrentLevel();
-        }
+        UserData.loaded.LoadCurrentLevel();
     }
 }

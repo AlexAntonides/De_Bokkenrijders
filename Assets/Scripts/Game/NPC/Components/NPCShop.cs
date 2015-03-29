@@ -70,15 +70,24 @@ public class NPCShop : MonoBehaviour {
 
     public void BuyWeapon()
     {
-        Weapon targetWeapon = listWeapons[_curWeapon].GetComponent<Weapon>();
-        if (UserData.loaded.money >= targetWeapon.cost)
+        GameObject currentWeapon = targetPlayer.transform.FindChild("Weapons").gameObject;
+        GameObject targetWeapon = listWeapons[_curWeapon];
+        int cost = (int)targetWeapon.GetComponent<Weapon>().cost;
+
+        // Payment
+        if (UserData.loaded.money >= cost)
         {
-            // Payment
-            UserData.loaded.money -= (int)targetWeapon.cost;
+            UserData.loaded.money -= cost;
             
             // Set weapon
-            Debug.Log("You have bought the weapon");
-            GameObject currentWeapon = targetPlayer.transform.FindChild("Weapons").gameObject;
+            GameObject newWeapon = (GameObject)Instantiate(targetWeapon);
+            newWeapon.transform.parent = targetPlayer.transform;
+            //newWeapon.transform.localPosition = currentWeapon.transform.localPosition;
+            newWeapon.name = currentWeapon.name;
+            
+
+            // Remove current weapon
+            Destroy(currentWeapon);
         }
     }
 }
