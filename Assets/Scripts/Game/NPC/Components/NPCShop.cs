@@ -6,6 +6,8 @@ public class NPCShop : MonoBehaviour {
     public GameObject[] listWeapons;
     private int _curWeapon = 0;
 
+    public GameObject targetPlayer;
+
     [SerializeField]
     private Text _weaponName;
     [SerializeField]
@@ -68,6 +70,15 @@ public class NPCShop : MonoBehaviour {
 
     public void BuyWeapon()
     {
-
+        Weapon targetWeapon = listWeapons[_curWeapon].GetComponent<Weapon>();
+        if (UserData.loaded.money >= targetWeapon.cost)
+        {
+            // Payment
+            UserData.loaded.money -= (int)targetWeapon.cost;
+            
+            // Set weapon
+            Debug.Log("You have bought the weapon");
+            GameObject currentWeapon = targetPlayer.transform.FindChild("Weapons").gameObject;
+        }
     }
 }
