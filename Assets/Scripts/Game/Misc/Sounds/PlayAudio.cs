@@ -40,6 +40,7 @@ public class PlayAudio : MonoBehaviour {
     {
         int i = Random.Range(0, weaponSounds.Length - 1);
         PlayAudioFile(false, weaponSounds[i]);
+        print("LOO");
     }
 
     public void PlayRandomJump()

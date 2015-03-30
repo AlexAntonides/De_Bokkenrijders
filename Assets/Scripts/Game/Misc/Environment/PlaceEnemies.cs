@@ -19,7 +19,7 @@ public class PlaceEnemies : MonoBehaviour {
                 SetActiveAll(disableEnemies[j], false);
             }
         }
-        else
+        else if (UserData.loaded.cityCleared == true)
         {
             for (int i = 0; i < enableEnemies.Length; i++)
             {

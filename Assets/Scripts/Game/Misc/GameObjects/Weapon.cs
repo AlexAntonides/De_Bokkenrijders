@@ -52,7 +52,6 @@ public class Weapon : MonoBehaviour
                 _other.gameObject.GetComponent<Health>().health = -damage;  // Deal damage.
                 GameObject.Find(Constants.NAME_SOUND).transform.Find("Attack Sound").GetComponent<PlayAudio>().PlayRandomWeaponSound();
                 GameObject.FindGameObjectWithTag(Constants.TAG_CAMERA).GetComponent<CameraMovementScript>().ShakeAngle(2.5f);
-                Handheld.Vibrate();
             }
         }
     }
