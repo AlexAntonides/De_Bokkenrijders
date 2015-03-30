@@ -44,6 +44,8 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D _other)
     {
+        print(_other.gameObject.name);
+
         /* If type is explosive check every contactpoint. If Gameobject touches the ground, do the explode animation */
         if (types == projectileTypes.TYPE_EXPLOSIVE) 
         {

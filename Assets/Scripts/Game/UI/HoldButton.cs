@@ -46,7 +46,7 @@ public class HoldButton : ClickButton {
                         currentTouch = current;
                         _fingerID = current.fingerId;
 
-                        if (_curholdTime > holdTime && UserData.loaded.bullets > 0)
+                        if (_curholdTime > holdTime)
                         {
                             ButtonHold();
                         }
