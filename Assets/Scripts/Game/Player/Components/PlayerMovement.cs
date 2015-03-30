@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 Vector2 currentVelo = _rigidbody.velocity;
                 Vector2 targetVelo = new Vector2(speed * _moveDir, currentVelo.y);
-
+                
                 if (currentVelo != targetVelo)
                 {
                     _rigidbody.velocity = Vector2.Lerp(currentVelo, targetVelo, acceleration);
@@ -108,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
             value = Mathf.Min(Mathf.Max(value, -1), 1);
 
             // Allow player to push into wall
-            if (!_wallPushing &&_canWallPush && !_collider.OnGround && (_collider.OnLeftWall ? value < 0 : value > 0))
+            if (!_wallPushing && _canWallPush && !_collider.OnGround && (_collider.OnLeftWall ? value < 0 : value > 0) && _rigidbody.velocity.y <= 0f)
             {
                 _wallPushTime = 0f;
                 _wallPushing = true;

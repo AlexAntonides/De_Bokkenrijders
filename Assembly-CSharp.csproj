@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\Game\UI\Design\Healthbar.cs" />
      <Compile Include="Assets\Scripts\Game\UI\DragButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\HoldButton.cs" />
+     <Compile Include="Assets\Scripts\Game\UI\MenuFade.cs" />
      <Compile Include="Assets\Scripts\Game\UI\PauseButtons\RestartButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\PauseButtons\SoundButton.cs" />
      <Compile Include="Assets\Scripts\Game\UI\ShareScoreMenu.cs" />
@@ -96,7 +97,7 @@
      <Compile Include="Assets\Scripts\Menu\LoadSceneOnTap.cs" />
      <Compile Include="Assets\ShopBuyButton.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
