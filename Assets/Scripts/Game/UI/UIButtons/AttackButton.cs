@@ -46,16 +46,10 @@ public class AttackButton : HoldButton
 
     public override void ButtonHold()
     {
-        if (UserData.loaded.bullets > 0)
+        if (_curShootTimer >= _gun.reloadSpeed)
         {
-
-            if (_curShootTimer >= _gun.reloadSpeed)
-            {
-                _weapon.GetComponent<Animator>().SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
-                _curShootTimer = 0;
-
-                UserData.loaded.bullets--;
-            }
+            _weapon.GetComponent<Animator>().SetTrigger(Constants.ANIMATOR_PARAMETER_SHOOT);
+            _curShootTimer = 0;
         }
     }
 }

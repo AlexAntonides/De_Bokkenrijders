@@ -18,6 +18,7 @@ public class ShareScoreMenu : MonoBehaviour
 
     private string _currentScoreText = "";
     private int _currentScore = 0;
+    private int _currentLevel = 0;
     private string _userName = "";
     private string[][] _highestScores = null;
     private bool _sending = false;
@@ -107,6 +108,7 @@ public class ShareScoreMenu : MonoBehaviour
         // Create form
         WWWForm form = new WWWForm();
         form.AddField("score", CurrentScore.ToString());
+        form.AddField("level", ((int)UserData.loaded.currentLevel).ToString());
         form.AddField("name", _userName);
         form.AddBinaryData("screenShot", ssData);
 
@@ -137,7 +139,10 @@ public class ShareScoreMenu : MonoBehaviour
         _sending = true;
 
         // Send data
-        WWW request = new WWW(getScoreTarget);
+        WWWForm form = new WWWForm();
+        form.AddField("level", _currentLevel);
+
+        WWW request = new WWW(getScoreTarget, form);
         yield return request;
 
         // Check result

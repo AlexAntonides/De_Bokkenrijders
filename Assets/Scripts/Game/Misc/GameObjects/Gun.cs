@@ -27,7 +27,7 @@ public class Gun : MonoBehaviour
 
         _controller = gameObject.GetComponent<Animator>();
 
-        if (transform.parent.tag == Constants.TAG_PLAYER)
+        if (transform.parent != null)
         {
             owner = transform.parent.gameObject;
         }
