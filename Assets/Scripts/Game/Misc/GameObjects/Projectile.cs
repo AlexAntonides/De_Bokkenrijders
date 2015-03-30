@@ -58,7 +58,6 @@ public class Projectile : MonoBehaviour
                 if (pos.y > _groundDetectMargin || pos.x < -_wallDetectMargin || pos.x > _wallDetectMargin)
                 {
                     gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
-                    Destroy(gameObject, 1f);
                 }
             }
         }
@@ -81,7 +80,6 @@ public class Projectile : MonoBehaviour
                 if (types == projectileTypes.TYPE_EXPLOSIVE)
                 {
                     gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
-                    Destroy(gameObject, 1.5f);
                     moveX = 0;
                     moveY = 0;
                 }
@@ -92,5 +90,11 @@ public class Projectile : MonoBehaviour
             }
         }
     }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
+    }
+
     #endregion
 }

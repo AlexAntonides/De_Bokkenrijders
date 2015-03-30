@@ -22,12 +22,30 @@ public class Health : MonoBehaviour
         _curHealth = _health;
     }
 
-    void Update()
+    public void PlaySound()
     {
-        if (_curHealth < 0)
+        GameObject.Find(Constants.NAME_SOUND).transform.Find("Dead Sound").GetComponent<PlayAudio>().PlayAudioFile(false, deadSound);
+    }
+
+    public void DisableWeapon()
+    {
+        transform.Find("Weapons").gameObject.SetActive(false);
+    }
+
+    public void Respawn()
+    {
+        if (transform.tag == Constants.TAG_PLAYER)
         {
-            Respawn();
+            transform.position = gameObject.GetComponent<PlayerCheckPoint>().lastCheckPoint;
+            transform.Find("Weapons").gameObject.SetActive(true);
+            _curHealth = _health;
+            _isDead = false;
         }
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 
     #endregion
@@ -54,32 +72,6 @@ public class Health : MonoBehaviour
                 }
             }
         }
-    }
-
-    public void PlaySound()
-    {
-        GameObject.Find(Constants.NAME_SOUND).transform.Find("Dead Sound").GetComponent<PlayAudio>().PlayAudioFile(false, deadSound);
-    }
-
-    public void DisableWeapon()
-    {
-        transform.Find("Weapons").gameObject.SetActive(false);
-    }
-
-    public void Respawn()
-    {
-        if (transform.tag == Constants.TAG_PLAYER)
-        {
-            transform.position = gameObject.GetComponent<PlayerCheckPoint>().lastCheckPoint;
-            transform.Find("Weapons").gameObject.SetActive(true);
-            _curHealth = _health;
-            _isDead = false;
-        }
-    }
-
-    public void Destroy()
-    {
-        Destroy(gameObject);
     }
 
     #endregion
