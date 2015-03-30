@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6612c4e5ee9d7ea408088fb60c036856
-timeCreated: 1427041149
+timeCreated: 1427663701
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -51,7 +51,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 256
+  maxTextureSize: 512
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -81,7 +81,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_1
       rect:
@@ -91,7 +91,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_2
       rect:
@@ -101,7 +101,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_3
       rect:
@@ -111,7 +111,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_4
       rect:
@@ -121,7 +121,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_5
       rect:
@@ -131,67 +131,67 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 210
+        y: 209
         width: 170
-        height: 105
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_7
       rect:
         serializedVersion: 2
         x: 170
-        y: 210
+        y: 209
         width: 170
-        height: 105
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_8
       rect:
         serializedVersion: 2
         x: 340
-        y: 210
+        y: 209
         width: 170
-        height: 105
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_9
       rect:
         serializedVersion: 2
         x: 510
-        y: 210
+        y: 209
         width: 170
-        height: 105
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_10
       rect:
         serializedVersion: 2
         x: 680
-        y: 210
+        y: 209
         width: 170
-        height: 105
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_11
       rect:
         serializedVersion: 2
         x: 850
-        y: 210
+        y: 209
         width: 170
-        height: 105
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_12
       rect:
@@ -201,7 +201,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_13
       rect:
@@ -211,7 +211,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_14
       rect:
@@ -221,7 +221,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_15
       rect:
@@ -231,7 +231,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_16
       rect:
@@ -241,7 +241,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_17
       rect:
@@ -251,7 +251,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_18
       rect:
@@ -261,7 +261,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_19
       rect:
@@ -271,7 +271,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_20
       rect:
@@ -281,7 +281,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_21
       rect:
@@ -291,7 +291,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_22
       rect:
@@ -301,7 +301,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Vuur_23
       rect:
@@ -311,7 +311,7 @@ TextureImporter:
         width: 170
         height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
