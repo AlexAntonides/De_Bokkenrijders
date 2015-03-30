@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: a28ceec6971efdf40ac62e4470c651a1
+timeCreated: 1427664984
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sledge_Hammer_0
+    21300002: Sledge_Hammer_1
+    21300004: Sledge_Hammer_2
+    21300006: Sledge_Hammer_3
+    21300008: Sledge_Hammer_4
+    21300010: Sledge_Hammer_5
+    21300012: Sledge_Hammer_6
+    21300014: Sledge_Hammer_7
+    21300016: Sledge_Hammer_8
+    21300018: Sledge_Hammer_9
+    21300020: Sledge_Hammer_10
+    21300022: Sledge_Hammer_11
+    21300024: Sledge_Hammer_12
+    21300026: Sledge_Hammer_13
+    21300028: Sledge_Hammer_14
+    21300030: Sledge_Hammer_15
+    21300032: Sledge_Hammer_16
+    21300034: Sledge_Hammer_17
+    21300036: Sledge_Hammer_18
+    21300038: Sledge_Hammer_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sledge_Hammer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1600
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_2
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1600
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_3
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1600
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1200
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_6
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1200
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_7
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1200
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 800
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_10
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 800
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_11
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 800
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 400
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 400
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_15
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 400
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_17
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_18
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sledge_Hammer_19
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 0
+        width: 455
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

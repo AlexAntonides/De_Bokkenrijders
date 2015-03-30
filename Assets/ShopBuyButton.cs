@@ -12,6 +12,7 @@ public class ShopBuyButton : MonoBehaviour
 
     public void OnBuyButtonClick()
     {
+        Debug.Log("buying weap");
         shop.BuyWeapon();
     }
 
