@@ -63,6 +63,8 @@ public class NPCQuest : MonoBehaviour {
     private Image _name;
     [SerializeField]
     private Sprite _nameIMG;
+    [SerializeField]
+    private Button _nextButton;
 
     public bool show = false;
     private bool showOff = false;
@@ -77,6 +79,12 @@ public class NPCQuest : MonoBehaviour {
             _head.sprite = _headIMG;
             _name.sprite = _nameIMG;
             _description.text = questDescription[_curText];
+
+            if (_nextButton != null)
+            {
+                _nextButton.onClick.RemoveAllListeners();
+                _nextButton.onClick.AddListener(() => { AcceptQuest(); });
+            }
         }
         else if (show == false)
         {

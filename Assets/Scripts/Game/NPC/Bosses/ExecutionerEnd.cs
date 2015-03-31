@@ -5,7 +5,7 @@ public class ExecutionerEnd : MonoBehaviour {
 
 	public void VillageSaved()
     {
-        UserData.loaded.cityCleared = false;
-        Application.LoadLevel(Application.loadedLevel);
+        UserData.loaded.cityCleared = true;
+        UserData.loaded.LoadCurrentLevel();
     }
 }

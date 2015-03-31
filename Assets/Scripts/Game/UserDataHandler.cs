@@ -21,7 +21,7 @@ public class UserDataHandler : MonoBehaviour
         else UserData.loaded = data;
 
         // Load
-        //Application.LoadLevel("Menu");
+        Application.LoadLevel("Menu");
     }
 
     void OnApplicationQuit()

@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\NPCEditor.cs" />
      <Compile Include="Assets\Editor\QuestEditor.cs" />
+     <Compile Include="Assets\codeandweb.com\Editor\TexturePackerImporter.cs" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

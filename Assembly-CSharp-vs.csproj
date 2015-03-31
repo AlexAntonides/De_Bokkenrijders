@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\Menu\LoadSceneOnTap.cs" />
      <Compile Include="Assets\Scripts\Website\GenerateWinner.cs" />
      <Compile Include="Assets\ShopBuyButton.cs" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x64)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

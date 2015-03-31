@@ -42,26 +42,8 @@ public class Projectile : MonoBehaviour
         transform.Translate(new Vector2(moveX, moveY) * bulletSpeed * Time.deltaTime); // Move the Projectile.
     }
 
-    void OnCollisionEnter2D(Collision2D _other)
+    void OnTriggerEnter2D(Collider2D _other)
     {
-        /* If type is explosive check every contactpoint. If Gameobject touches the ground, do the explode animation */
-        if (types == projectileTypes.TYPE_EXPLOSIVE) 
-        {
-            float lookDir = transform.localScale.x; 
-            lookDir /= Mathf.Abs(lookDir); 
-
-            foreach(ContactPoint2D contact in _other.contacts)
-            {
-                Vector2 pos = contact.normal;
-                pos.x *= lookDir;
-
-                if (pos.y > _groundDetectMargin || pos.x < -_wallDetectMargin || pos.x > _wallDetectMargin)
-                {
-                    gameObject.GetComponent<Animator>().SetTrigger(Constants.PROJECTILE_ANIMATOR_PARAMETER_EXPLODE);
-                }
-            }
-        }
-
         /* If the GameObject touches a player or an enemy, check once again if he doesn't hit himself. If that isn't so, deal damage to the target */
 
         if (_other.gameObject.tag == Constants.TAG_PLAYER || _other.gameObject.tag == Constants.TAG_ENEMY)

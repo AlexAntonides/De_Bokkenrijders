@@ -53,4 +53,16 @@ public class ScoreManager : MonoBehaviour
     }
 
     #endregion
+
+    #region Getters & Setters
+
+    public double currentTime
+    {
+        get
+        {
+            return _currentTime;
+        }
+    }
+
+    #endregion
 }

@@ -51,12 +51,11 @@ public class Gun : MonoBehaviour
 
         if (transform.parent != null)
         {
-            scaleX = gameObject.GetComponentInParent<Transform>().localScale.x;
-            print(scaleX);
+            scaleX = gameObject.GetComponentInParent<Transform>().lossyScale.x;
         }
         else
         {
-            scaleX = transform.localScale.x;
+            scaleX = transform.lossyScale.x;
         }
 
         /* Spawn x amount of bullets and set the information */

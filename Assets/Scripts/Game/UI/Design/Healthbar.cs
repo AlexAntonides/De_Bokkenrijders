@@ -8,6 +8,7 @@ public class Healthbar : MonoBehaviour {
     public Image[] bullets;
     public Text timer;
     public Text gold;
+    public ScoreManager scoreManager;
 
     public GameObject player;
 
@@ -20,6 +21,7 @@ public class Healthbar : MonoBehaviour {
     {
         health.value = player.GetComponent<Health>().health;
         gold.text = UserData.loaded.money.ToString();
+        timer.text = scoreManager.currentTime.ToString();
 
         if (UserData.loaded.bullets < bullets.Length)
         {
