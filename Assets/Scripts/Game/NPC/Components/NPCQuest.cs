@@ -66,6 +66,9 @@ public class NPCQuest : MonoBehaviour {
     [SerializeField]
     private Button _nextButton;
 
+    [SerializeField]
+    private bool _skipScore = false;
+
     public bool show = false;
     private bool showOff = false;
     private const string _questStartText = "Quest Start Text";
@@ -141,10 +144,13 @@ public class NPCQuest : MonoBehaviour {
                 //}
 
                 _questUI.SetActive(false);
-                show = false;
-                showOff = true;
 
-                ScoreManager.current.EndSession();
+                if (_skipScore == true)
+                {
+                    showOff = true;
+                    show = false;
+                    ScoreManager.current.EndSession();
+                }
             }
         }
         else

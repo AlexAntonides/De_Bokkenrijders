@@ -24,7 +24,7 @@ public class ThrowableObject : MonoBehaviour
         projectileComponent.owner = gameObject;
         projectileComponent.lifeTime = 5f;
         projectileComponent.bulletSpeed = 10f;
-        projectileComponent.moveX = transform.localScale.x;
+        projectileComponent.moveX = transform.lossyScale.x;
         projectileComponent.moveY = moveY;
     }
     #endregion

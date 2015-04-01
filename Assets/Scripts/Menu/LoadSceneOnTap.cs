@@ -32,6 +32,13 @@ public class LoadSceneOnTap : MonoBehaviour {
 
     public void OnClick()
     {
-        UserData.loaded.LoadCurrentLevel();
+        if (_currentLevel == true)
+        {
+            UserData.loaded.LoadCurrentLevel();
+        }
+        else
+        {
+            Application.LoadLevel(_sceneName);
+        }
     }
 }
