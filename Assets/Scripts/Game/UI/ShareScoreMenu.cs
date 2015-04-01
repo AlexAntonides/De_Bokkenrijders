@@ -18,7 +18,6 @@ public class ShareScoreMenu : MonoBehaviour
 
     private string _currentScoreText = "";
     private int _currentScore = 0;
-    private int _currentLevel = 0;
     private string _userName = "";
     private string[][] _highestScores = null;
     private bool _sending = false;
@@ -47,6 +46,7 @@ public class ShareScoreMenu : MonoBehaviour
 
         // UserName textfield
         _userName = GUI.TextArea(new Rect(Screen.width * 0.67f, Screen.height * 0.47f, Screen.width * 0.2f, Screen.height * 0.05f), _userName, 12, userNameTextBoxStyle);
+        if (_userName.Contains(" ")) _userName = _userName.Replace(" ", "");
 
         // Current Score
         GUI.TextArea(new Rect(Screen.width * 0.67f, Screen.height * 0.26f, Screen.width * 0.2f, Screen.height * 0.05f), _currentScoreText, currentScoreStyle);
@@ -126,9 +126,9 @@ public class ShareScoreMenu : MonoBehaviour
             Debug.Log("Connection_Failure: " + request.error);
         }
 
-        _sending = false;
+        //_sending = false;
 
-        //StartCoroutine(GetScores());
+        // Start next level
         UserData.loaded.currentLevel++;
         UserData.loaded.LoadCurrentLevel();
     }
@@ -140,7 +140,7 @@ public class ShareScoreMenu : MonoBehaviour
 
         // Send data
         WWWForm form = new WWWForm();
-        form.AddField("level", _currentLevel);
+        form.AddField("level", ((int)UserData.loaded.currentLevel).ToString());
 
         WWW request = new WWW(getScoreTarget, form);
         yield return request;
